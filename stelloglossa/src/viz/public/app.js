@@ -892,19 +892,19 @@ async function toggleHandMode() {
   syncHandButton();
 }
 
-// Bind the toolbar button once DOM is ready.
-document.addEventListener('DOMContentLoaded', () => {
+// Bind the toolbar button. Single entry point with dataset guard so we can't
+// double-bind even if this runs before and after DOMContentLoaded.
+function bindHandButton() {
   const btn = document.getElementById('btn-hand');
-  if (btn) btn.addEventListener('click', () => toggleHandMode());
-});
-// Fallback in case DOMContentLoaded already fired by the time this runs.
-queueMicrotask(() => {
-  const btn = document.getElementById('btn-hand');
-  if (btn && !btn.dataset.bound) {
-    btn.dataset.bound = '1';
-    btn.addEventListener('click', () => toggleHandMode());
-  }
-});
+  if (!btn || btn.dataset.bound === '1') return;
+  btn.dataset.bound = '1';
+  btn.addEventListener('click', () => toggleHandMode());
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', bindHandButton, { once: true });
+} else {
+  bindHandButton();
+}
 
 function bindGestureEvents() {
   window.addEventListener('gesture:cursor', (e) => {
