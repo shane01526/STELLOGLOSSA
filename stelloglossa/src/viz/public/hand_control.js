@@ -51,6 +51,24 @@ function dist(a, b) {
   return Math.sqrt(dx * dx + dy * dy);
 }
 
+// Classify a single hand's shape from MediaPipe landmarks.
+//   fist   — all 4 non-thumb fingers curled (tips close to palm)
+//   open   — all 4 non-thumb fingers extended (tips far from palm)
+//   other  — pointing, pinching, partial, ambiguous
+// Uses dist(tip, wrist) vs dist(MCP, wrist): an extended finger's tip sits
+// meaningfully farther from the wrist than its own MCP knuckle does.
+function handShape(lm) {
+  const wrist = lm[0];
+  const pairs = [[8, 5], [12, 9], [16, 13], [20, 17]];  // (tip, MCP) for each finger
+  let extended = 0;
+  for (const [tip, mcp] of pairs) {
+    if (dist(lm[tip], wrist) > dist(lm[mcp], wrist) * 1.35) extended += 1;
+  }
+  if (extended === 0) return 'fist';
+  if (extended >= 3) return 'open';
+  return 'other';
+}
+
 function emit(name, detail) {
   window.dispatchEvent(new CustomEvent(`gesture:${name}`, { detail }));
 }
@@ -271,19 +289,36 @@ function processTwoHands(lmA, lmB) {
   // Cancel any one-hand state
   if (pinchState) { pinchState = false; lastPinchPos = null; emit('drag_end', {}); }
 
-  // Use middle-finger MCP (landmark 9) as a stable hand centre — less jittery than wrist
+  const shapeA = handShape(lmA);
+  const shapeB = handShape(lmB);
+
+  // Two open palms → pause (reset baseline so next fist gesture starts clean)
+  if (shapeA === 'open' && shapeB === 'open') {
+    lastTwoHandDist = null;
+    setStatus('雙掌攤開 · 暫停');
+    return;
+  }
+
+  // Only dolly when BOTH hands are fists. Mixed or ambiguous → ignore.
+  if (shapeA !== 'fist' || shapeB !== 'fist') {
+    lastTwoHandDist = null;
+    setStatus(`手勢不明 ${shapeA}/${shapeB}`);
+    return;
+  }
+
+  // Hand centre = middle-finger MCP (landmark 9) — stable reference on the palm.
   const a = { x: lmA[9].x, y: lmA[9].y };
   const b = { x: lmB[9].x, y: lmB[9].y };
   const d = dist(a, b);
 
   if (lastTwoHandDist != null) {
     const delta = d - lastTwoHandDist;
-    if (Math.abs(delta) > 0.0015) {   // deadband (halved)
+    if (Math.abs(delta) > 0.0015) {
       emit('dolly', { delta });
-      setStatus(`雙手 d=${d.toFixed(2)} Δ=${delta >= 0 ? '＋' : '－'}${Math.abs(delta).toFixed(3)}`);
+      setStatus(`雙拳 d=${d.toFixed(2)} Δ=${delta >= 0 ? '＋' : '－'}${Math.abs(delta).toFixed(3)}`);
     }
   } else {
-    setStatus(`雙手就位 d=${d.toFixed(2)}`);
+    setStatus(`雙拳就位 d=${d.toFixed(2)}`);
   }
   lastTwoHandDist = d;
 }
