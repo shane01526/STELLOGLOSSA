@@ -1,0 +1,51 @@
+{
+  "jname": "J0108-1431",
+  "constellation": "Cetus",
+  "syllable_structure": "CCVC",
+  "tone_count": 0,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v"
+  ],
+  "complexity_score": 40,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "none",
+    "question_marker": "intonation",
+    "possessive": "N-of-N",
+    "vowel_harmony": "round",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.807564614019424,
+    "dm": 1.99,
+    "period_dot": 7.70397323650844e-17,
+    "w50_ms": 30.0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jname": "J2124-3358",
+  "constellation": "Microscopium",
+  "syllable_structure": "CV",
+  "tone_count": 0,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ"
+  ],
+  "complexity_score": 6,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "none",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.004931114945113724,
+    "dm": 4.5954,
+    "period_dot": 2.0569520404710902e-20,
+    "w50_ms": 0.524
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "jname": "J1018-1642",
+  "constellation": "Hydra",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 2,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p",
+    "l",
+    "r",
+    "b",
+    "ʃ",
+    "h",
+    "d",
+    "g",
+    "j",
+    "w"
+  ],
+  "complexity_score": 120,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "suffix",
+    "tense_marker": "particle",
+    "plural_marker": "reduplication",
+    "question_marker": "initial-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "round",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 1.804696435688124,
+    "dm": 49.16,
+    "period_dot": 1.7421965810292008e-15,
+    "w50_ms": 37.0
+  }
+}

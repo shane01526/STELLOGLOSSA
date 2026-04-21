@@ -1,0 +1,5072 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "constellation": "Sculptor",
+      "dm": 21.789,
+      "period_s": 0.13696161051365074,
+      "gx": -2.707227529759045,
+      "gy": -3.2552116271113967,
+      "gz": -24.63888220607486,
+      "id": "J0134-2937"
+    },
+    {
+      "constellation": "Cassiopeia",
+      "dm": 65.853,
+      "period_s": 1.6791642290642343,
+      "gx": -1.399219312763799,
+      "gy": 2.0682245134865482,
+      "gz": 0.12096560090425701,
+      "id": "J0102+6537"
+    },
+    {
+      "constellation": "Columba",
+      "dm": 52.1402,
+      "period_s": 0.004990575114112222,
+      "gx": -4.210247751434913,
+      "gy": -8.832374089845977,
+      "gz": -6.860428689852741,
+      "id": "J0514-4002A"
+    },
+    {
+      "constellation": "Cassiopeia",
+      "dm": 285.5,
+      "period_s": 0.717962726847017,
+      "gx": -5.593392631521626,
+      "gy": 7.170762437771452,
+      "gz": 0.22256219509510666,
+      "id": "J0137+6349"
+    },
+    {
+      "constellation": "Cetus",
+      "dm": 1.99,
+      "period_s": 0.807564614019424,
+      "gx": -0.037188430727055244,
+      "gy": 0.030189357149639558,
+      "gz": -0.2044642348552686,
+      "id": "J0108-1431"
+    },
+    {
+      "constellation": "Cassiopeia",
+      "dm": 111.2,
+      "period_s": 4.301872100793386,
+      "gx": -1.3782424752877787,
+      "gy": 1.9736124068560739,
+      "gz": 0.15180825674641762,
+      "id": "J0111+6624"
+    },
+    {
+      "constellation": "Pictor",
+      "dm": 2.64539,
+      "period_s": 0.005757451941593412,
+      "gx": -0.03331974085115324,
+      "gy": -0.11172983465536904,
+      "gz": -0.10484502333203932,
+      "id": "J0437-4715"
+    },
+    {
+      "constellation": "Hydra",
+      "dm": 49.16,
+      "period_s": 1.804696435688124,
+      "gx": -4.284422236590888,
+      "gy": -20.618468154378085,
+      "gz": 13.473028503848008,
+      "id": "J1018-1642"
+    },
+    {
+      "constellation": "Carina",
+      "dm": 78.506,
+      "period_s": 0.2809053015394,
+      "gx": 0.46099843744851243,
+      "gy": -1.2442030883249957,
+      "gz": -0.019186340781175426,
+      "id": "J1104-6103"
+    },
+    {
+      "constellation": "Lynx",
+      "dm": 18.25136,
+      "period_s": 0.008853496686414667,
+      "gx": -1.0995951428446191,
+      "gy": 0.316073540765968,
+      "gz": 0.4221094749530665,
+      "id": "J0645+5158"
+    },
+    {
+      "constellation": "Pyxis",
+      "dm": 112.4,
+      "period_s": 0.5414043736269504,
+      "gx": -0.12405627808386496,
+      "gy": -0.5406142005738191,
+      "gz": 0.019269821117719077,
+      "id": "J0835-3707"
+    },
+    {
+      "constellation": "Monoceros",
+      "dm": 154.7,
+      "period_s": 1.23485362778,
+      "gx": -2.4963070540649417,
+      "gy": -1.123589472005528,
+      "gz": 0.1567220157602133,
+      "id": "J0647+0913"
+    },
+    {
+      "constellation": "Leo",
+      "dm": 2.96927,
+      "period_s": 0.2530654277592876,
+      "gx": -0.1240300814520994,
+      "gy": -0.1422189522850623,
+      "gz": 0.18030892519763025,
+      "id": "J0953+0755"
+    },
+    {
+      "constellation": "Camelopardalis",
+      "dm": 5.7507,
+      "period_s": 1.2922414468619536,
+      "gx": -0.2818007998769509,
+      "gy": 0.23647621179803546,
+      "gz": 0.22647584957862787,
+      "id": "J0814+7429"
+    },
+    {
+      "constellation": "Carina",
+      "dm": 207.3633,
+      "period_s": 0.005109272904279,
+      "gx": 0.7922511615878911,
+      "gy": -2.019822251163254,
+      "gz": -0.15258168523265725,
+      "id": "J1101-6424"
+    },
+    {
+      "constellation": "Ursa Major",
+      "dm": 9.02113,
+      "period_s": 0.005255749101969821,
+      "gx": -0.41613257120421654,
+      "gy": 0.1486108200448421,
+      "gz": 0.5429074574442374,
+      "id": "J1012+5307"
+    },
+    {
+      "constellation": "Carina",
+      "dm": 1039.9,
+      "period_s": 0.1625125667701198,
+      "gx": 2.6099734616938823,
+      "gy": -10.596541938917696,
+      "gz": -0.12935789891610838,
+      "id": "J1019-5749"
+    },
+    {
+      "constellation": "Sagittarius",
+      "dm": 115.1,
+      "period_s": 0.2619546783248513,
+      "gx": 2.7010342892588532,
+      "gy": 0.1147104101766514,
+      "gz": -0.053584419797356064,
+      "id": "J1755-2725"
+    },
+    {
+      "constellation": "Ophiucus",
+      "dm": 66.141,
+      "period_s": 1.0598487584,
+      "gx": 8.252917450740306,
+      "gy": 6.304071262346037,
+      "gz": 3.841792299243796,
+      "id": "J1745+1252"
+    },
+    {
+      "constellation": "Norma",
+      "dm": 600.0,
+      "period_s": 1.42112434544,
+      "gx": 5.864886930733515,
+      "gy": -3.696164395374097,
+      "gz": 0.08921351960318269,
+      "id": "J1550-5317"
+    },
+    {
+      "constellation": "Triangulum Australe",
+      "dm": 29.4948,
+      "period_s": 0.0060006034432179,
+      "gx": 0.8306043753393111,
+      "gy": -0.6878489627635533,
+      "gz": -0.2674137746046607,
+      "id": "J1629-6902"
+    },
+    {
+      "constellation": "Ara",
+      "dm": 20.588,
+      "period_s": 0.7423536034382896,
+      "gx": 0.705442952545259,
+      "gy": -0.18900153854475543,
+      "gz": -0.13112078070215377,
+      "id": "J1751-4657"
+    },
+    {
+      "constellation": "Ophiucus",
+      "dm": 9.6257,
+      "period_s": 0.008122798048058056,
+      "gx": 0.6454428361086196,
+      "gy": 0.035376275340563174,
+      "gz": 0.06820604415365047,
+      "id": "J1730-2304"
+    },
+    {
+      "constellation": "Boötes",
+      "dm": 3.26,
+      "period_s": 3.31400150122,
+      "gx": 0.10890035620463097,
+      "gy": 0.060519501553332175,
+      "gz": 0.20979538209941764,
+      "id": "J1503+2111"
+    },
+    {
+      "constellation": "Ophiucus",
+      "dm": 113.79,
+      "period_s": 0.003233737354068274,
+      "gx": 6.317872871129646,
+      "gy": -0.7113937211200434,
+      "gz": 0.8163953440551761,
+      "id": "J1701-3006E"
+    },
+    {
+      "constellation": "Circinus",
+      "dm": 8.635,
+      "period_s": 0.26337692665373175,
+      "gx": 0.29468597167907695,
+      "gy": -0.30656120223029315,
+      "gz": -0.06387806652267598,
+      "id": "J1456-6843"
+    },
+    {
+      "constellation": "Norma",
+      "dm": 1069.0,
+      "period_s": 1.2794023539452164,
+      "gx": 5.65755440181413,
+      "gy": -3.153283979762774,
+      "gz": -0.02018250442748304,
+      "id": "J1609-5158"
+    },
+    {
+      "constellation": "Scorpius",
+      "dm": 1077.0,
+      "period_s": 0.8610674067,
+      "gx": 5.773389106807636,
+      "gy": -1.5155593987316711,
+      "gz": -0.00435089772032482,
+      "id": "J1705-4108"
+    },
+    {
+      "constellation": "Sagitta",
+      "dm": 48.98,
+      "period_s": 0.46040581878,
+      "gx": 1.2201349395875858,
+      "gy": 1.5196290842096554,
+      "gz": 0.12730740599713447,
+      "id": "J1911+1758"
+    },
+    {
+      "constellation": "Aquila",
+      "dm": 787.0,
+      "period_s": 2.180195177536572,
+      "gx": 6.669278480994777,
+      "gy": 4.418225812493212,
+      "gz": 0.0022831466575338535,
+      "id": "J1852+0031"
+    },
+    {
+      "constellation": "Scutum",
+      "dm": 186.3,
+      "period_s": 0.834839272621,
+      "gx": 3.5489249029714434,
+      "gy": 1.4214763952495255,
+      "gz": 0.15103936843595123,
+      "id": "J1822-0848"
+    },
+    {
+      "constellation": "Capricornus",
+      "dm": 22.1624,
+      "period_s": 0.00522327101686168,
+      "gx": 0.9276896736454905,
+      "gy": 0.523699420211769,
+      "gz": -0.4640848916754112,
+      "id": "J2010-1323"
+    },
+    {
+      "constellation": "Scutum",
+      "dm": 1044.0,
+      "period_s": 0.6171072055520304,
+      "gx": 5.601527311835047,
+      "gy": 1.7648359862602607,
+      "gz": -0.019357591967382515,
+      "id": "J1823-1347"
+    },
+    {
+      "constellation": "Aquila",
+      "dm": 219.86,
+      "period_s": 0.011219660170414859,
+      "gx": 6.205084336346796,
+      "gy": 5.704828928609862,
+      "gz": -0.29019178851166594,
+      "id": "J1916+0740"
+    },
+    {
+      "constellation": "Ophiucus",
+      "dm": 62.2,
+      "period_s": 1.362817392033239,
+      "gx": 2.2908763739393994,
+      "gy": 1.6633816978269726,
+      "gz": 0.48314673408863906,
+      "id": "J1822+0705"
+    },
+    {
+      "constellation": "Serpens",
+      "dm": 1075.0,
+      "period_s": 1.7884904527734455,
+      "gx": 8.584209011816478,
+      "gy": 2.5912640717581326,
+      "gz": 0.06160480390504497,
+      "id": "J1819-1408"
+    },
+    {
+      "constellation": "Pegasus",
+      "dm": 7.024,
+      "period_s": 0.535828895432,
+      "gx": -0.025308960020648377,
+      "gy": 0.405709928960308,
+      "gz": -0.2789406927748165,
+      "id": "J2307+2225"
+    },
+    {
+      "constellation": "Microscopium",
+      "dm": 4.5954,
+      "period_s": 0.004931114945113724,
+      "gx": 0.2824773113025286,
+      "gy": 0.054524372400468896,
+      "gz": -0.29211925888860707,
+      "id": "J2124-3358"
+    },
+    {
+      "constellation": "Aquarius",
+      "dm": 8.456,
+      "period_s": 1.6436221853269488,
+      "gx": 0.19057909259764128,
+      "gy": 0.22230912771012742,
+      "gz": -0.8128679235899398,
+      "id": "J2330-2005"
+    },
+    {
+      "constellation": "Cetus",
+      "dm": 10.922,
+      "period_s": 0.9429509945597656,
+      "gx": -0.12399998968734287,
+      "gy": 0.33306207680933353,
+      "gz": -0.9667438417435041,
+      "id": "J0034-0721"
+    },
+    {
+      "constellation": "Aries",
+      "dm": 15.6568,
+      "period_s": 1.387584446262276,
+      "gx": -0.592593814585873,
+      "gy": 0.20248328528582052,
+      "gz": -0.4108942565848591,
+      "id": "J0304+1932"
+    },
+    {
+      "constellation": "Taurus",
+      "dm": 21.3162,
+      "period_s": 0.0027325886324418656,
+      "gx": -1.1082525336960294,
+      "gy": 0.1956204817987312,
+      "gz": -0.6507756515552512,
+      "id": "J0337+1715"
+    },
+    {
+      "constellation": "Cassiopeia",
+      "dm": 116.52,
+      "period_s": 0.8329113287435861,
+      "gx": -1.500322758765522,
+      "gy": 2.289174729426292,
+      "gz": 0.33129998141604744,
+      "id": "J0054+6946"
+    },
+    {
+      "constellation": "Sculptor",
+      "dm": 5.71,
+      "period_s": 0.2569264575329,
+      "gx": 0.01475360843146821,
+      "gy": 0.035466449092725255,
+      "gz": -0.6027772905700771,
+      "id": "J0038-2501"
+    },
+    {
+      "constellation": "Cassiopeia",
+      "dm": 101.84,
+      "period_s": 1.7753438259574654,
+      "gx": -1.5283855584152328,
+      "gy": 1.846908656707497,
+      "gz": -0.24711535485812997,
+      "id": "J0139+5621"
+    },
+    {
+      "constellation": "Cetus",
+      "dm": 9.5974,
+      "period_s": 0.003675374887568884,
+      "gx": -0.1724194205797928,
+      "gy": -0.02709890558024214,
+      "gz": -1.1776035607950908,
+      "id": "J0125-2327"
+    },
+    {
+      "constellation": "Pictor",
+      "dm": 30.0,
+      "period_s": 2.261364513,
+      "gx": -0.029493539406474534,
+      "gy": -0.48114809061735164,
+      "gz": -0.2709901216438627,
+      "id": "J0600-5756"
+    },
+    {
+      "constellation": "Centaurus",
+      "dm": 74.0,
+      "period_s": 0.37656956576,
+      "gx": 0.5928466014902313,
+      "gy": -1.2309706506597,
+      "gz": 0.04396776450896778,
+      "id": "J1152-6012"
+    },
+    {
+      "constellation": "Orion",
+      "dm": 38.78188,
+      "period_s": 0.003061844088094675,
+      "gx": -0.8084982822032106,
+      "gy": -0.4745907344930851,
+      "gz": -0.153603914037926,
+      "id": "J0613-0200"
+    },
+    {
+      "constellation": "Vela",
+      "dm": 157.368,
+      "period_s": 0.7206140275125867,
+      "gx": 0.007602124192023302,
+      "gy": -0.5625476777446025,
+      "gz": -0.07050757386212916,
+      "id": "J0840-5332"
+    }
+  ],
+  "links": [
+    {
+      "distance_kpc": 2.4727757682591176,
+      "weight": 0.08435039659194574,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0108-1431"
+    },
+    {
+      "distance_kpc": 0.10169930113304414,
+      "weight": 0.9033011324618633,
+      "regime": "borrowing",
+      "source": "J0102+6537",
+      "target": "J0111+6624"
+    },
+    {
+      "distance_kpc": 2.5824161242046153,
+      "weight": 0.07559114561091818,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0437-4715"
+    },
+    {
+      "distance_kpc": 3.8016087729020893,
+      "weight": 0.02233481129854584,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1104-6103"
+    },
+    {
+      "distance_kpc": 1.8029130060217988,
+      "weight": 0.16481807221476316,
+      "regime": "extension",
+      "source": "J0102+6537",
+      "target": "J0645+5158"
+    },
+    {
+      "distance_kpc": 2.9055846627865933,
+      "weight": 0.05471679037659648,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0835-3707"
+    },
+    {
+      "distance_kpc": 3.375286143617961,
+      "weight": 0.03420832841621736,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 2.552584870511443,
+      "weight": 0.07788009563410495,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 2.1482686950789778,
+      "weight": 0.11668600204564455,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 4.646449968273823,
+      "weight": 0.009595606243232201,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 2.1975921377224554,
+      "weight": 0.11107027857286747,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 4.545191377979297,
+      "weight": 0.010618140443530377,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 3.566355734617029,
+      "weight": 0.02825864827482133,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 3.096485143638848,
+      "weight": 0.04520782246924447,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 2.883730020857246,
+      "weight": 0.05592576901590818,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 2.5126072277414115,
+      "weight": 0.0810566304091254,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 2.9228563922341597,
+      "weight": 0.05377985134729782,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.676193913532167,
+      "weight": 0.06882460869115832,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.990322508581065,
+      "weight": 0.006803469960928559,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 2.853479853381742,
+      "weight": 0.05764338094275015,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.7298631416784516,
+      "weight": 0.023996119680656534,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 2.1935153167601538,
+      "weight": 0.11152401648852041,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 2.6558860847175407,
+      "weight": 0.07023657552790737,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 2.609005103982195,
+      "weight": 0.0736077393928008,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 2.412485198965641,
+      "weight": 0.08959236282469166,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 2.101073519162785,
+      "weight": 0.12232503946745381,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.0461896507318937,
+      "weight": 0.12922636425725426,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 0.3213743243361567,
+      "weight": 0.7251517582296254,
+      "regime": "borrowing",
+      "source": "J0102+6537",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 2.57977296349722,
+      "weight": 0.07579120944077553,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 0.4484955044061025,
+      "weight": 0.6385881823663595,
+      "regime": "borrowing",
+      "source": "J0102+6537",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 2.753488709559017,
+      "weight": 0.06370522405022767,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 2.9204586381582325,
+      "weight": 0.05390895692492632,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 3.8547300819471513,
+      "weight": 0.021179319219272616,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.62492840661224,
+      "weight": 0.07244494342751957,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 2.9894432348329874,
+      "weight": 0.05031544281238181,
+      "regime": "narrowing",
+      "source": "J0102+6537",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.387938271571316,
+      "weight": 0.09181879428182678,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J0111+6624"
+    },
+    {
+      "distance_kpc": 0.17343589901878048,
+      "weight": 0.8407710436834621,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J0437-4715"
+    },
+    {
+      "distance_kpc": 1.3807947561958414,
+      "weight": 0.25137868887813997,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1104-6103"
+    },
+    {
+      "distance_kpc": 1.2661091588869446,
+      "weight": 0.2819264214629044,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0645+5158"
+    },
+    {
+      "distance_kpc": 0.6192088922296641,
+      "weight": 0.5383701780003319,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0835-3707"
+    },
+    {
+      "distance_kpc": 2.740241868501312,
+      "weight": 0.06455473124867864,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 0.4304840091802205,
+      "weight": 0.6501943185330815,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 0.5367483897635343,
+      "weight": 0.5846462065881163,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 2.2120599970327532,
+      "weight": 0.1094748981074963,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 0.8462781758540402,
+      "weight": 0.4290086591092226,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.743678587452206,
+      "weight": 0.06433325557323998,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.1280984122313795,
+      "weight": 0.3236481169318556,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 0.7777694275576612,
+      "weight": 0.4594296603587016,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 0.7350928047782807,
+      "weight": 0.4794609606419505,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.44030998349590467,
+      "weight": 0.6438368113613021,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.4932606095580358,
+      "weight": 0.6106321117630589,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 1.977211465614611,
+      "weight": 0.13845478543396517,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.8629355775715384,
+      "weight": 0.021006243465362482,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.114425782225477,
+      "weight": 0.3281036277527247,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.925749784411808,
+      "weight": 0.05362447004401888,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.38301901318540044,
+      "weight": 0.6817999359741653,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.3323579137509256,
+      "weight": 0.717230570225868,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 0.6774533927788946,
+      "weight": 0.5079087910104292,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 0.8248262424055494,
+      "weight": 0.4383111457389573,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.6170686282442459,
+      "weight": 0.5395236662474876,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.172066401851082,
+      "weight": 0.3097262606233482,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.74423400414055,
+      "weight": 0.06429753373065115,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.401720193025182,
+      "weight": 0.6691679573593537,
+      "regime": "borrowing",
+      "source": "J0108-1431",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.350735417916904,
+      "weight": 0.09529905180832088,
+      "regime": "narrowing",
+      "source": "J0108-1431",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 0.9841592926725687,
+      "weight": 0.3737533120394212,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.5157042664689762,
+      "weight": 0.5970799431270114,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.431498224038997,
+      "weight": 0.23895065231502893,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.9232056109755017,
+      "weight": 0.39724358946552685,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.6093338767618356,
+      "weight": 0.5437129282895078,
+      "regime": "extension",
+      "source": "J0108-1431",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.4946623683399505,
+      "weight": 0.082524309508203,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0437-4715"
+    },
+    {
+      "distance_kpc": 3.7103076487663444,
+      "weight": 0.024469993950067614,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1104-6103"
+    },
+    {
+      "distance_kpc": 1.7023930735999135,
+      "weight": 0.1822468716132826,
+      "regime": "extension",
+      "source": "J0111+6624",
+      "target": "J0645+5158"
+    },
+    {
+      "distance_kpc": 2.8128072965783035,
+      "weight": 0.060036216136578925,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0835-3707"
+    },
+    {
+      "distance_kpc": 3.292833434258046,
+      "weight": 0.03714844246541717,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 2.4597974220000753,
+      "weight": 0.08545225996196341,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 2.0555782050746156,
+      "weight": 0.1280187930579223,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 4.555350286461596,
+      "weight": 0.010510817790023715,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 2.0998201932988616,
+      "weight": 0.12247844871903363,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 4.487560774697831,
+      "weight": 0.011248046895439288,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 3.483981650794522,
+      "weight": 0.03068499055965549,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 3.016403964862376,
+      "weight": 0.04897702517228188,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 2.8033998771178106,
+      "weight": 0.060603666943556934,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 2.4238153337838364,
+      "weight": 0.08858299819171292,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 2.8362654788101596,
+      "weight": 0.058644265780837715,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.637852599949986,
+      "weight": 0.07151467540311159,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.958006972552971,
+      "weight": 0.007026918727727645,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 2.7926501955305407,
+      "weight": 0.061258651195046226,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.697088233887086,
+      "weight": 0.024795620506456388,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 2.1152522153252558,
+      "weight": 0.12060286782537122,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 2.576424020362549,
+      "weight": 0.07604545538127623,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 2.541429601684484,
+      "weight": 0.07875373280632901,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 2.3485502751991145,
+      "weight": 0.09550752152248002,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 2.017616490279124,
+      "weight": 0.13297202778594167,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.96933765108846,
+      "weight": 0.1395492559090121,
+      "regime": "extension",
+      "source": "J0111+6624",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 0.3830149530563978,
+      "weight": 0.681802704175479,
+      "regime": "borrowing",
+      "source": "J0111+6624",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 2.5032473291847332,
+      "weight": 0.08181887394331991,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 0.4446760996594561,
+      "weight": 0.6410318728520799,
+      "regime": "borrowing",
+      "source": "J0111+6624",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 2.6877854779715884,
+      "weight": 0.06803142977796751,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 2.8326191520863477,
+      "weight": 0.05885849226687569,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 3.763797854943428,
+      "weight": 0.023195479812905522,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.532110515149108,
+      "weight": 0.07949107600363664,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 2.898637189640713,
+      "weight": 0.055098257389915556,
+      "regime": "narrowing",
+      "source": "J0111+6624",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 1.2386216297041321,
+      "weight": 0.28978337157671347,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J1104-6103"
+    },
+    {
+      "distance_kpc": 1.2639778495611085,
+      "weight": 0.2825279346518057,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0645+5158"
+    },
+    {
+      "distance_kpc": 0.4556088378544056,
+      "weight": 0.634061809574537,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J0835-3707"
+    },
+    {
+      "distance_kpc": 2.675552979608133,
+      "weight": 0.06886873485714463,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 0.3007835210709496,
+      "weight": 0.7402380013327965,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 0.54107652721919,
+      "weight": 0.5821212455738709,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 2.0795823556133413,
+      "weight": 0.1249823994975389,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 0.7961822630054494,
+      "weight": 0.45104766260814205,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.744192922506208,
+      "weight": 0.06430017523267924,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.0510502971779936,
+      "weight": 0.3495704034256279,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 0.7432574579522653,
+      "weight": 0.4755622655920345,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 0.71575520636398,
+      "weight": 0.48882281026727875,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.3858691158423624,
+      "weight": 0.6798595026956754,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.3836994928245272,
+      "weight": 0.6813361428185732,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.0703563240460996,
+      "weight": 0.12614082668649407,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.9049551666524085,
+      "weight": 0.020141857497944345,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.2067985398149732,
+      "weight": 0.2991534759430995,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.9830593087556885,
+      "weight": 0.05063768035578541,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.546001267122056,
+      "weight": 0.5792614973852975,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.403038309365273,
+      "weight": 0.6682864972016346,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 0.8142537339721306,
+      "weight": 0.4429697773404205,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 0.9741315748976092,
+      "weight": 0.3775200591447024,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.7107626238552813,
+      "weight": 0.49126940080027287,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.2441804439026969,
+      "weight": 0.2881769885850657,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.8472202313071473,
+      "weight": 0.058005338399118776,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.5214540589709807,
+      "weight": 0.5936567082231532,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.4681424970874954,
+      "weight": 0.08474212163619767,
+      "regime": "narrowing",
+      "source": "J0437-4715",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.0850446971238532,
+      "weight": 0.33788668299426927,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.40507861131949885,
+      "weight": 0.6669243809921152,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.2910962544737867,
+      "weight": 0.2749691816084787,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.8572906350979281,
+      "weight": 0.42431013735919576,
+      "regime": "extension",
+      "source": "J0437-4715",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.4539717911085878,
+      "weight": 0.6351006484784713,
+      "regime": "borrowing",
+      "source": "J0437-4715",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.2504793887356858,
+      "weight": 0.1053487094700098,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J0645+5158"
+    },
+    {
+      "distance_kpc": 0.9158631008625704,
+      "weight": 0.4001710889835042,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0835-3707"
+    },
+    {
+      "distance_kpc": 2.964986874250607,
+      "weight": 0.05156114601935365,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 1.263497433776055,
+      "weight": 0.2826636981401813,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 1.674667671078801,
+      "weight": 0.1873704377517148,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 0.8538780773231093,
+      "weight": 0.4257605936927812,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 1.7393213698716197,
+      "weight": 0.17563955447512705,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.6202270400951266,
+      "weight": 0.07278633553478381,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 0.7125695202967685,
+      "weight": 0.4903825293518811,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 1.0889135642740095,
+      "weight": 0.33658196981436483,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 1.2957548043748253,
+      "weight": 0.27369120302943206,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 1.3706592299940197,
+      "weight": 0.2539394998266757,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.9533254917284517,
+      "weight": 0.385457055475669,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.869933261360394,
+      "weight": 0.056702710715346605,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.082905063518566,
+      "weight": 0.01685841966639218,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.8818115501349861,
+      "weight": 0.15231393135761467,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.472008218484901,
+      "weight": 0.031054603569492113,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 1.739591955839173,
+      "weight": 0.1755920353056389,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 1.339050106422266,
+      "weight": 0.2620945122680674,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.6892942777206248,
+      "weight": 0.18464978949227687,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.930765075955027,
+      "weight": 0.14503719155682843,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 1.8320461753027317,
+      "weight": 0.16008566907808078,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.2213837086388284,
+      "weight": 0.10845892938907459,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 4.0563999186153525,
+      "weight": 0.017311228900922765,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 1.475556494714739,
+      "weight": 0.22865144831103318,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 3.6830112868052303,
+      "weight": 0.025147135468268075,
+      "regime": "narrowing",
+      "source": "J1104-6103",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.7956868407795132,
+      "weight": 0.1660133884143289,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.9414034485503386,
+      "weight": 0.39007999381289893,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 0.14679058819534865,
+      "weight": 0.8634747802965428,
+      "regime": "borrowing",
+      "source": "J1104-6103",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.4906351600500416,
+      "weight": 0.22522955328349728,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.8202781141863108,
+      "weight": 0.4403091812463457,
+      "regime": "extension",
+      "source": "J1104-6103",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 1.359363729662797,
+      "weight": 0.2568241345569425,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0835-3707"
+    },
+    {
+      "distance_kpc": 2.023329992063545,
+      "weight": 0.1322144581165848,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 1.1046387210571385,
+      "weight": 0.3313305633772169,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 0.8446276324782984,
+      "weight": 0.42971734120403154,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 3.0603531691527377,
+      "weight": 0.0468711388561644,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 0.7139726901209678,
+      "weight": 0.4896949219122035,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 3.8355724308158643,
+      "weight": 0.0215889767368277,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 2.2823174373366877,
+      "weight": 0.10204744392337017,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 1.9543098723901982,
+      "weight": 0.141662207967714,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 1.8025526736098731,
+      "weight": 0.16487747220948223,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 1.2533341582373223,
+      "weight": 0.285551135244529,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 1.602459902766087,
+      "weight": 0.2014004825411999,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.629943319038578,
+      "weight": 0.07208254783109015,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.785826270321706,
+      "weight": 0.008347223834415555,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 2.2222359659655924,
+      "weight": 0.10836653384982999,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.6488713218212596,
+      "weight": 0.02602048096011604,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 1.2859225569085866,
+      "weight": 0.2763954754187952,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 1.577547121397673,
+      "weight": 0.20648095025909594,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.7884380050386925,
+      "weight": 0.16722116439395865,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.6973473564712471,
+      "weight": 0.18316876161723375,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.9817577653129546,
+      "weight": 0.3746519694873496,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.0796603097797417,
+      "weight": 0.33971090251893266,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.015429802044934,
+      "weight": 0.1332631142963128,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 1.539774776229427,
+      "weight": 0.21442939058470992,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 1.7248707909639953,
+      "weight": 0.1781960748285214,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.8805594764939315,
+      "weight": 0.15250475905646896,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 1.5036844157033733,
+      "weight": 0.22230956851112857,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 2.323939745640725,
+      "weight": 0.09788717435470633,
+      "regime": "narrowing",
+      "source": "J0645+5158",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.0204573899530058,
+      "weight": 0.3604300453838231,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.4968408701441187,
+      "weight": 0.22383617190333677,
+      "regime": "extension",
+      "source": "J0645+5158",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.446697164966628,
+      "weight": 0.08657907117488722,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J0647+0913"
+    },
+    {
+      "distance_kpc": 0.42971195886103075,
+      "weight": 0.6506964950920826,
+      "regime": "borrowing",
+      "source": "J0835-3707",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 0.8195652392497692,
+      "weight": 0.44062317853308575,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 1.7484875524753671,
+      "weight": 0.17403696627503376,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 0.9135294544935826,
+      "weight": 0.40110603728733835,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.9010161667187186,
+      "weight": 0.054967335690154544,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.007592438661459,
+      "weight": 0.365096915523762,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 0.9134099686500124,
+      "weight": 0.4011539666439475,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 0.9624389170290848,
+      "weight": 0.3819601798539488,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.6722577710071559,
+      "weight": 0.5105545602394027,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.4868669725799691,
+      "weight": 0.6145487793458533,
+      "regime": "borrowing",
+      "source": "J0835-3707",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.462341272428953,
+      "weight": 0.08523515844777574,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.166287733247105,
+      "weight": 0.015509729640513907,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.5724391271995701,
+      "weight": 0.20753835205705456,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.3022234061860596,
+      "weight": 0.03680125223776509,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.9971007479483964,
+      "weight": 0.3689475640265009,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.7851258749324487,
+      "weight": 0.45606229136233084,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.1719644395163584,
+      "weight": 0.30975784264606754,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.3173963656316474,
+      "weight": 0.26783173084871703,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.9781423364459784,
+      "weight": 0.37600894858547923,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.3998731058702283,
+      "weight": 0.24662825763420115,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.162147630192943,
+      "weight": 0.042334724048455216,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.8591156550044685,
+      "weight": 0.4235364691066872,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.782690637425663,
+      "weight": 0.06187180861111453,
+      "regime": "narrowing",
+      "source": "J0835-3707",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.3032815674580183,
+      "weight": 0.27163892737141715,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.31101312536849607,
+      "weight": 0.7327042587928235,
+      "regime": "borrowing",
+      "source": "J0835-3707",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 0.9955660476957657,
+      "weight": 0.36951422266057316,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.7090171248868988,
+      "weight": 0.49212765985980955,
+      "regime": "extension",
+      "source": "J0835-3707",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.16085705753869978,
+      "weight": 0.8514137655885277,
+      "regime": "borrowing",
+      "source": "J0835-3707",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.567360994107057,
+      "weight": 0.07673778992414362,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0953+0755"
+    },
+    {
+      "distance_kpc": 2.5997465667695665,
+      "weight": 0.07429240399263473,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 3.4225015867961863,
+      "weight": 0.03263070421457795,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 2.4687565002662,
+      "weight": 0.08469010567475987,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 3.3820261115437207,
+      "weight": 0.03397854063093284,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 3.3477621160521807,
+      "weight": 0.035162956732686636,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 3.3498700054116313,
+      "weight": 0.035088915173465504,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 2.8621733864321857,
+      "weight": 0.057144428278586276,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 2.9164776117204956,
+      "weight": 0.05412399766510388,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 4.560637087882762,
+      "weight": 0.010455395815169705,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.8500279871858103,
+      "weight": 0.02127914088677342,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.938433295852243,
+      "weight": 0.05294861860983681,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 3.051401853152113,
+      "weight": 0.047292580646661024,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 3.157673962956419,
+      "weight": 0.04252453978604506,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 3.001974362871402,
+      "weight": 0.04968886760247482,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 2.3884683980386017,
+      "weight": 0.09177013160860892,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.078235486284633,
+      "weight": 0.12515084787156017,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.5594131085264853,
+      "weight": 0.0284555201166415,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 2.8680438412419744,
+      "weight": 0.05680994723325623,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 3.150208846463404,
+      "weight": 0.0428431782863669,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 2.8953704494545245,
+      "weight": 0.0552785433949608,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 2.5847316141341192,
+      "weight": 0.07541631755890496,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 3.09307525714042,
+      "weight": 0.04536223913473603,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.8347206856552385,
+      "weight": 0.15965809033560285,
+      "regime": "extension",
+      "source": "J0647+0913",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 2.5760361709935142,
+      "weight": 0.07607495528355325,
+      "regime": "narrowing",
+      "source": "J0647+0913",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.4128353325467903,
+      "weight": 0.6617712460419478,
+      "regime": "borrowing",
+      "source": "J0953+0755",
+      "target": "J0814+7429"
+    },
+    {
+      "distance_kpc": 2.115604316222159,
+      "weight": 0.12056041092243625,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 0.548984076800269,
+      "weight": 0.5775362449137181,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.846349854249895,
+      "weight": 0.05805584689238782,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.1872214074663756,
+      "weight": 0.30506774646984125,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 0.8872443779606353,
+      "weight": 0.41178892537589207,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 0.7976187633657846,
+      "weight": 0.450400197631452,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.31020786674802386,
+      "weight": 0.7332945128351556,
+      "regime": "borrowing",
+      "source": "J0953+0755",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.5118191039734876,
+      "weight": 0.5994042078783463,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.138066336956252,
+      "weight": 0.11788256794432553,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.992066903805106,
+      "weight": 0.018461516479334496,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.401715061385719,
+      "weight": 0.24617439747820616,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.0304583208601374,
+      "weight": 0.048293499135012,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.7217216432443498,
+      "weight": 0.48591496319335886,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.6535629925963536,
+      "weight": 0.5201890412551473,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.1037481173115755,
+      "weight": 0.3316257790585627,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.2416207583919714,
+      "weight": 0.2889155759196527,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.8293930351433938,
+      "weight": 0.43631403325199447,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.33173979907474,
+      "weight": 0.2640175240465137,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.7979733858902938,
+      "weight": 0.06093342611902209,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.8148969479424206,
+      "weight": 0.4426849446052363,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.4721517885667925,
+      "weight": 0.0844030459508158,
+      "regime": "narrowing",
+      "source": "J0953+0755",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.3636423552051566,
+      "weight": 0.25572762769883683,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.5722595112994212,
+      "weight": 0.5642490701083425,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.3106797287506924,
+      "weight": 0.2696367142533668,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.830942539321433,
+      "weight": 0.43563848635106966,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.5068650621317002,
+      "weight": 0.6023810490138243,
+      "regime": "extension",
+      "source": "J0953+0755",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.5274799671975967,
+      "weight": 0.07986001678253804,
+      "regime": "narrowing",
+      "source": "J0814+7429",
+      "target": "J1101-6424"
+    },
+    {
+      "distance_kpc": 0.3548158879084726,
+      "weight": 0.7013025496023844,
+      "regime": "borrowing",
+      "source": "J0814+7429",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.9984272267152403,
+      "weight": 0.049865433748253966,
+      "regime": "narrowing",
+      "source": "J0814+7429",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.5283158256892273,
+      "weight": 0.21690065839229083,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 1.1329416987301766,
+      "weight": 0.32208438623140967,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 0.961910222540649,
+      "weight": 0.38216217348759485,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.4288197701120461,
+      "weight": 0.6512772982384972,
+      "regime": "borrowing",
+      "source": "J0814+7429",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.8435235784547039,
+      "weight": 0.4301920343588216,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 1.9779096641812162,
+      "weight": 0.138358150240438,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.010533070295092,
+      "weight": 0.018123731438421938,
+      "regime": "narrowing",
+      "source": "J0814+7429",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.422054328903909,
+      "weight": 0.24121796650542898,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.9530673967402628,
+      "weight": 0.052179405283576306,
+      "regime": "narrowing",
+      "source": "J0814+7429",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.5915014760944746,
+      "weight": 0.5534956001015084,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.7876910213672503,
+      "weight": 0.4548939239589873,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.141743818862242,
+      "weight": 0.31926180136053195,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.2074780150277526,
+      "weight": 0.29895027761331133,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.7099214528915011,
+      "weight": 0.4916828162077615,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.2059277985219434,
+      "weight": 0.29941407466812664,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.389425677266893,
+      "weight": 0.0916823240027465,
+      "regime": "narrowing",
+      "source": "J0814+7429",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.9033328358011179,
+      "weight": 0.405216885362601,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.090874182909357,
+      "weight": 0.12357905788403975,
+      "regime": "narrowing",
+      "source": "J0814+7429",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.4327857897373673,
+      "weight": 0.2386431856357569,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.9089092284863344,
+      "weight": 0.40296352553599846,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.7180563355056815,
+      "weight": 0.17941453088545395,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.9630612995585565,
+      "weight": 0.3817225284737588,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.9002179637832773,
+      "weight": 0.40648105193639317,
+      "regime": "extension",
+      "source": "J0814+7429",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.5779833935785943,
+      "weight": 0.07592696454468179,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1012+5307"
+    },
+    {
+      "distance_kpc": 2.8652195673930168,
+      "weight": 0.056970620867958746,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.3374640999910667,
+      "weight": 0.2625105256628625,
+      "regime": "extension",
+      "source": "J1101-6424",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 1.8330031962147157,
+      "weight": 0.15993253703203694,
+      "regime": "extension",
+      "source": "J1101-6424",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 2.07223089669589,
+      "weight": 0.1259045880352019,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 2.219483559353856,
+      "weight": 0.1086652134694091,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 1.7862538654883606,
+      "weight": 0.16758679790471645,
+      "regime": "extension",
+      "source": "J1101-6424",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 4.9973433594894825,
+      "weight": 0.006755871100445884,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1609-5158"
+    },
+    {
+      "distance_kpc": 3.5761904572236927,
+      "weight": 0.02798209445192716,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.4197253573572715,
+      "weight": 0.012037537851985747,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 2.5661021668918185,
+      "weight": 0.07683445036917244,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 4.026911903690663,
+      "weight": 0.017829303634713772,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 2.5627285279651786,
+      "weight": 0.07709409979728853,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 2.1406200100874444,
+      "weight": 0.11758191844159277,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 2.413532745851125,
+      "weight": 0.0894985597641814,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 2.6530060026555917,
+      "weight": 0.07043915421076298,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 2.6311903940772723,
+      "weight": 0.07199271151292226,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.961131207309488,
+      "weight": 0.051760332376872165,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 4.9048436903058565,
+      "weight": 0.007410601341217892,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 2.2430760507903567,
+      "weight": 0.10613153575657906,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 4.51064289373507,
+      "weight": 0.010991391607077175,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 2.4397142270177503,
+      "weight": 0.0871857632378257,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 1.7483715519755245,
+      "weight": 0.17405715582108883,
+      "regime": "extension",
+      "source": "J1101-6424",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 0.8370667311502087,
+      "weight": 0.4329787055097845,
+      "regime": "extension",
+      "source": "J1101-6424",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.224891068537973,
+      "weight": 0.10807919121792935,
+      "regime": "narrowing",
+      "source": "J1101-6424",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.6571238499207102,
+      "weight": 0.19068663553629867,
+      "regime": "extension",
+      "source": "J1101-6424",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 3.1739062735647416,
+      "weight": 0.041839840408349226,
+      "regime": "narrowing",
+      "source": "J1012+5307",
+      "target": "J1755-2725"
+    },
+    {
+      "distance_kpc": 1.706059342825387,
+      "weight": 0.1815799288593557,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 1.3513799709796905,
+      "weight": 0.25888276333412297,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 1.1683774387182766,
+      "weight": 0.3108709394208826,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.6279994506347992,
+      "weight": 0.5336583436762332,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 1.0395351090100644,
+      "weight": 0.35361903805664774,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.1748070834695046,
+      "weight": 0.11363007267580712,
+      "regime": "narrowing",
+      "source": "J1012+5307",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 4.182753655815797,
+      "weight": 0.015256438690576808,
+      "regime": "narrowing",
+      "source": "J1012+5307",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.7206345558873328,
+      "weight": 0.1789525564769823,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.1025795050764424,
+      "weight": 0.044933147493746495,
+      "regime": "narrowing",
+      "source": "J1012+5307",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.9456624286087357,
+      "weight": 0.38842218369409354,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 1.0927843540955546,
+      "weight": 0.3352816500073873,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.4871642032285182,
+      "weight": 0.2260126736401245,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.548680327390049,
+      "weight": 0.2125282565643689,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.9714826414361623,
+      "weight": 0.3785214103325449,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.380622799858299,
+      "weight": 0.25142191875353465,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.4087880639154693,
+      "weight": 0.08992421095519859,
+      "regime": "narrowing",
+      "source": "J1012+5307",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 1.229251028192293,
+      "weight": 0.29251157858365784,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.1784072836664463,
+      "weight": 0.11322171718760858,
+      "regime": "narrowing",
+      "source": "J1012+5307",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.7465475004561013,
+      "weight": 0.17437493477511418,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 1.0993249272682752,
+      "weight": 0.333095871755471,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.7805125167852152,
+      "weight": 0.16855173953209185,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.013636581497629,
+      "weight": 0.36289687300051626,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.0303278612622655,
+      "weight": 0.3568899310021967,
+      "regime": "extension",
+      "source": "J1012+5307",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 4.955110651846706,
+      "weight": 0.007047300439679221,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1550-5317"
+    },
+    {
+      "distance_kpc": 2.0465416201378726,
+      "weight": 0.12918088853409093,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1629-6902"
+    },
+    {
+      "distance_kpc": 2.0200588155360384,
+      "weight": 0.13264766310727547,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 2.060723912687937,
+      "weight": 0.12736173773692847,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 2.606043725940867,
+      "weight": 0.0738260428158531,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 3.810621229218079,
+      "weight": 0.022134424134033295,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1701-3006E"
+    },
+    {
+      "distance_kpc": 2.442967039503782,
+      "weight": 0.08690262504593652,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 4.407030088003688,
+      "weight": 0.012191331799591986,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1609-5158"
+    },
+    {
+      "distance_kpc": 3.478443288951152,
+      "weight": 0.030855406617828453,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1705-4108"
+    },
+    {
+      "distance_kpc": 2.0492879780896343,
+      "weight": 0.1288265983002358,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 1.5711227600911206,
+      "weight": 0.2078117286099194,
+      "regime": "extension",
+      "source": "J1755-2725",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.8656188714382467,
+      "weight": 0.15480037870136643,
+      "regime": "extension",
+      "source": "J1755-2725",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 3.3372062667149818,
+      "weight": 0.03553609755054351,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 1.6895835594144186,
+      "weight": 0.18459638141377602,
+      "regime": "extension",
+      "source": "J1755-2725",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 2.751075004901633,
+      "weight": 0.06385917536798075,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 2.431036627495504,
+      "weight": 0.08794561846679887,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 2.624971279383772,
+      "weight": 0.07244183757859,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 2.976970986998588,
+      "weight": 0.05094691926458325,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 3.3141153394994944,
+      "weight": 0.0363662060970863,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 3.8566630532775488,
+      "weight": 0.02113841974391573,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 4.746349346916143,
+      "weight": 0.008683337262844107,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 2.7429903956926815,
+      "weight": 0.06437754442745315,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 4.5744898334141615,
+      "weight": 0.010311558448903085,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 3.088731962140807,
+      "weight": 0.04555968920269269,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 2.8032293547406426,
+      "weight": 0.06061400210607244,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 2.5029640974284457,
+      "weight": 0.08184205092875856,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 3.560070028593585,
+      "weight": 0.02843683325301699,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 2.7773263651603575,
+      "weight": 0.0622045976254799,
+      "regime": "narrowing",
+      "source": "J1755-2725",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 4.561376544423948,
+      "weight": 0.01044766736212323,
+      "regime": "narrowing",
+      "source": "J1745+1252",
+      "target": "J1852+0031"
+    },
+    {
+      "distance_kpc": 4.650376795530931,
+      "weight": 0.009557999840335897,
+      "regime": "narrowing",
+      "source": "J1745+1252",
+      "target": "J1916+0740"
+    },
+    {
+      "distance_kpc": 3.105293165853571,
+      "weight": 0.04481137946708323,
+      "regime": "narrowing",
+      "source": "J1550-5317",
+      "target": "J1701-3006E"
+    },
+    {
+      "distance_kpc": 0.5913318977326935,
+      "weight": 0.5535894689374634,
+      "regime": "extension",
+      "source": "J1550-5317",
+      "target": "J1609-5158"
+    },
+    {
+      "distance_kpc": 2.1845283938081863,
+      "weight": 0.11253079136011002,
+      "regime": "narrowing",
+      "source": "J1550-5317",
+      "target": "J1705-4108"
+    },
+    {
+      "distance_kpc": 0.532061946198438,
+      "weight": 0.5873925483021321,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J1751-4657"
+    },
+    {
+      "distance_kpc": 0.8185231843902753,
+      "weight": 0.44108257137218165,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 1.143958316050625,
+      "weight": 0.31855557925110806,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.6884879637137001,
+      "weight": 0.5023350439369949,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 2.2760707807025478,
+      "weight": 0.10268689440041666,
+      "regime": "narrowing",
+      "source": "J1629-6902",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.4660673666020694,
+      "weight": 0.03123964347267857,
+      "regime": "narrowing",
+      "source": "J1629-6902",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.2312410680801606,
+      "weight": 0.2919300477013569,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.8677553951490355,
+      "weight": 0.056826336204129406,
+      "regime": "narrowing",
+      "source": "J1629-6902",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 1.3887373967593122,
+      "weight": 0.24938998653586283,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.923131522615191,
+      "weight": 0.39727302168199313,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.2391692139689827,
+      "weight": 0.2896247341998523,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.5628791979081917,
+      "weight": 0.2095319180197734,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 1.6848653502378885,
+      "weight": 0.18546940368579967,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.1648673635787357,
+      "weight": 0.11476515562735322,
+      "regime": "narrowing",
+      "source": "J1629-6902",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.8280999895528134,
+      "weight": 0.021750903337466744,
+      "regime": "narrowing",
+      "source": "J1629-6902",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 1.1407306197054672,
+      "weight": 0.3195854410765179,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 3.462692842697143,
+      "weight": 0.031345240465941185,
+      "regime": "narrowing",
+      "source": "J1629-6902",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.5070145387928737,
+      "weight": 0.22157048159224177,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.884593954170044,
+      "weight": 0.41288178817543525,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 0.6696778253679911,
+      "weight": 0.5118734638689169,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.6568310952689884,
+      "weight": 0.1907424681080969,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.8554561177008215,
+      "weight": 0.42508925612290577,
+      "regime": "extension",
+      "source": "J1629-6902",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.3060663334041518,
+      "weight": 0.7363377740449188,
+      "regime": "borrowing",
+      "source": "J1751-4657",
+      "target": "J1730-2304"
+    },
+    {
+      "distance_kpc": 0.7309908677677146,
+      "weight": 0.481431718500517,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.4325079819684034,
+      "weight": 0.6488796737767291,
+      "regime": "borrowing",
+      "source": "J1751-4657",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 1.803083906594584,
+      "weight": 0.1647899071186004,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.280037061894184,
+      "weight": 0.037626862258546556,
+      "regime": "narrowing",
+      "source": "J1751-4657",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 0.8174358450964118,
+      "weight": 0.44156243862585415,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.514407955720747,
+      "weight": 0.0809108008059662,
+      "regime": "narrowing",
+      "source": "J1751-4657",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.9536932492714455,
+      "weight": 0.38531532679851,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.5139312336800803,
+      "weight": 0.5981395245024492,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 0.9481774228966091,
+      "weight": 0.3874465315149143,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.28794095867791,
+      "weight": 0.2758381609336541,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 1.384352922459222,
+      "weight": 0.25048583111822603,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.925478278284769,
+      "weight": 0.14580600433133745,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.3497153535139734,
+      "weight": 0.035094342160419935,
+      "regime": "narrowing",
+      "source": "J1751-4657",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.8659662296228122,
+      "weight": 0.420644916627952,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 3.0246280565956636,
+      "weight": 0.048575885390567286,
+      "regime": "narrowing",
+      "source": "J1751-4657",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.375493008975557,
+      "weight": 0.2527149743369138,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.803146741029119,
+      "weight": 0.44791726452166625,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.062559912445722,
+      "weight": 0.34557004801000557,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.5408065233502641,
+      "weight": 0.21420826776938076,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.7938466480821553,
+      "weight": 0.45210236747279753,
+      "regime": "extension",
+      "source": "J1751-4657",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.5554795722489074,
+      "weight": 0.5737970180758551,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J1503+2111"
+    },
+    {
+      "distance_kpc": 0.50734389599671,
+      "weight": 0.6020926776144221,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 1.5927242025563069,
+      "weight": 0.20337083306925655,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.2184379774383274,
+      "weight": 0.040017517731962035,
+      "regime": "narrowing",
+      "source": "J1730-2304",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 0.7755362090078372,
+      "weight": 0.46045681370061187,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.3516013606109336,
+      "weight": 0.09521656401066687,
+      "regime": "narrowing",
+      "source": "J1730-2304",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.8411693313323249,
+      "weight": 0.4312060058191513,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.5118055742479476,
+      "weight": 0.5994123177076282,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.0090273797530351,
+      "weight": 0.36457339865503197,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.3235483991465946,
+      "weight": 0.26618907906942346,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 1.3379822866553248,
+      "weight": 0.2623745314474741,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.9021199579790231,
+      "weight": 0.14925187589480135,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.1230011014421737,
+      "weight": 0.044024846932283555,
+      "regime": "narrowing",
+      "source": "J1730-2304",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.9208623922803456,
+      "weight": 0.3981755094907004,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.8472103965555218,
+      "weight": 0.058005908870020106,
+      "regime": "narrowing",
+      "source": "J1730-2304",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.49159089261402,
+      "weight": 0.22501439689741362,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.915090471217689,
+      "weight": 0.4004803925030248,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.2676704599723392,
+      "weight": 0.28148659287684347,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.5566665616597142,
+      "weight": 0.21083771563169448,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.8852091816482076,
+      "weight": 0.4126278500769741,
+      "regime": "extension",
+      "source": "J1730-2304",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.49412720476433003,
+      "weight": 0.6101031701244423,
+      "regime": "borrowing",
+      "source": "J1503+2111",
+      "target": "J1456-6843"
+    },
+    {
+      "distance_kpc": 1.8359322808064709,
+      "weight": 0.15946476650625369,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.699922271886131,
+      "weight": 0.024725448258107626,
+      "regime": "narrowing",
+      "source": "J1503+2111",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.1571802827505069,
+      "weight": 0.3143713706802909,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.721195973069042,
+      "weight": 0.06579601708743286,
+      "regime": "narrowing",
+      "source": "J1503+2111",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.613214091992789,
+      "weight": 0.5416072929050196,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.5311150607474381,
+      "weight": 0.5879490051690246,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.038598833002521,
+      "weight": 0.3539502781196552,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.2299457596514891,
+      "weight": 0.2923084321621124,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.9473665685017176,
+      "weight": 0.38776082164232406,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.4967618167972692,
+      "weight": 0.22385386760131457,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.7515934521899874,
+      "weight": 0.06382607633246866,
+      "regime": "narrowing",
+      "source": "J1503+2111",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.8183920905795115,
+      "weight": 0.4411403983576214,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.465899187195637,
+      "weight": 0.08493243786524793,
+      "regime": "narrowing",
+      "source": "J1503+2111",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.418341858940736,
+      "weight": 0.24211514530488834,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.7373678534897515,
+      "weight": 0.47837140346901097,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.389118274426262,
+      "weight": 0.24929501754656203,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.122507138020659,
+      "weight": 0.32546279074326845,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.6906835663659195,
+      "weight": 0.501233325692559,
+      "regime": "extension",
+      "source": "J1503+2111",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.664340633767635,
+      "weight": 0.06964526012974986,
+      "regime": "narrowing",
+      "source": "J1701-3006E",
+      "target": "J1609-5158"
+    },
+    {
+      "distance_kpc": 1.2715224732766006,
+      "weight": 0.2804043884471871,
+      "regime": "extension",
+      "source": "J1701-3006E",
+      "target": "J1705-4108"
+    },
+    {
+      "distance_kpc": 3.557935687721461,
+      "weight": 0.028497591965339124,
+      "regime": "narrowing",
+      "source": "J1701-3006E",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 2.709861157717156,
+      "weight": 0.06654604547850498,
+      "regime": "narrowing",
+      "source": "J1701-3006E",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 4.686930094940837,
+      "weight": 0.009214931744006108,
+      "regime": "narrowing",
+      "source": "J1701-3006E",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 4.0759706523651955,
+      "weight": 0.016975729145757235,
+      "regime": "narrowing",
+      "source": "J1701-3006E",
+      "target": "J1819-1408"
+    },
+    {
+      "distance_kpc": 2.0562049118201156,
+      "weight": 0.12793858795192772,
+      "regime": "narrowing",
+      "source": "J1456-6843",
+      "target": "J1911+1758"
+    },
+    {
+      "distance_kpc": 3.6908501004635643,
+      "weight": 0.02495078235247586,
+      "regime": "narrowing",
+      "source": "J1456-6843",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.1181198016223022,
+      "weight": 0.32689384244853226,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.857391692443671,
+      "weight": 0.05741832978246326,
+      "regime": "narrowing",
+      "source": "J1456-6843",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.8099252149745174,
+      "weight": 0.44489133618879184,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.4273474996852556,
+      "weight": 0.6522368607387523,
+      "regime": "borrowing",
+      "source": "J1456-6843",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 0.9227826798076599,
+      "weight": 0.3974116316933802,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.1830395096529254,
+      "weight": 0.306346179887583,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 1.0801906986963883,
+      "weight": 0.3395307713953711,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.6015216729583877,
+      "weight": 0.2015895311488566,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.180576529316355,
+      "weight": 0.041561686681773874,
+      "regime": "narrowing",
+      "source": "J1456-6843",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.6969629946717562,
+      "weight": 0.49809572842784844,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.8274720407159615,
+      "weight": 0.05916222448287928,
+      "regime": "narrowing",
+      "source": "J1456-6843",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.2396253866868687,
+      "weight": 0.28949264542762304,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.4224551341632196,
+      "weight": 0.6554356603365297,
+      "regime": "borrowing",
+      "source": "J1456-6843",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 0.9772734073870272,
+      "weight": 0.3763358156789224,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.1195088876103674,
+      "weight": 0.3264400740270447,
+      "regime": "extension",
+      "source": "J1456-6843",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.38469489404172214,
+      "weight": 0.6806582774226833,
+      "regime": "borrowing",
+      "source": "J1456-6843",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 1.6418922382316583,
+      "weight": 0.19361333289887503,
+      "regime": "extension",
+      "source": "J1609-5158",
+      "target": "J1705-4108"
+    },
+    {
+      "distance_kpc": 4.918439154395072,
+      "weight": 0.007310532558931955,
+      "regime": "narrowing",
+      "source": "J1609-5158",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 3.687623405947449,
+      "weight": 0.025031420933133958,
+      "regime": "narrowing",
+      "source": "J1705-4108",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 3.2849285470645766,
+      "weight": 0.03744326042869536,
+      "regime": "narrowing",
+      "source": "J1705-4108",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 4.740381352908035,
+      "weight": 0.008735314312688236,
+      "regime": "narrowing",
+      "source": "J1705-4108",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 4.977053115121108,
+      "weight": 0.006894349505472404,
+      "regime": "narrowing",
+      "source": "J1705-4108",
+      "target": "J1819-1408"
+    },
+    {
+      "distance_kpc": 2.330978303191321,
+      "weight": 0.09720060889424104,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 1.1946317336105294,
+      "weight": 0.3028154504033233,
+      "regime": "extension",
+      "source": "J1911+1758",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 4.390698824336443,
+      "weight": 0.012392066316351166,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 1.1374417174414706,
+      "weight": 0.32063825671206375,
+      "regime": "extension",
+      "source": "J1911+1758",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 1.7195882964415086,
+      "weight": 0.17913988525971652,
+      "regime": "extension",
+      "source": "J1911+1758",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 1.7893161743145938,
+      "weight": 0.16707438036515268,
+      "regime": "extension",
+      "source": "J1911+1758",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 1.9044563428882488,
+      "weight": 0.14890357310741512,
+      "regime": "extension",
+      "source": "J1911+1758",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 2.1003780859242274,
+      "weight": 0.12241013795253525,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 2.304456469850535,
+      "weight": 0.09981303730774148,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.7892293289459467,
+      "weight": 0.06146856771142559,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.834555266602967,
+      "weight": 0.05874464573109993,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 2.0466329776338896,
+      "weight": 0.12916908743064903,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.793146836520148,
+      "weight": 0.06122823519143696,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 2.456495013566137,
+      "weight": 0.08573492470628594,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 2.3923464547064834,
+      "weight": 0.09141493102696839,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 2.8224519582128735,
+      "weight": 0.059459970460238425,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.858526998925135,
+      "weight": 0.057353179370346785,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 2.417607632079724,
+      "weight": 0.0891346053555353,
+      "regime": "narrowing",
+      "source": "J1911+1758",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 4.328884606356605,
+      "weight": 0.013182242682788024,
+      "regime": "narrowing",
+      "source": "J1852+0031",
+      "target": "J1822-0848"
+    },
+    {
+      "distance_kpc": 2.8602514663516447,
+      "weight": 0.05725436090981277,
+      "regime": "narrowing",
+      "source": "J1852+0031",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 1.3987013155169234,
+      "weight": 0.2469174236352269,
+      "regime": "extension",
+      "source": "J1852+0031",
+      "target": "J1916+0740"
+    },
+    {
+      "distance_kpc": 2.6473132037976588,
+      "weight": 0.07084129371100886,
+      "regime": "narrowing",
+      "source": "J1852+0031",
+      "target": "J1819-1408"
+    },
+    {
+      "distance_kpc": 2.838178197320418,
+      "weight": 0.05853220301458692,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J2010-1323"
+    },
+    {
+      "distance_kpc": 2.0880870627745436,
+      "weight": 0.12392396799419308,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 1.3234423218015752,
+      "weight": 0.2662173171978907,
+      "regime": "extension",
+      "source": "J1822-0848",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 3.7405630691696494,
+      "weight": 0.023740731693054688,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 3.5685609523816413,
+      "weight": 0.028196400461859093,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 3.6939959373575197,
+      "weight": 0.024872414591544368,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 3.99054661677536,
+      "weight": 0.018489604629002343,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 4.3536066529884865,
+      "weight": 0.012860346031043858,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 4.882103206962178,
+      "weight": 0.007581052725627403,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.8703526797167918,
+      "weight": 0.020851014398453712,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 4.208570542357191,
+      "weight": 0.014867605768162742,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 4.074698439574104,
+      "weight": 0.01699733962916652,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 3.9730767151174065,
+      "weight": 0.01881545419618278,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 4.761828945346994,
+      "weight": 0.008549957683474073,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 4.065267714845337,
+      "weight": 0.017158395101575224,
+      "regime": "narrowing",
+      "source": "J1822-0848",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 4.856229052963376,
+      "weight": 0.007779765730832621,
+      "regime": "narrowing",
+      "source": "J2010-1323",
+      "target": "J1823-1347"
+    },
+    {
+      "distance_kpc": 2.013554426037692,
+      "weight": 0.13351326723560836,
+      "regime": "narrowing",
+      "source": "J2010-1323",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 0.9779602702573603,
+      "weight": 0.3760774133340033,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 0.8160860229587854,
+      "weight": 0.4421588718294671,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 0.8693777777574109,
+      "weight": 0.4192123113377212,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 1.181126481264485,
+      "weight": 0.3069327897481561,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 1.554757516009176,
+      "weight": 0.21124059889460342,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 2.070639973846105,
+      "weight": 0.1261050519402216,
+      "regime": "narrowing",
+      "source": "J2010-1323",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.1056053412710494,
+      "weight": 0.044797392639275804,
+      "regime": "narrowing",
+      "source": "J2010-1323",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 1.044537828308457,
+      "weight": 0.3518543989480742,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.798260890088065,
+      "weight": 0.06091591002132475,
+      "regime": "narrowing",
+      "source": "J2010-1323",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.42222632027212,
+      "weight": 0.24117648266486616,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 1.4011437519332195,
+      "weight": 0.24631507942108422,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.8571764703545168,
+      "weight": 0.15611279777526382,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.0266549505254865,
+      "weight": 0.1317755805644231,
+      "regime": "narrowing",
+      "source": "J2010-1323",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.4769553011432075,
+      "weight": 0.22833183278749647,
+      "regime": "extension",
+      "source": "J2010-1323",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 3.9951441312698512,
+      "weight": 0.018404793513278655,
+      "regime": "narrowing",
+      "source": "J1823-1347",
+      "target": "J1916+0740"
+    },
+    {
+      "distance_kpc": 3.3501064465082075,
+      "weight": 0.03508061969261916,
+      "regime": "narrowing",
+      "source": "J1823-1347",
+      "target": "J1822+0705"
+    },
+    {
+      "distance_kpc": 3.096115051713874,
+      "weight": 0.04522455661568123,
+      "regime": "narrowing",
+      "source": "J1823-1347",
+      "target": "J1819-1408"
+    },
+    {
+      "distance_kpc": 3.934244677404655,
+      "weight": 0.01956046821275283,
+      "regime": "narrowing",
+      "source": "J1916+0740",
+      "target": "J1819-1408"
+    },
+    {
+      "distance_kpc": 2.743579782991409,
+      "weight": 0.06433961229989951,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J2307+2225"
+    },
+    {
+      "distance_kpc": 2.687587402903611,
+      "weight": 0.06804490644269696,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 2.8579000709038924,
+      "weight": 0.05738914695896793,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 3.115053904438011,
+      "weight": 0.04437611501347502,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 3.353793940134617,
+      "weight": 0.034951498344478055,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 3.8722319525906315,
+      "weight": 0.02081186644906379,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 3.8454993457960733,
+      "weight": 0.02137572501730988,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 3.001678511775694,
+      "weight": 0.04970357028319436,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 3.892778772435196,
+      "weight": 0.02038861193602504,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 3.418134342554189,
+      "weight": 0.03277352210297682,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 3.248360655078174,
+      "weight": 0.03883782426281823,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 3.3842959079600523,
+      "weight": 0.033901503723299364,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 3.818704069234649,
+      "weight": 0.02195623622718875,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 3.2364542291378617,
+      "weight": 0.039303007782176824,
+      "regime": "narrowing",
+      "source": "J1822+0705",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.4671588151325883,
+      "weight": 0.6267805402729447,
+      "regime": "borrowing",
+      "source": "J2307+2225",
+      "target": "J2124-3358"
+    },
+    {
+      "distance_kpc": 0.6044185577631047,
+      "weight": 0.5463920297008155,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 0.6986349558174605,
+      "weight": 0.49726362753709674,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.6168670180196507,
+      "weight": 0.5396324507006747,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.164115800143916,
+      "weight": 0.3121985859735031,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.468906446489836,
+      "weight": 0.0846774076652677,
+      "regime": "narrowing",
+      "source": "J2307+2225",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.49351330868280247,
+      "weight": 0.6104778250577406,
+      "regime": "borrowing",
+      "source": "J2307+2225",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.0826199570817194,
+      "weight": 0.12460332880162946,
+      "regime": "narrowing",
+      "source": "J2307+2225",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.0082459646438948,
+      "weight": 0.364858393152133,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.8869035286744287,
+      "weight": 0.41192930726034765,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.7790754592533478,
+      "weight": 0.16879413220328826,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.1849152208328684,
+      "weight": 0.30577210150397083,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.9909845091956004,
+      "weight": 0.37121105037068886,
+      "regime": "extension",
+      "source": "J2307+2225",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.5547757912018821,
+      "weight": 0.5742009876784173,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J2330-2005"
+    },
+    {
+      "distance_kpc": 0.8354192820311934,
+      "weight": 0.43369260379081076,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.8954042748075054,
+      "weight": 0.40844244226909227,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.443146569776504,
+      "weight": 0.23618342062738573,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.9258656594540216,
+      "weight": 0.05361825666628351,
+      "regime": "narrowing",
+      "source": "J2124-3358",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.41054548854907774,
+      "weight": 0.6632883352434665,
+      "regime": "borrowing",
+      "source": "J2124-3358",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.548311422674091,
+      "weight": 0.07821362431148299,
+      "regime": "narrowing",
+      "source": "J2124-3358",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 0.9988372465563876,
+      "weight": 0.36830744304060087,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.6202557857597015,
+      "weight": 0.5378068566643986,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.3644709736378875,
+      "weight": 0.2555158148409056,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.2204003616548464,
+      "weight": 0.2951119917438078,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.710947271251217,
+      "weight": 0.4911786975590286,
+      "regime": "extension",
+      "source": "J2124-3358",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.36729281633736943,
+      "weight": 0.6926068087599738,
+      "regime": "borrowing",
+      "source": "J2330-2005",
+      "target": "J0034-0721"
+    },
+    {
+      "distance_kpc": 0.8805314846952507,
+      "weight": 0.4145625194848988,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.309179048844967,
+      "weight": 0.2700416564205838,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.9052026919557066,
+      "weight": 0.05473769458662516,
+      "regime": "narrowing",
+      "source": "J2330-2005",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.3316064859406124,
+      "weight": 0.7177697197633517,
+      "regime": "borrowing",
+      "source": "J2330-2005",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.43192086015909,
+      "weight": 0.0878678884491061,
+      "regime": "narrowing",
+      "source": "J2330-2005",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 0.5718429615604667,
+      "weight": 0.5644841568704668,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.9148308989185736,
+      "weight": 0.4005843596121645,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.734361167499213,
+      "weight": 0.17651292647016953,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.385082688170066,
+      "weight": 0.2503031018305174,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.0957096626768934,
+      "weight": 0.3343022808962946,
+      "regime": "extension",
+      "source": "J2330-2005",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.7386472465594204,
+      "weight": 0.4777597697540822,
+      "regime": "extension",
+      "source": "J0034-0721",
+      "target": "J0304+1932"
+    },
+    {
+      "distance_kpc": 1.0428226884938159,
+      "weight": 0.35245839625851905,
+      "regime": "extension",
+      "source": "J0034-0721",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.721315645281496,
+      "weight": 0.06578814360362537,
+      "regime": "narrowing",
+      "source": "J0034-0721",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.4901911555710053,
+      "weight": 0.6125092984283325,
+      "regime": "borrowing",
+      "source": "J0034-0721",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 2.186754547784789,
+      "weight": 0.11228055912251976,
+      "regime": "narrowing",
+      "source": "J0034-0721",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 0.42014544581881047,
+      "weight": 0.656951262051759,
+      "regime": "borrowing",
+      "source": "J0034-0721",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 1.075147852585016,
+      "weight": 0.34124729727587894,
+      "regime": "extension",
+      "source": "J0034-0721",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.995396040612135,
+      "weight": 0.13595979790133234,
+      "regime": "extension",
+      "source": "J0034-0721",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.3349297802097575,
+      "weight": 0.26317665501671766,
+      "regime": "extension",
+      "source": "J0034-0721",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.2738427676505508,
+      "weight": 0.2797545219545862,
+      "regime": "extension",
+      "source": "J0034-0721",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.5687654141374727,
+      "weight": 0.5662240595760472,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0337+1715"
+    },
+    {
+      "distance_kpc": 2.3935549515464003,
+      "weight": 0.09130452309895437,
+      "regime": "narrowing",
+      "source": "J0304+1932",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 0.6584714227277664,
+      "weight": 0.5176419858266077,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 1.8991220389025363,
+      "weight": 0.1496999923135067,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 0.9039345445903567,
+      "weight": 0.40497313614150887,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.896664343553354,
+      "weight": 0.4079281008339493,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.9149304490706582,
+      "weight": 0.14735208070392816,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.7558057209128612,
+      "weight": 0.46963206987021683,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.0302284373359731,
+      "weight": 0.356925416164399,
+      "regime": "extension",
+      "source": "J0304+1932",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.345455392460369,
+      "weight": 0.09580356397429879,
+      "regime": "narrowing",
+      "source": "J0337+1715",
+      "target": "J0054+6946"
+    },
+    {
+      "distance_kpc": 1.1353836145133258,
+      "weight": 0.32129884279097454,
+      "regime": "extension",
+      "source": "J0337+1715",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 1.751058545618289,
+      "weight": 0.1735900931281767,
+      "regime": "extension",
+      "source": "J0337+1715",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 1.0967840202488879,
+      "weight": 0.3339433135736372,
+      "regime": "extension",
+      "source": "J0337+1715",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 1.3288994382950083,
+      "weight": 0.2647684950764264,
+      "regime": "extension",
+      "source": "J0337+1715",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 2.326277915706774,
+      "weight": 0.09765856486186791,
+      "regime": "narrowing",
+      "source": "J0337+1715",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.8866878945363875,
+      "weight": 0.41201814285910227,
+      "regime": "extension",
+      "source": "J0337+1715",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.4685576657610213,
+      "weight": 0.23025735386166582,
+      "regime": "extension",
+      "source": "J0337+1715",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.871786510401487,
+      "weight": 0.056597723784598784,
+      "regime": "narrowing",
+      "source": "J0054+6946",
+      "target": "J0038-2501"
+    },
+    {
+      "distance_kpc": 0.7286639150112045,
+      "weight": 0.48255329178289097,
+      "regime": "extension",
+      "source": "J0054+6946",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 3.0667964926757865,
+      "weight": 0.04657010381917858,
+      "regime": "narrowing",
+      "source": "J0054+6946",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 3.193866072335975,
+      "weight": 0.04101300479967774,
+      "regime": "narrowing",
+      "source": "J0054+6946",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 4.105525699654914,
+      "weight": 0.016481352319341815,
+      "regime": "narrowing",
+      "source": "J0054+6946",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.8900090715689184,
+      "weight": 0.05557570845032691,
+      "regime": "narrowing",
+      "source": "J0054+6946",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 3.2507856668322064,
+      "weight": 0.038743756186673715,
+      "regime": "narrowing",
+      "source": "J0054+6946",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.406054191471792,
+      "weight": 0.09017038863340494,
+      "regime": "narrowing",
+      "source": "J0038-2501",
+      "target": "J0139+5621"
+    },
+    {
+      "distance_kpc": 0.6077609787864016,
+      "weight": 0.5445688061814793,
+      "regime": "extension",
+      "source": "J0038-2501",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 0.6155738121425567,
+      "weight": 0.5403307579876155,
+      "regime": "extension",
+      "source": "J0038-2501",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.5350353750067685,
+      "weight": 0.2154480695580167,
+      "regime": "extension",
+      "source": "J0038-2501",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.0675479980527134,
+      "weight": 0.3438506069520322,
+      "regime": "extension",
+      "source": "J0038-2501",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.8006141960696161,
+      "weight": 0.44905307276786033,
+      "regime": "extension",
+      "source": "J0038-2501",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 2.493262283005095,
+      "weight": 0.08263993150515844,
+      "regime": "narrowing",
+      "source": "J0139+5621",
+      "target": "J0125-2327"
+    },
+    {
+      "distance_kpc": 2.768952059516737,
+      "weight": 0.06272770521276376,
+      "regime": "narrowing",
+      "source": "J0139+5621",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 3.7493594505350987,
+      "weight": 0.023532814961271274,
+      "regime": "narrowing",
+      "source": "J0139+5621",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 2.4323530795015986,
+      "weight": 0.08782991845440719,
+      "regime": "narrowing",
+      "source": "J0139+5621",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 2.862853174205916,
+      "weight": 0.05710559539546071,
+      "regime": "narrowing",
+      "source": "J0139+5621",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 1.0239806628992807,
+      "weight": 0.3591623864214962,
+      "regime": "extension",
+      "source": "J0125-2327",
+      "target": "J0600-5756"
+    },
+    {
+      "distance_kpc": 1.8780776783564228,
+      "weight": 0.15288371513519233,
+      "regime": "extension",
+      "source": "J0125-2327",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 1.2858540087065493,
+      "weight": 0.27641442248107256,
+      "regime": "extension",
+      "source": "J0125-2327",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 1.2428896445289985,
+      "weight": 0.2885492074396963,
+      "regime": "extension",
+      "source": "J0125-2327",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 1.024079876069075,
+      "weight": 0.35912675455027315,
+      "regime": "extension",
+      "source": "J0600-5756",
+      "target": "J1152-6012"
+    },
+    {
+      "distance_kpc": 0.7878267004584534,
+      "weight": 0.45483220855163065,
+      "regime": "extension",
+      "source": "J0600-5756",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.21953412720430254,
+      "weight": 0.8028927567403321,
+      "regime": "borrowing",
+      "source": "J0600-5756",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 1.6046534294974224,
+      "weight": 0.2009591893701678,
+      "regime": "extension",
+      "source": "J1152-6012",
+      "target": "J0613-0200"
+    },
+    {
+      "distance_kpc": 0.8957706023440862,
+      "weight": 0.40829284595767784,
+      "regime": "extension",
+      "source": "J1152-6012",
+      "target": "J0840-5332"
+    },
+    {
+      "distance_kpc": 0.8250219990613756,
+      "weight": 0.4382253518124961,
+      "regime": "extension",
+      "source": "J0613-0200",
+      "target": "J0840-5332"
+    }
+  ]
+}

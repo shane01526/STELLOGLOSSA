@@ -1,0 +1,3706 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d8" for="edge" attr.name="regime" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="edge" attr.name="distance_kpc" attr.type="double"/>
+<key id="d5" for="node" attr.name="gz" attr.type="double"/>
+<key id="d4" for="node" attr.name="gy" attr.type="double"/>
+<key id="d3" for="node" attr.name="gx" attr.type="double"/>
+<key id="d2" for="node" attr.name="period_s" attr.type="double"/>
+<key id="d1" for="node" attr.name="dm" attr.type="double"/>
+<key id="d0" for="node" attr.name="constellation" attr.type="string"/>
+<graph edgedefault="undirected"><node id="J0134-2937">
+  <data key="d0">Sculptor</data>
+  <data key="d1">21.789</data>
+  <data key="d2">0.13696161051365074</data>
+  <data key="d3">-2.707227529759045</data>
+  <data key="d4">-3.2552116271113967</data>
+  <data key="d5">-24.63888220607486</data>
+</node>
+<node id="J0102+6537">
+  <data key="d0">Cassiopeia</data>
+  <data key="d1">65.853</data>
+  <data key="d2">1.6791642290642343</data>
+  <data key="d3">-1.399219312763799</data>
+  <data key="d4">2.0682245134865482</data>
+  <data key="d5">0.12096560090425701</data>
+</node>
+<node id="J0514-4002A">
+  <data key="d0">Columba</data>
+  <data key="d1">52.1402</data>
+  <data key="d2">0.004990575114112222</data>
+  <data key="d3">-4.210247751434913</data>
+  <data key="d4">-8.832374089845977</data>
+  <data key="d5">-6.860428689852741</data>
+</node>
+<node id="J0137+6349">
+  <data key="d0">Cassiopeia</data>
+  <data key="d1">285.5</data>
+  <data key="d2">0.717962726847017</data>
+  <data key="d3">-5.593392631521626</data>
+  <data key="d4">7.170762437771452</data>
+  <data key="d5">0.22256219509510666</data>
+</node>
+<node id="J0108-1431">
+  <data key="d0">Cetus</data>
+  <data key="d1">1.99</data>
+  <data key="d2">0.807564614019424</data>
+  <data key="d3">-0.037188430727055244</data>
+  <data key="d4">0.030189357149639558</data>
+  <data key="d5">-0.2044642348552686</data>
+</node>
+<node id="J0111+6624">
+  <data key="d0">Cassiopeia</data>
+  <data key="d1">111.2</data>
+  <data key="d2">4.301872100793386</data>
+  <data key="d3">-1.3782424752877787</data>
+  <data key="d4">1.9736124068560739</data>
+  <data key="d5">0.15180825674641762</data>
+</node>
+<node id="J0437-4715">
+  <data key="d0">Pictor</data>
+  <data key="d1">2.64539</data>
+  <data key="d2">0.005757451941593412</data>
+  <data key="d3">-0.03331974085115324</data>
+  <data key="d4">-0.11172983465536904</data>
+  <data key="d5">-0.10484502333203932</data>
+</node>
+<node id="J1018-1642">
+  <data key="d0">Hydra</data>
+  <data key="d1">49.16</data>
+  <data key="d2">1.804696435688124</data>
+  <data key="d3">-4.284422236590888</data>
+  <data key="d4">-20.618468154378085</data>
+  <data key="d5">13.473028503848008</data>
+</node>
+<node id="J1104-6103">
+  <data key="d0">Carina</data>
+  <data key="d1">78.506</data>
+  <data key="d2">0.2809053015394</data>
+  <data key="d3">0.46099843744851243</data>
+  <data key="d4">-1.2442030883249957</data>
+  <data key="d5">-0.019186340781175426</data>
+</node>
+<node id="J0645+5158">
+  <data key="d0">Lynx</data>
+  <data key="d1">18.25136</data>
+  <data key="d2">0.008853496686414667</data>
+  <data key="d3">-1.0995951428446191</data>
+  <data key="d4">0.316073540765968</data>
+  <data key="d5">0.4221094749530665</data>
+</node>
+<node id="J0835-3707">
+  <data key="d0">Pyxis</data>
+  <data key="d1">112.4</data>
+  <data key="d2">0.5414043736269504</data>
+  <data key="d3">-0.12405627808386496</data>
+  <data key="d4">-0.5406142005738191</data>
+  <data key="d5">0.019269821117719077</data>
+</node>
+<node id="J0647+0913">
+  <data key="d0">Monoceros</data>
+  <data key="d1">154.7</data>
+  <data key="d2">1.23485362778</data>
+  <data key="d3">-2.4963070540649417</data>
+  <data key="d4">-1.123589472005528</data>
+  <data key="d5">0.1567220157602133</data>
+</node>
+<node id="J0953+0755">
+  <data key="d0">Leo</data>
+  <data key="d1">2.96927</data>
+  <data key="d2">0.2530654277592876</data>
+  <data key="d3">-0.1240300814520994</data>
+  <data key="d4">-0.1422189522850623</data>
+  <data key="d5">0.18030892519763025</data>
+</node>
+<node id="J0814+7429">
+  <data key="d0">Camelopardalis</data>
+  <data key="d1">5.7507</data>
+  <data key="d2">1.2922414468619536</data>
+  <data key="d3">-0.2818007998769509</data>
+  <data key="d4">0.23647621179803546</data>
+  <data key="d5">0.22647584957862787</data>
+</node>
+<node id="J1101-6424">
+  <data key="d0">Carina</data>
+  <data key="d1">207.3633</data>
+  <data key="d2">0.005109272904279</data>
+  <data key="d3">0.7922511615878911</data>
+  <data key="d4">-2.019822251163254</data>
+  <data key="d5">-0.15258168523265725</data>
+</node>
+<node id="J1012+5307">
+  <data key="d0">Ursa Major</data>
+  <data key="d1">9.02113</data>
+  <data key="d2">0.005255749101969821</data>
+  <data key="d3">-0.41613257120421654</data>
+  <data key="d4">0.1486108200448421</data>
+  <data key="d5">0.5429074574442374</data>
+</node>
+<node id="J1019-5749">
+  <data key="d0">Carina</data>
+  <data key="d1">1039.9</data>
+  <data key="d2">0.1625125667701198</data>
+  <data key="d3">2.6099734616938823</data>
+  <data key="d4">-10.596541938917696</data>
+  <data key="d5">-0.12935789891610838</data>
+</node>
+<node id="J1755-2725">
+  <data key="d0">Sagittarius</data>
+  <data key="d1">115.1</data>
+  <data key="d2">0.2619546783248513</data>
+  <data key="d3">2.7010342892588532</data>
+  <data key="d4">0.1147104101766514</data>
+  <data key="d5">-0.053584419797356064</data>
+</node>
+<node id="J1745+1252">
+  <data key="d0">Ophiucus</data>
+  <data key="d1">66.141</data>
+  <data key="d2">1.0598487584</data>
+  <data key="d3">8.252917450740306</data>
+  <data key="d4">6.304071262346037</data>
+  <data key="d5">3.841792299243796</data>
+</node>
+<node id="J1550-5317">
+  <data key="d0">Norma</data>
+  <data key="d1">600.0</data>
+  <data key="d2">1.42112434544</data>
+  <data key="d3">5.864886930733515</data>
+  <data key="d4">-3.696164395374097</data>
+  <data key="d5">0.08921351960318269</data>
+</node>
+<node id="J1629-6902">
+  <data key="d0">Triangulum Australe</data>
+  <data key="d1">29.4948</data>
+  <data key="d2">0.0060006034432179</data>
+  <data key="d3">0.8306043753393111</data>
+  <data key="d4">-0.6878489627635533</data>
+  <data key="d5">-0.2674137746046607</data>
+</node>
+<node id="J1751-4657">
+  <data key="d0">Ara</data>
+  <data key="d1">20.588</data>
+  <data key="d2">0.7423536034382896</data>
+  <data key="d3">0.705442952545259</data>
+  <data key="d4">-0.18900153854475543</data>
+  <data key="d5">-0.13112078070215377</data>
+</node>
+<node id="J1730-2304">
+  <data key="d0">Ophiucus</data>
+  <data key="d1">9.6257</data>
+  <data key="d2">0.008122798048058056</data>
+  <data key="d3">0.6454428361086196</data>
+  <data key="d4">0.035376275340563174</data>
+  <data key="d5">0.06820604415365047</data>
+</node>
+<node id="J1503+2111">
+  <data key="d0">Boötes</data>
+  <data key="d1">3.26</data>
+  <data key="d2">3.31400150122</data>
+  <data key="d3">0.10890035620463097</data>
+  <data key="d4">0.060519501553332175</data>
+  <data key="d5">0.20979538209941764</data>
+</node>
+<node id="J1701-3006E">
+  <data key="d0">Ophiucus</data>
+  <data key="d1">113.79</data>
+  <data key="d2">0.003233737354068274</data>
+  <data key="d3">6.317872871129646</data>
+  <data key="d4">-0.7113937211200434</data>
+  <data key="d5">0.8163953440551761</data>
+</node>
+<node id="J1456-6843">
+  <data key="d0">Circinus</data>
+  <data key="d1">8.635</data>
+  <data key="d2">0.26337692665373175</data>
+  <data key="d3">0.29468597167907695</data>
+  <data key="d4">-0.30656120223029315</data>
+  <data key="d5">-0.06387806652267598</data>
+</node>
+<node id="J1609-5158">
+  <data key="d0">Norma</data>
+  <data key="d1">1069.0</data>
+  <data key="d2">1.2794023539452164</data>
+  <data key="d3">5.65755440181413</data>
+  <data key="d4">-3.153283979762774</data>
+  <data key="d5">-0.02018250442748304</data>
+</node>
+<node id="J1705-4108">
+  <data key="d0">Scorpius</data>
+  <data key="d1">1077.0</data>
+  <data key="d2">0.8610674067</data>
+  <data key="d3">5.773389106807636</data>
+  <data key="d4">-1.5155593987316711</data>
+  <data key="d5">-0.00435089772032482</data>
+</node>
+<node id="J1911+1758">
+  <data key="d0">Sagitta</data>
+  <data key="d1">48.98</data>
+  <data key="d2">0.46040581878</data>
+  <data key="d3">1.2201349395875858</data>
+  <data key="d4">1.5196290842096554</data>
+  <data key="d5">0.12730740599713447</data>
+</node>
+<node id="J1852+0031">
+  <data key="d0">Aquila</data>
+  <data key="d1">787.0</data>
+  <data key="d2">2.180195177536572</data>
+  <data key="d3">6.669278480994777</data>
+  <data key="d4">4.418225812493212</data>
+  <data key="d5">0.0022831466575338535</data>
+</node>
+<node id="J1822-0848">
+  <data key="d0">Scutum</data>
+  <data key="d1">186.3</data>
+  <data key="d2">0.834839272621</data>
+  <data key="d3">3.5489249029714434</data>
+  <data key="d4">1.4214763952495255</data>
+  <data key="d5">0.15103936843595123</data>
+</node>
+<node id="J2010-1323">
+  <data key="d0">Capricornus</data>
+  <data key="d1">22.1624</data>
+  <data key="d2">0.00522327101686168</data>
+  <data key="d3">0.9276896736454905</data>
+  <data key="d4">0.523699420211769</data>
+  <data key="d5">-0.4640848916754112</data>
+</node>
+<node id="J1823-1347">
+  <data key="d0">Scutum</data>
+  <data key="d1">1044.0</data>
+  <data key="d2">0.6171072055520304</data>
+  <data key="d3">5.601527311835047</data>
+  <data key="d4">1.7648359862602607</data>
+  <data key="d5">-0.019357591967382515</data>
+</node>
+<node id="J1916+0740">
+  <data key="d0">Aquila</data>
+  <data key="d1">219.86</data>
+  <data key="d2">0.011219660170414859</data>
+  <data key="d3">6.205084336346796</data>
+  <data key="d4">5.704828928609862</data>
+  <data key="d5">-0.29019178851166594</data>
+</node>
+<node id="J1822+0705">
+  <data key="d0">Ophiucus</data>
+  <data key="d1">62.2</data>
+  <data key="d2">1.362817392033239</data>
+  <data key="d3">2.2908763739393994</data>
+  <data key="d4">1.6633816978269726</data>
+  <data key="d5">0.48314673408863906</data>
+</node>
+<node id="J1819-1408">
+  <data key="d0">Serpens</data>
+  <data key="d1">1075.0</data>
+  <data key="d2">1.7884904527734455</data>
+  <data key="d3">8.584209011816478</data>
+  <data key="d4">2.5912640717581326</data>
+  <data key="d5">0.06160480390504497</data>
+</node>
+<node id="J2307+2225">
+  <data key="d0">Pegasus</data>
+  <data key="d1">7.024</data>
+  <data key="d2">0.535828895432</data>
+  <data key="d3">-0.025308960020648377</data>
+  <data key="d4">0.405709928960308</data>
+  <data key="d5">-0.2789406927748165</data>
+</node>
+<node id="J2124-3358">
+  <data key="d0">Microscopium</data>
+  <data key="d1">4.5954</data>
+  <data key="d2">0.004931114945113724</data>
+  <data key="d3">0.2824773113025286</data>
+  <data key="d4">0.054524372400468896</data>
+  <data key="d5">-0.29211925888860707</data>
+</node>
+<node id="J2330-2005">
+  <data key="d0">Aquarius</data>
+  <data key="d1">8.456</data>
+  <data key="d2">1.6436221853269488</data>
+  <data key="d3">0.19057909259764128</data>
+  <data key="d4">0.22230912771012742</data>
+  <data key="d5">-0.8128679235899398</data>
+</node>
+<node id="J0034-0721">
+  <data key="d0">Cetus</data>
+  <data key="d1">10.922</data>
+  <data key="d2">0.9429509945597656</data>
+  <data key="d3">-0.12399998968734287</data>
+  <data key="d4">0.33306207680933353</data>
+  <data key="d5">-0.9667438417435041</data>
+</node>
+<node id="J0304+1932">
+  <data key="d0">Aries</data>
+  <data key="d1">15.6568</data>
+  <data key="d2">1.387584446262276</data>
+  <data key="d3">-0.592593814585873</data>
+  <data key="d4">0.20248328528582052</data>
+  <data key="d5">-0.4108942565848591</data>
+</node>
+<node id="J0337+1715">
+  <data key="d0">Taurus</data>
+  <data key="d1">21.3162</data>
+  <data key="d2">0.0027325886324418656</data>
+  <data key="d3">-1.1082525336960294</data>
+  <data key="d4">0.1956204817987312</data>
+  <data key="d5">-0.6507756515552512</data>
+</node>
+<node id="J0054+6946">
+  <data key="d0">Cassiopeia</data>
+  <data key="d1">116.52</data>
+  <data key="d2">0.8329113287435861</data>
+  <data key="d3">-1.500322758765522</data>
+  <data key="d4">2.289174729426292</data>
+  <data key="d5">0.33129998141604744</data>
+</node>
+<node id="J0038-2501">
+  <data key="d0">Sculptor</data>
+  <data key="d1">5.71</data>
+  <data key="d2">0.2569264575329</data>
+  <data key="d3">0.01475360843146821</data>
+  <data key="d4">0.035466449092725255</data>
+  <data key="d5">-0.6027772905700771</data>
+</node>
+<node id="J0139+5621">
+  <data key="d0">Cassiopeia</data>
+  <data key="d1">101.84</data>
+  <data key="d2">1.7753438259574654</data>
+  <data key="d3">-1.5283855584152328</data>
+  <data key="d4">1.846908656707497</data>
+  <data key="d5">-0.24711535485812997</data>
+</node>
+<node id="J0125-2327">
+  <data key="d0">Cetus</data>
+  <data key="d1">9.5974</data>
+  <data key="d2">0.003675374887568884</data>
+  <data key="d3">-0.1724194205797928</data>
+  <data key="d4">-0.02709890558024214</data>
+  <data key="d5">-1.1776035607950908</data>
+</node>
+<node id="J0600-5756">
+  <data key="d0">Pictor</data>
+  <data key="d1">30.0</data>
+  <data key="d2">2.261364513</data>
+  <data key="d3">-0.029493539406474534</data>
+  <data key="d4">-0.48114809061735164</data>
+  <data key="d5">-0.2709901216438627</data>
+</node>
+<node id="J1152-6012">
+  <data key="d0">Centaurus</data>
+  <data key="d1">74.0</data>
+  <data key="d2">0.37656956576</data>
+  <data key="d3">0.5928466014902313</data>
+  <data key="d4">-1.2309706506597</data>
+  <data key="d5">0.04396776450896778</data>
+</node>
+<node id="J0613-0200">
+  <data key="d0">Orion</data>
+  <data key="d1">38.78188</data>
+  <data key="d2">0.003061844088094675</data>
+  <data key="d3">-0.8084982822032106</data>
+  <data key="d4">-0.4745907344930851</data>
+  <data key="d5">-0.153603914037926</data>
+</node>
+<node id="J0840-5332">
+  <data key="d0">Vela</data>
+  <data key="d1">157.368</data>
+  <data key="d2">0.7206140275125867</data>
+  <data key="d3">0.007602124192023302</data>
+  <data key="d4">-0.5625476777446025</data>
+  <data key="d5">-0.07050757386212916</data>
+</node>
+<edge source="J0102+6537" target="J0108-1431">
+  <data key="d6">2.4727757682591176</data>
+  <data key="d7">0.08435039659194574</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0111+6624">
+  <data key="d6">0.10169930113304414</data>
+  <data key="d7">0.9033011324618633</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0437-4715">
+  <data key="d6">2.5824161242046153</data>
+  <data key="d7">0.07559114561091818</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1104-6103">
+  <data key="d6">3.8016087729020893</data>
+  <data key="d7">0.02233481129854584</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0645+5158">
+  <data key="d6">1.8029130060217988</data>
+  <data key="d7">0.16481807221476316</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0102+6537" target="J0835-3707">
+  <data key="d6">2.9055846627865933</data>
+  <data key="d7">0.05471679037659648</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0647+0913">
+  <data key="d6">3.375286143617961</data>
+  <data key="d7">0.03420832841621736</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0953+0755">
+  <data key="d6">2.552584870511443</data>
+  <data key="d7">0.07788009563410495</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0814+7429">
+  <data key="d6">2.1482686950789778</data>
+  <data key="d7">0.11668600204564455</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1101-6424">
+  <data key="d6">4.646449968273823</data>
+  <data key="d7">0.009595606243232201</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1012+5307">
+  <data key="d6">2.1975921377224554</data>
+  <data key="d7">0.11107027857286747</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1755-2725">
+  <data key="d6">4.545191377979297</data>
+  <data key="d7">0.010618140443530377</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1629-6902">
+  <data key="d6">3.566355734617029</data>
+  <data key="d7">0.02825864827482133</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1751-4657">
+  <data key="d6">3.096485143638848</data>
+  <data key="d7">0.04520782246924447</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1730-2304">
+  <data key="d6">2.883730020857246</data>
+  <data key="d7">0.05592576901590818</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1503+2111">
+  <data key="d6">2.5126072277414115</data>
+  <data key="d7">0.0810566304091254</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1456-6843">
+  <data key="d6">2.9228563922341597</data>
+  <data key="d7">0.05377985134729782</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1911+1758">
+  <data key="d6">2.676193913532167</data>
+  <data key="d7">0.06882460869115832</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1822-0848">
+  <data key="d6">4.990322508581065</data>
+  <data key="d7">0.006803469960928559</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J2010-1323">
+  <data key="d6">2.853479853381742</data>
+  <data key="d7">0.05764338094275015</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1822+0705">
+  <data key="d6">3.7298631416784516</data>
+  <data key="d7">0.023996119680656534</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J2307+2225">
+  <data key="d6">2.1935153167601538</data>
+  <data key="d7">0.11152401648852041</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J2124-3358">
+  <data key="d6">2.6558860847175407</data>
+  <data key="d7">0.07023657552790737</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J2330-2005">
+  <data key="d6">2.609005103982195</data>
+  <data key="d7">0.0736077393928008</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0034-0721">
+  <data key="d6">2.412485198965641</data>
+  <data key="d7">0.08959236282469166</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0304+1932">
+  <data key="d6">2.101073519162785</data>
+  <data key="d7">0.12232503946745381</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0337+1715">
+  <data key="d6">2.0461896507318937</data>
+  <data key="d7">0.12922636425725426</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0054+6946">
+  <data key="d6">0.3213743243361567</data>
+  <data key="d7">0.7251517582296254</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0038-2501">
+  <data key="d6">2.57977296349722</data>
+  <data key="d7">0.07579120944077553</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0139+5621">
+  <data key="d6">0.4484955044061025</data>
+  <data key="d7">0.6385881823663595</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0125-2327">
+  <data key="d6">2.753488709559017</data>
+  <data key="d7">0.06370522405022767</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0600-5756">
+  <data key="d6">2.9204586381582325</data>
+  <data key="d7">0.05390895692492632</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J1152-6012">
+  <data key="d6">3.8547300819471513</data>
+  <data key="d7">0.021179319219272616</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0613-0200">
+  <data key="d6">2.62492840661224</data>
+  <data key="d7">0.07244494342751957</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0102+6537" target="J0840-5332">
+  <data key="d6">2.9894432348329874</data>
+  <data key="d7">0.05031544281238181</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0111+6624">
+  <data key="d6">2.387938271571316</data>
+  <data key="d7">0.09181879428182678</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0437-4715">
+  <data key="d6">0.17343589901878048</data>
+  <data key="d7">0.8407710436834621</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J1104-6103">
+  <data key="d6">1.3807947561958414</data>
+  <data key="d7">0.25137868887813997</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0645+5158">
+  <data key="d6">1.2661091588869446</data>
+  <data key="d7">0.2819264214629044</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0835-3707">
+  <data key="d6">0.6192088922296641</data>
+  <data key="d7">0.5383701780003319</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0647+0913">
+  <data key="d6">2.740241868501312</data>
+  <data key="d7">0.06455473124867864</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0953+0755">
+  <data key="d6">0.4304840091802205</data>
+  <data key="d7">0.6501943185330815</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0814+7429">
+  <data key="d6">0.5367483897635343</data>
+  <data key="d7">0.5846462065881163</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1101-6424">
+  <data key="d6">2.2120599970327532</data>
+  <data key="d7">0.1094748981074963</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J1012+5307">
+  <data key="d6">0.8462781758540402</data>
+  <data key="d7">0.4290086591092226</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1755-2725">
+  <data key="d6">2.743678587452206</data>
+  <data key="d7">0.06433325557323998</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J1629-6902">
+  <data key="d6">1.1280984122313795</data>
+  <data key="d7">0.3236481169318556</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1751-4657">
+  <data key="d6">0.7777694275576612</data>
+  <data key="d7">0.4594296603587016</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1730-2304">
+  <data key="d6">0.7350928047782807</data>
+  <data key="d7">0.4794609606419505</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1503+2111">
+  <data key="d6">0.44030998349590467</data>
+  <data key="d7">0.6438368113613021</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J1456-6843">
+  <data key="d6">0.4932606095580358</data>
+  <data key="d7">0.6106321117630589</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J1911+1758">
+  <data key="d6">1.977211465614611</data>
+  <data key="d7">0.13845478543396517</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1822-0848">
+  <data key="d6">3.8629355775715384</data>
+  <data key="d7">0.021006243465362482</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J2010-1323">
+  <data key="d6">1.114425782225477</data>
+  <data key="d7">0.3281036277527247</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1822+0705">
+  <data key="d6">2.925749784411808</data>
+  <data key="d7">0.05362447004401888</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J2307+2225">
+  <data key="d6">0.38301901318540044</data>
+  <data key="d7">0.6817999359741653</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J2124-3358">
+  <data key="d6">0.3323579137509256</data>
+  <data key="d7">0.717230570225868</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J2330-2005">
+  <data key="d6">0.6774533927788946</data>
+  <data key="d7">0.5079087910104292</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0034-0721">
+  <data key="d6">0.8248262424055494</data>
+  <data key="d7">0.4383111457389573</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0304+1932">
+  <data key="d6">0.6170686282442459</data>
+  <data key="d7">0.5395236662474876</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0337+1715">
+  <data key="d6">1.172066401851082</data>
+  <data key="d7">0.3097262606233482</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0054+6946">
+  <data key="d6">2.74423400414055</data>
+  <data key="d7">0.06429753373065115</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0038-2501">
+  <data key="d6">0.401720193025182</data>
+  <data key="d7">0.6691679573593537</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0139+5621">
+  <data key="d6">2.350735417916904</data>
+  <data key="d7">0.09529905180832088</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0108-1431" target="J0125-2327">
+  <data key="d6">0.9841592926725687</data>
+  <data key="d7">0.3737533120394212</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0600-5756">
+  <data key="d6">0.5157042664689762</data>
+  <data key="d7">0.5970799431270114</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J1152-6012">
+  <data key="d6">1.431498224038997</data>
+  <data key="d7">0.23895065231502893</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0613-0200">
+  <data key="d6">0.9232056109755017</data>
+  <data key="d7">0.39724358946552685</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0108-1431" target="J0840-5332">
+  <data key="d6">0.6093338767618356</data>
+  <data key="d7">0.5437129282895078</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0111+6624" target="J0437-4715">
+  <data key="d6">2.4946623683399505</data>
+  <data key="d7">0.082524309508203</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1104-6103">
+  <data key="d6">3.7103076487663444</data>
+  <data key="d7">0.024469993950067614</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0645+5158">
+  <data key="d6">1.7023930735999135</data>
+  <data key="d7">0.1822468716132826</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0111+6624" target="J0835-3707">
+  <data key="d6">2.8128072965783035</data>
+  <data key="d7">0.060036216136578925</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0647+0913">
+  <data key="d6">3.292833434258046</data>
+  <data key="d7">0.03714844246541717</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0953+0755">
+  <data key="d6">2.4597974220000753</data>
+  <data key="d7">0.08545225996196341</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0814+7429">
+  <data key="d6">2.0555782050746156</data>
+  <data key="d7">0.1280187930579223</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1101-6424">
+  <data key="d6">4.555350286461596</data>
+  <data key="d7">0.010510817790023715</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1012+5307">
+  <data key="d6">2.0998201932988616</data>
+  <data key="d7">0.12247844871903363</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1755-2725">
+  <data key="d6">4.487560774697831</data>
+  <data key="d7">0.011248046895439288</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1629-6902">
+  <data key="d6">3.483981650794522</data>
+  <data key="d7">0.03068499055965549</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1751-4657">
+  <data key="d6">3.016403964862376</data>
+  <data key="d7">0.04897702517228188</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1730-2304">
+  <data key="d6">2.8033998771178106</data>
+  <data key="d7">0.060603666943556934</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1503+2111">
+  <data key="d6">2.4238153337838364</data>
+  <data key="d7">0.08858299819171292</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1456-6843">
+  <data key="d6">2.8362654788101596</data>
+  <data key="d7">0.058644265780837715</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1911+1758">
+  <data key="d6">2.637852599949986</data>
+  <data key="d7">0.07151467540311159</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1822-0848">
+  <data key="d6">4.958006972552971</data>
+  <data key="d7">0.007026918727727645</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J2010-1323">
+  <data key="d6">2.7926501955305407</data>
+  <data key="d7">0.061258651195046226</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1822+0705">
+  <data key="d6">3.697088233887086</data>
+  <data key="d7">0.024795620506456388</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J2307+2225">
+  <data key="d6">2.1152522153252558</data>
+  <data key="d7">0.12060286782537122</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J2124-3358">
+  <data key="d6">2.576424020362549</data>
+  <data key="d7">0.07604545538127623</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J2330-2005">
+  <data key="d6">2.541429601684484</data>
+  <data key="d7">0.07875373280632901</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0034-0721">
+  <data key="d6">2.3485502751991145</data>
+  <data key="d7">0.09550752152248002</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0304+1932">
+  <data key="d6">2.017616490279124</data>
+  <data key="d7">0.13297202778594167</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0337+1715">
+  <data key="d6">1.96933765108846</data>
+  <data key="d7">0.1395492559090121</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0111+6624" target="J0054+6946">
+  <data key="d6">0.3830149530563978</data>
+  <data key="d7">0.681802704175479</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0038-2501">
+  <data key="d6">2.5032473291847332</data>
+  <data key="d7">0.08181887394331991</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0139+5621">
+  <data key="d6">0.4446760996594561</data>
+  <data key="d7">0.6410318728520799</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0125-2327">
+  <data key="d6">2.6877854779715884</data>
+  <data key="d7">0.06803142977796751</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0600-5756">
+  <data key="d6">2.8326191520863477</data>
+  <data key="d7">0.05885849226687569</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J1152-6012">
+  <data key="d6">3.763797854943428</data>
+  <data key="d7">0.023195479812905522</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0613-0200">
+  <data key="d6">2.532110515149108</data>
+  <data key="d7">0.07949107600363664</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0111+6624" target="J0840-5332">
+  <data key="d6">2.898637189640713</data>
+  <data key="d7">0.055098257389915556</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1104-6103">
+  <data key="d6">1.2386216297041321</data>
+  <data key="d7">0.28978337157671347</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0645+5158">
+  <data key="d6">1.2639778495611085</data>
+  <data key="d7">0.2825279346518057</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0835-3707">
+  <data key="d6">0.4556088378544056</data>
+  <data key="d7">0.634061809574537</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0437-4715" target="J0647+0913">
+  <data key="d6">2.675552979608133</data>
+  <data key="d7">0.06886873485714463</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J0953+0755">
+  <data key="d6">0.3007835210709496</data>
+  <data key="d7">0.7402380013327965</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0437-4715" target="J0814+7429">
+  <data key="d6">0.54107652721919</data>
+  <data key="d7">0.5821212455738709</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J1101-6424">
+  <data key="d6">2.0795823556133413</data>
+  <data key="d7">0.1249823994975389</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1012+5307">
+  <data key="d6">0.7961822630054494</data>
+  <data key="d7">0.45104766260814205</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J1755-2725">
+  <data key="d6">2.744192922506208</data>
+  <data key="d7">0.06430017523267924</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1629-6902">
+  <data key="d6">1.0510502971779936</data>
+  <data key="d7">0.3495704034256279</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J1751-4657">
+  <data key="d6">0.7432574579522653</data>
+  <data key="d7">0.4755622655920345</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J1730-2304">
+  <data key="d6">0.71575520636398</data>
+  <data key="d7">0.48882281026727875</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J1503+2111">
+  <data key="d6">0.3858691158423624</data>
+  <data key="d7">0.6798595026956754</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1456-6843">
+  <data key="d6">0.3836994928245272</data>
+  <data key="d7">0.6813361428185732</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1911+1758">
+  <data key="d6">2.0703563240460996</data>
+  <data key="d7">0.12614082668649407</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1822-0848">
+  <data key="d6">3.9049551666524085</data>
+  <data key="d7">0.020141857497944345</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J2010-1323">
+  <data key="d6">1.2067985398149732</data>
+  <data key="d7">0.2991534759430995</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J1822+0705">
+  <data key="d6">2.9830593087556885</data>
+  <data key="d7">0.05063768035578541</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J2307+2225">
+  <data key="d6">0.546001267122056</data>
+  <data key="d7">0.5792614973852975</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J2124-3358">
+  <data key="d6">0.403038309365273</data>
+  <data key="d7">0.6682864972016346</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0437-4715" target="J2330-2005">
+  <data key="d6">0.8142537339721306</data>
+  <data key="d7">0.4429697773404205</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0034-0721">
+  <data key="d6">0.9741315748976092</data>
+  <data key="d7">0.3775200591447024</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0304+1932">
+  <data key="d6">0.7107626238552813</data>
+  <data key="d7">0.49126940080027287</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0337+1715">
+  <data key="d6">1.2441804439026969</data>
+  <data key="d7">0.2881769885850657</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0054+6946">
+  <data key="d6">2.8472202313071473</data>
+  <data key="d7">0.058005338399118776</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J0038-2501">
+  <data key="d6">0.5214540589709807</data>
+  <data key="d7">0.5936567082231532</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0139+5621">
+  <data key="d6">2.4681424970874954</data>
+  <data key="d7">0.08474212163619767</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0437-4715" target="J0125-2327">
+  <data key="d6">1.0850446971238532</data>
+  <data key="d7">0.33788668299426927</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0600-5756">
+  <data key="d6">0.40507861131949885</data>
+  <data key="d7">0.6669243809921152</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0437-4715" target="J1152-6012">
+  <data key="d6">1.2910962544737867</data>
+  <data key="d7">0.2749691816084787</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0613-0200">
+  <data key="d6">0.8572906350979281</data>
+  <data key="d7">0.42431013735919576</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0437-4715" target="J0840-5332">
+  <data key="d6">0.4539717911085878</data>
+  <data key="d7">0.6351006484784713</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0645+5158">
+  <data key="d6">2.2504793887356858</data>
+  <data key="d7">0.1053487094700098</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0835-3707">
+  <data key="d6">0.9158631008625704</data>
+  <data key="d7">0.4001710889835042</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0647+0913">
+  <data key="d6">2.964986874250607</data>
+  <data key="d7">0.05156114601935365</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0953+0755">
+  <data key="d6">1.263497433776055</data>
+  <data key="d7">0.2826636981401813</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0814+7429">
+  <data key="d6">1.674667671078801</data>
+  <data key="d7">0.1873704377517148</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1101-6424">
+  <data key="d6">0.8538780773231093</data>
+  <data key="d7">0.4257605936927812</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1012+5307">
+  <data key="d6">1.7393213698716197</data>
+  <data key="d7">0.17563955447512705</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1755-2725">
+  <data key="d6">2.6202270400951266</data>
+  <data key="d7">0.07278633553478381</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J1629-6902">
+  <data key="d6">0.7125695202967685</data>
+  <data key="d7">0.4903825293518811</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1751-4657">
+  <data key="d6">1.0889135642740095</data>
+  <data key="d7">0.33658196981436483</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1730-2304">
+  <data key="d6">1.2957548043748253</data>
+  <data key="d7">0.27369120302943206</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1503+2111">
+  <data key="d6">1.3706592299940197</data>
+  <data key="d7">0.2539394998266757</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1456-6843">
+  <data key="d6">0.9533254917284517</data>
+  <data key="d7">0.385457055475669</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1911+1758">
+  <data key="d6">2.869933261360394</data>
+  <data key="d7">0.056702710715346605</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J1822-0848">
+  <data key="d6">4.082905063518566</data>
+  <data key="d7">0.01685841966639218</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J2010-1323">
+  <data key="d6">1.8818115501349861</data>
+  <data key="d7">0.15231393135761467</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1822+0705">
+  <data key="d6">3.472008218484901</data>
+  <data key="d7">0.031054603569492113</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J2307+2225">
+  <data key="d6">1.739591955839173</data>
+  <data key="d7">0.1755920353056389</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J2124-3358">
+  <data key="d6">1.339050106422266</data>
+  <data key="d7">0.2620945122680674</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J2330-2005">
+  <data key="d6">1.6892942777206248</data>
+  <data key="d7">0.18464978949227687</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0034-0721">
+  <data key="d6">1.930765075955027</data>
+  <data key="d7">0.14503719155682843</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0304+1932">
+  <data key="d6">1.8320461753027317</data>
+  <data key="d7">0.16008566907808078</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0337+1715">
+  <data key="d6">2.2213837086388284</data>
+  <data key="d7">0.10845892938907459</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0054+6946">
+  <data key="d6">4.0563999186153525</data>
+  <data key="d7">0.017311228900922765</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0038-2501">
+  <data key="d6">1.475556494714739</data>
+  <data key="d7">0.22865144831103318</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0139+5621">
+  <data key="d6">3.6830112868052303</data>
+  <data key="d7">0.025147135468268075</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0125-2327">
+  <data key="d6">1.7956868407795132</data>
+  <data key="d7">0.1660133884143289</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0600-5756">
+  <data key="d6">0.9414034485503386</data>
+  <data key="d7">0.39007999381289893</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J1152-6012">
+  <data key="d6">0.14679058819534865</data>
+  <data key="d7">0.8634747802965428</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1104-6103" target="J0613-0200">
+  <data key="d6">1.4906351600500416</data>
+  <data key="d7">0.22522955328349728</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1104-6103" target="J0840-5332">
+  <data key="d6">0.8202781141863108</data>
+  <data key="d7">0.4403091812463457</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0835-3707">
+  <data key="d6">1.359363729662797</data>
+  <data key="d7">0.2568241345569425</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0647+0913">
+  <data key="d6">2.023329992063545</data>
+  <data key="d7">0.1322144581165848</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J0953+0755">
+  <data key="d6">1.1046387210571385</data>
+  <data key="d7">0.3313305633772169</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0814+7429">
+  <data key="d6">0.8446276324782984</data>
+  <data key="d7">0.42971734120403154</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1101-6424">
+  <data key="d6">3.0603531691527377</data>
+  <data key="d7">0.0468711388561644</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J1012+5307">
+  <data key="d6">0.7139726901209678</data>
+  <data key="d7">0.4896949219122035</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1755-2725">
+  <data key="d6">3.8355724308158643</data>
+  <data key="d7">0.0215889767368277</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J1629-6902">
+  <data key="d6">2.2823174373366877</data>
+  <data key="d7">0.10204744392337017</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J1751-4657">
+  <data key="d6">1.9543098723901982</data>
+  <data key="d7">0.141662207967714</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1730-2304">
+  <data key="d6">1.8025526736098731</data>
+  <data key="d7">0.16487747220948223</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1503+2111">
+  <data key="d6">1.2533341582373223</data>
+  <data key="d7">0.285551135244529</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1456-6843">
+  <data key="d6">1.602459902766087</data>
+  <data key="d7">0.2014004825411999</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1911+1758">
+  <data key="d6">2.629943319038578</data>
+  <data key="d7">0.07208254783109015</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J1822-0848">
+  <data key="d6">4.785826270321706</data>
+  <data key="d7">0.008347223834415555</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J2010-1323">
+  <data key="d6">2.2222359659655924</data>
+  <data key="d7">0.10836653384982999</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J1822+0705">
+  <data key="d6">3.6488713218212596</data>
+  <data key="d7">0.02602048096011604</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J2307+2225">
+  <data key="d6">1.2859225569085866</data>
+  <data key="d7">0.2763954754187952</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J2124-3358">
+  <data key="d6">1.577547121397673</data>
+  <data key="d7">0.20648095025909594</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J2330-2005">
+  <data key="d6">1.7884380050386925</data>
+  <data key="d7">0.16722116439395865</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0034-0721">
+  <data key="d6">1.6973473564712471</data>
+  <data key="d7">0.18316876161723375</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0304+1932">
+  <data key="d6">0.9817577653129546</data>
+  <data key="d7">0.3746519694873496</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0337+1715">
+  <data key="d6">1.0796603097797417</data>
+  <data key="d7">0.33971090251893266</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0054+6946">
+  <data key="d6">2.015429802044934</data>
+  <data key="d7">0.1332631142963128</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J0038-2501">
+  <data key="d6">1.539774776229427</data>
+  <data key="d7">0.21442939058470992</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0139+5621">
+  <data key="d6">1.7248707909639953</data>
+  <data key="d7">0.1781960748285214</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0125-2327">
+  <data key="d6">1.8805594764939315</data>
+  <data key="d7">0.15250475905646896</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0600-5756">
+  <data key="d6">1.5036844157033733</data>
+  <data key="d7">0.22230956851112857</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J1152-6012">
+  <data key="d6">2.323939745640725</data>
+  <data key="d7">0.09788717435470633</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0645+5158" target="J0613-0200">
+  <data key="d6">1.0204573899530058</data>
+  <data key="d7">0.3604300453838231</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0645+5158" target="J0840-5332">
+  <data key="d6">1.4968408701441187</data>
+  <data key="d7">0.22383617190333677</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0647+0913">
+  <data key="d6">2.446697164966628</data>
+  <data key="d7">0.08657907117488722</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J0953+0755">
+  <data key="d6">0.42971195886103075</data>
+  <data key="d7">0.6506964950920826</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0835-3707" target="J0814+7429">
+  <data key="d6">0.8195652392497692</data>
+  <data key="d7">0.44062317853308575</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1101-6424">
+  <data key="d6">1.7484875524753671</data>
+  <data key="d7">0.17403696627503376</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1012+5307">
+  <data key="d6">0.9135294544935826</data>
+  <data key="d7">0.40110603728733835</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1755-2725">
+  <data key="d6">2.9010161667187186</data>
+  <data key="d7">0.054967335690154544</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J1629-6902">
+  <data key="d6">1.007592438661459</data>
+  <data key="d7">0.365096915523762</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1751-4657">
+  <data key="d6">0.9134099686500124</data>
+  <data key="d7">0.4011539666439475</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1730-2304">
+  <data key="d6">0.9624389170290848</data>
+  <data key="d7">0.3819601798539488</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1503+2111">
+  <data key="d6">0.6722577710071559</data>
+  <data key="d7">0.5105545602394027</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1456-6843">
+  <data key="d6">0.4868669725799691</data>
+  <data key="d7">0.6145487793458533</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0835-3707" target="J1911+1758">
+  <data key="d6">2.462341272428953</data>
+  <data key="d7">0.08523515844777574</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J1822-0848">
+  <data key="d6">4.166287733247105</data>
+  <data key="d7">0.015509729640513907</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J2010-1323">
+  <data key="d6">1.5724391271995701</data>
+  <data key="d7">0.20753835205705456</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J1822+0705">
+  <data key="d6">3.3022234061860596</data>
+  <data key="d7">0.03680125223776509</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J2307+2225">
+  <data key="d6">0.9971007479483964</data>
+  <data key="d7">0.3689475640265009</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J2124-3358">
+  <data key="d6">0.7851258749324487</data>
+  <data key="d7">0.45606229136233084</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J2330-2005">
+  <data key="d6">1.1719644395163584</data>
+  <data key="d7">0.30975784264606754</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0034-0721">
+  <data key="d6">1.3173963656316474</data>
+  <data key="d7">0.26783173084871703</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0304+1932">
+  <data key="d6">0.9781423364459784</data>
+  <data key="d7">0.37600894858547923</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0337+1715">
+  <data key="d6">1.3998731058702283</data>
+  <data key="d7">0.24662825763420115</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0054+6946">
+  <data key="d6">3.162147630192943</data>
+  <data key="d7">0.042334724048455216</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J0038-2501">
+  <data key="d6">0.8591156550044685</data>
+  <data key="d7">0.4235364691066872</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0139+5621">
+  <data key="d6">2.782690637425663</data>
+  <data key="d7">0.06187180861111453</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0835-3707" target="J0125-2327">
+  <data key="d6">1.3032815674580183</data>
+  <data key="d7">0.27163892737141715</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0600-5756">
+  <data key="d6">0.31101312536849607</data>
+  <data key="d7">0.7327042587928235</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0835-3707" target="J1152-6012">
+  <data key="d6">0.9955660476957657</data>
+  <data key="d7">0.36951422266057316</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0613-0200">
+  <data key="d6">0.7090171248868988</data>
+  <data key="d7">0.49212765985980955</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0835-3707" target="J0840-5332">
+  <data key="d6">0.16085705753869978</data>
+  <data key="d7">0.8514137655885277</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0953+0755">
+  <data key="d6">2.567360994107057</data>
+  <data key="d7">0.07673778992414362</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0814+7429">
+  <data key="d6">2.5997465667695665</data>
+  <data key="d7">0.07429240399263473</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1101-6424">
+  <data key="d6">3.4225015867961863</data>
+  <data key="d7">0.03263070421457795</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1012+5307">
+  <data key="d6">2.4687565002662</data>
+  <data key="d7">0.08469010567475987</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1629-6902">
+  <data key="d6">3.3820261115437207</data>
+  <data key="d7">0.03397854063093284</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1751-4657">
+  <data key="d6">3.3477621160521807</data>
+  <data key="d7">0.035162956732686636</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1730-2304">
+  <data key="d6">3.3498700054116313</data>
+  <data key="d7">0.035088915173465504</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1503+2111">
+  <data key="d6">2.8621733864321857</data>
+  <data key="d7">0.057144428278586276</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1456-6843">
+  <data key="d6">2.9164776117204956</data>
+  <data key="d7">0.05412399766510388</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1911+1758">
+  <data key="d6">4.560637087882762</data>
+  <data key="d7">0.010455395815169705</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J2010-1323">
+  <data key="d6">3.8500279871858103</data>
+  <data key="d7">0.02127914088677342</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J2307+2225">
+  <data key="d6">2.938433295852243</data>
+  <data key="d7">0.05294861860983681</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J2124-3358">
+  <data key="d6">3.051401853152113</data>
+  <data key="d7">0.047292580646661024</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J2330-2005">
+  <data key="d6">3.157673962956419</data>
+  <data key="d7">0.04252453978604506</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0034-0721">
+  <data key="d6">3.001974362871402</data>
+  <data key="d7">0.04968886760247482</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0304+1932">
+  <data key="d6">2.3884683980386017</data>
+  <data key="d7">0.09177013160860892</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0337+1715">
+  <data key="d6">2.078235486284633</data>
+  <data key="d7">0.12515084787156017</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0054+6946">
+  <data key="d6">3.5594131085264853</data>
+  <data key="d7">0.0284555201166415</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0038-2501">
+  <data key="d6">2.8680438412419744</data>
+  <data key="d7">0.05680994723325623</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0139+5621">
+  <data key="d6">3.150208846463404</data>
+  <data key="d7">0.0428431782863669</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0125-2327">
+  <data key="d6">2.8953704494545245</data>
+  <data key="d7">0.0552785433949608</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0600-5756">
+  <data key="d6">2.5847316141341192</data>
+  <data key="d7">0.07541631755890496</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J1152-6012">
+  <data key="d6">3.09307525714042</data>
+  <data key="d7">0.04536223913473603</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0647+0913" target="J0613-0200">
+  <data key="d6">1.8347206856552385</data>
+  <data key="d7">0.15965809033560285</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0647+0913" target="J0840-5332">
+  <data key="d6">2.5760361709935142</data>
+  <data key="d7">0.07607495528355325</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J0814+7429">
+  <data key="d6">0.4128353325467903</data>
+  <data key="d7">0.6617712460419478</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0953+0755" target="J1101-6424">
+  <data key="d6">2.115604316222159</data>
+  <data key="d7">0.12056041092243625</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J1012+5307">
+  <data key="d6">0.548984076800269</data>
+  <data key="d7">0.5775362449137181</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1755-2725">
+  <data key="d6">2.846349854249895</data>
+  <data key="d7">0.05805584689238782</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J1629-6902">
+  <data key="d6">1.1872214074663756</data>
+  <data key="d7">0.30506774646984125</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1751-4657">
+  <data key="d6">0.8872443779606353</data>
+  <data key="d7">0.41178892537589207</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1730-2304">
+  <data key="d6">0.7976187633657846</data>
+  <data key="d7">0.450400197631452</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1503+2111">
+  <data key="d6">0.31020786674802386</data>
+  <data key="d7">0.7332945128351556</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0953+0755" target="J1456-6843">
+  <data key="d6">0.5118191039734876</data>
+  <data key="d7">0.5994042078783463</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1911+1758">
+  <data key="d6">2.138066336956252</data>
+  <data key="d7">0.11788256794432553</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J1822-0848">
+  <data key="d6">3.992066903805106</data>
+  <data key="d7">0.018461516479334496</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J2010-1323">
+  <data key="d6">1.401715061385719</data>
+  <data key="d7">0.24617439747820616</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1822+0705">
+  <data key="d6">3.0304583208601374</data>
+  <data key="d7">0.048293499135012</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J2307+2225">
+  <data key="d6">0.7217216432443498</data>
+  <data key="d7">0.48591496319335886</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J2124-3358">
+  <data key="d6">0.6535629925963536</data>
+  <data key="d7">0.5201890412551473</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J2330-2005">
+  <data key="d6">1.1037481173115755</data>
+  <data key="d7">0.3316257790585627</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0034-0721">
+  <data key="d6">1.2416207583919714</data>
+  <data key="d7">0.2889155759196527</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0304+1932">
+  <data key="d6">0.8293930351433938</data>
+  <data key="d7">0.43631403325199447</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0337+1715">
+  <data key="d6">1.33173979907474</data>
+  <data key="d7">0.2640175240465137</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0054+6946">
+  <data key="d6">2.7979733858902938</data>
+  <data key="d7">0.06093342611902209</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J0038-2501">
+  <data key="d6">0.8148969479424206</data>
+  <data key="d7">0.4426849446052363</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0139+5621">
+  <data key="d6">2.4721517885667925</data>
+  <data key="d7">0.0844030459508158</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0953+0755" target="J0125-2327">
+  <data key="d6">1.3636423552051566</data>
+  <data key="d7">0.25572762769883683</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0600-5756">
+  <data key="d6">0.5722595112994212</data>
+  <data key="d7">0.5642490701083425</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J1152-6012">
+  <data key="d6">1.3106797287506924</data>
+  <data key="d7">0.2696367142533668</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0613-0200">
+  <data key="d6">0.830942539321433</data>
+  <data key="d7">0.43563848635106966</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0953+0755" target="J0840-5332">
+  <data key="d6">0.5068650621317002</data>
+  <data key="d7">0.6023810490138243</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1101-6424">
+  <data key="d6">2.5274799671975967</data>
+  <data key="d7">0.07986001678253804</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0814+7429" target="J1012+5307">
+  <data key="d6">0.3548158879084726</data>
+  <data key="d7">0.7013025496023844</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0814+7429" target="J1755-2725">
+  <data key="d6">2.9984272267152403</data>
+  <data key="d7">0.049865433748253966</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0814+7429" target="J1629-6902">
+  <data key="d6">1.5283158256892273</data>
+  <data key="d7">0.21690065839229083</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1751-4657">
+  <data key="d6">1.1329416987301766</data>
+  <data key="d7">0.32208438623140967</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1730-2304">
+  <data key="d6">0.961910222540649</data>
+  <data key="d7">0.38216217348759485</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1503+2111">
+  <data key="d6">0.4288197701120461</data>
+  <data key="d7">0.6512772982384972</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0814+7429" target="J1456-6843">
+  <data key="d6">0.8435235784547039</data>
+  <data key="d7">0.4301920343588216</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1911+1758">
+  <data key="d6">1.9779096641812162</data>
+  <data key="d7">0.138358150240438</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1822-0848">
+  <data key="d6">4.010533070295092</data>
+  <data key="d7">0.018123731438421938</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0814+7429" target="J2010-1323">
+  <data key="d6">1.422054328903909</data>
+  <data key="d7">0.24121796650542898</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1822+0705">
+  <data key="d6">2.9530673967402628</data>
+  <data key="d7">0.052179405283576306</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0814+7429" target="J2307+2225">
+  <data key="d6">0.5915014760944746</data>
+  <data key="d7">0.5534956001015084</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J2124-3358">
+  <data key="d6">0.7876910213672503</data>
+  <data key="d7">0.4548939239589873</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J2330-2005">
+  <data key="d6">1.141743818862242</data>
+  <data key="d7">0.31926180136053195</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0034-0721">
+  <data key="d6">1.2074780150277526</data>
+  <data key="d7">0.29895027761331133</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0304+1932">
+  <data key="d6">0.7099214528915011</data>
+  <data key="d7">0.4916828162077615</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0337+1715">
+  <data key="d6">1.2059277985219434</data>
+  <data key="d7">0.29941407466812664</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0054+6946">
+  <data key="d6">2.389425677266893</data>
+  <data key="d7">0.0916823240027465</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0814+7429" target="J0038-2501">
+  <data key="d6">0.9033328358011179</data>
+  <data key="d7">0.405216885362601</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0139+5621">
+  <data key="d6">2.090874182909357</data>
+  <data key="d7">0.12357905788403975</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0814+7429" target="J0125-2327">
+  <data key="d6">1.4327857897373673</data>
+  <data key="d7">0.2386431856357569</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0600-5756">
+  <data key="d6">0.9089092284863344</data>
+  <data key="d7">0.40296352553599846</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J1152-6012">
+  <data key="d6">1.7180563355056815</data>
+  <data key="d7">0.17941453088545395</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0613-0200">
+  <data key="d6">0.9630612995585565</data>
+  <data key="d7">0.3817225284737588</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0814+7429" target="J0840-5332">
+  <data key="d6">0.9002179637832773</data>
+  <data key="d7">0.40648105193639317</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1101-6424" target="J1012+5307">
+  <data key="d6">2.5779833935785943</data>
+  <data key="d7">0.07592696454468179</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1755-2725">
+  <data key="d6">2.8652195673930168</data>
+  <data key="d7">0.056970620867958746</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1629-6902">
+  <data key="d6">1.3374640999910667</data>
+  <data key="d7">0.2625105256628625</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1101-6424" target="J1751-4657">
+  <data key="d6">1.8330031962147157</data>
+  <data key="d7">0.15993253703203694</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1101-6424" target="J1730-2304">
+  <data key="d6">2.07223089669589</data>
+  <data key="d7">0.1259045880352019</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1503+2111">
+  <data key="d6">2.219483559353856</data>
+  <data key="d7">0.1086652134694091</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1456-6843">
+  <data key="d6">1.7862538654883606</data>
+  <data key="d7">0.16758679790471645</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1101-6424" target="J1609-5158">
+  <data key="d6">4.9973433594894825</data>
+  <data key="d7">0.006755871100445884</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1911+1758">
+  <data key="d6">3.5761904572236927</data>
+  <data key="d7">0.02798209445192716</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1822-0848">
+  <data key="d6">4.4197253573572715</data>
+  <data key="d7">0.012037537851985747</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J2010-1323">
+  <data key="d6">2.5661021668918185</data>
+  <data key="d7">0.07683445036917244</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J1822+0705">
+  <data key="d6">4.026911903690663</data>
+  <data key="d7">0.017829303634713772</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J2307+2225">
+  <data key="d6">2.5627285279651786</data>
+  <data key="d7">0.07709409979728853</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J2124-3358">
+  <data key="d6">2.1406200100874444</data>
+  <data key="d7">0.11758191844159277</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J2330-2005">
+  <data key="d6">2.413532745851125</data>
+  <data key="d7">0.0894985597641814</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0034-0721">
+  <data key="d6">2.6530060026555917</data>
+  <data key="d7">0.07043915421076298</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0304+1932">
+  <data key="d6">2.6311903940772723</data>
+  <data key="d7">0.07199271151292226</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0337+1715">
+  <data key="d6">2.961131207309488</data>
+  <data key="d7">0.051760332376872165</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0054+6946">
+  <data key="d6">4.9048436903058565</data>
+  <data key="d7">0.007410601341217892</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0038-2501">
+  <data key="d6">2.2430760507903567</data>
+  <data key="d7">0.10613153575657906</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0139+5621">
+  <data key="d6">4.51064289373507</data>
+  <data key="d7">0.010991391607077175</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0125-2327">
+  <data key="d6">2.4397142270177503</data>
+  <data key="d7">0.0871857632378257</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0600-5756">
+  <data key="d6">1.7483715519755245</data>
+  <data key="d7">0.17405715582108883</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1101-6424" target="J1152-6012">
+  <data key="d6">0.8370667311502087</data>
+  <data key="d7">0.4329787055097845</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1101-6424" target="J0613-0200">
+  <data key="d6">2.224891068537973</data>
+  <data key="d7">0.10807919121792935</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1101-6424" target="J0840-5332">
+  <data key="d6">1.6571238499207102</data>
+  <data key="d7">0.19068663553629867</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1755-2725">
+  <data key="d6">3.1739062735647416</data>
+  <data key="d7">0.041839840408349226</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1012+5307" target="J1629-6902">
+  <data key="d6">1.706059342825387</data>
+  <data key="d7">0.1815799288593557</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1751-4657">
+  <data key="d6">1.3513799709796905</data>
+  <data key="d7">0.25888276333412297</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1730-2304">
+  <data key="d6">1.1683774387182766</data>
+  <data key="d7">0.3108709394208826</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1503+2111">
+  <data key="d6">0.6279994506347992</data>
+  <data key="d7">0.5336583436762332</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1456-6843">
+  <data key="d6">1.0395351090100644</data>
+  <data key="d7">0.35361903805664774</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1911+1758">
+  <data key="d6">2.1748070834695046</data>
+  <data key="d7">0.11363007267580712</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1012+5307" target="J1822-0848">
+  <data key="d6">4.182753655815797</data>
+  <data key="d7">0.015256438690576808</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1012+5307" target="J2010-1323">
+  <data key="d6">1.7206345558873328</data>
+  <data key="d7">0.1789525564769823</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1822+0705">
+  <data key="d6">3.1025795050764424</data>
+  <data key="d7">0.044933147493746495</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1012+5307" target="J2307+2225">
+  <data key="d6">0.9456624286087357</data>
+  <data key="d7">0.38842218369409354</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J2124-3358">
+  <data key="d6">1.0927843540955546</data>
+  <data key="d7">0.3352816500073873</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J2330-2005">
+  <data key="d6">1.4871642032285182</data>
+  <data key="d7">0.2260126736401245</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0034-0721">
+  <data key="d6">1.548680327390049</data>
+  <data key="d7">0.2125282565643689</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0304+1932">
+  <data key="d6">0.9714826414361623</data>
+  <data key="d7">0.3785214103325449</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0337+1715">
+  <data key="d6">1.380622799858299</data>
+  <data key="d7">0.25142191875353465</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0054+6946">
+  <data key="d6">2.4087880639154693</data>
+  <data key="d7">0.08992421095519859</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1012+5307" target="J0038-2501">
+  <data key="d6">1.229251028192293</data>
+  <data key="d7">0.29251157858365784</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0139+5621">
+  <data key="d6">2.1784072836664463</data>
+  <data key="d7">0.11322171718760858</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1012+5307" target="J0125-2327">
+  <data key="d6">1.7465475004561013</data>
+  <data key="d7">0.17437493477511418</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0600-5756">
+  <data key="d6">1.0993249272682752</data>
+  <data key="d7">0.333095871755471</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J1152-6012">
+  <data key="d6">1.7805125167852152</data>
+  <data key="d7">0.16855173953209185</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0613-0200">
+  <data key="d6">1.013636581497629</data>
+  <data key="d7">0.36289687300051626</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1012+5307" target="J0840-5332">
+  <data key="d6">1.0303278612622655</data>
+  <data key="d7">0.3568899310021967</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1755-2725" target="J1550-5317">
+  <data key="d6">4.955110651846706</data>
+  <data key="d7">0.007047300439679221</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1629-6902">
+  <data key="d6">2.0465416201378726</data>
+  <data key="d7">0.12918088853409093</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1751-4657">
+  <data key="d6">2.0200588155360384</data>
+  <data key="d7">0.13264766310727547</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1730-2304">
+  <data key="d6">2.060723912687937</data>
+  <data key="d7">0.12736173773692847</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1503+2111">
+  <data key="d6">2.606043725940867</data>
+  <data key="d7">0.0738260428158531</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1701-3006E">
+  <data key="d6">3.810621229218079</data>
+  <data key="d7">0.022134424134033295</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1456-6843">
+  <data key="d6">2.442967039503782</data>
+  <data key="d7">0.08690262504593652</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1609-5158">
+  <data key="d6">4.407030088003688</data>
+  <data key="d7">0.012191331799591986</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1705-4108">
+  <data key="d6">3.478443288951152</data>
+  <data key="d7">0.030855406617828453</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1911+1758">
+  <data key="d6">2.0492879780896343</data>
+  <data key="d7">0.1288265983002358</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1822-0848">
+  <data key="d6">1.5711227600911206</data>
+  <data key="d7">0.2078117286099194</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1755-2725" target="J2010-1323">
+  <data key="d6">1.8656188714382467</data>
+  <data key="d7">0.15480037870136643</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1755-2725" target="J1823-1347">
+  <data key="d6">3.3372062667149818</data>
+  <data key="d7">0.03553609755054351</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1822+0705">
+  <data key="d6">1.6895835594144186</data>
+  <data key="d7">0.18459638141377602</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1755-2725" target="J2307+2225">
+  <data key="d6">2.751075004901633</data>
+  <data key="d7">0.06385917536798075</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J2124-3358">
+  <data key="d6">2.431036627495504</data>
+  <data key="d7">0.08794561846679887</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J2330-2005">
+  <data key="d6">2.624971279383772</data>
+  <data key="d7">0.07244183757859</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0034-0721">
+  <data key="d6">2.976970986998588</data>
+  <data key="d7">0.05094691926458325</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0304+1932">
+  <data key="d6">3.3141153394994944</data>
+  <data key="d7">0.0363662060970863</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0337+1715">
+  <data key="d6">3.8566630532775488</data>
+  <data key="d7">0.02113841974391573</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0054+6946">
+  <data key="d6">4.746349346916143</data>
+  <data key="d7">0.008683337262844107</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0038-2501">
+  <data key="d6">2.7429903956926815</data>
+  <data key="d7">0.06437754442745315</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0139+5621">
+  <data key="d6">4.5744898334141615</data>
+  <data key="d7">0.010311558448903085</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0125-2327">
+  <data key="d6">3.088731962140807</data>
+  <data key="d7">0.04555968920269269</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0600-5756">
+  <data key="d6">2.8032293547406426</data>
+  <data key="d7">0.06061400210607244</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J1152-6012">
+  <data key="d6">2.5029640974284457</data>
+  <data key="d7">0.08184205092875856</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0613-0200">
+  <data key="d6">3.560070028593585</data>
+  <data key="d7">0.02843683325301699</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1755-2725" target="J0840-5332">
+  <data key="d6">2.7773263651603575</data>
+  <data key="d7">0.0622045976254799</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1745+1252" target="J1852+0031">
+  <data key="d6">4.561376544423948</data>
+  <data key="d7">0.01044766736212323</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1745+1252" target="J1916+0740">
+  <data key="d6">4.650376795530931</data>
+  <data key="d7">0.009557999840335897</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1550-5317" target="J1701-3006E">
+  <data key="d6">3.105293165853571</data>
+  <data key="d7">0.04481137946708323</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1550-5317" target="J1609-5158">
+  <data key="d6">0.5913318977326935</data>
+  <data key="d7">0.5535894689374634</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1550-5317" target="J1705-4108">
+  <data key="d6">2.1845283938081863</data>
+  <data key="d7">0.11253079136011002</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J1751-4657">
+  <data key="d6">0.532061946198438</data>
+  <data key="d7">0.5873925483021321</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J1730-2304">
+  <data key="d6">0.8185231843902753</data>
+  <data key="d7">0.44108257137218165</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J1503+2111">
+  <data key="d6">1.143958316050625</data>
+  <data key="d7">0.31855557925110806</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J1456-6843">
+  <data key="d6">0.6884879637137001</data>
+  <data key="d7">0.5023350439369949</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J1911+1758">
+  <data key="d6">2.2760707807025478</data>
+  <data key="d7">0.10268689440041666</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J1822-0848">
+  <data key="d6">3.4660673666020694</data>
+  <data key="d7">0.03123964347267857</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J2010-1323">
+  <data key="d6">1.2312410680801606</data>
+  <data key="d7">0.2919300477013569</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J1822+0705">
+  <data key="d6">2.8677553951490355</data>
+  <data key="d7">0.056826336204129406</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J2307+2225">
+  <data key="d6">1.3887373967593122</data>
+  <data key="d7">0.24938998653586283</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J2124-3358">
+  <data key="d6">0.923131522615191</data>
+  <data key="d7">0.39727302168199313</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J2330-2005">
+  <data key="d6">1.2391692139689827</data>
+  <data key="d7">0.2896247341998523</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0034-0721">
+  <data key="d6">1.5628791979081917</data>
+  <data key="d7">0.2095319180197734</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0304+1932">
+  <data key="d6">1.6848653502378885</data>
+  <data key="d7">0.18546940368579967</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0337+1715">
+  <data key="d6">2.1648673635787357</data>
+  <data key="d7">0.11476515562735322</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J0054+6946">
+  <data key="d6">3.8280999895528134</data>
+  <data key="d7">0.021750903337466744</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J0038-2501">
+  <data key="d6">1.1407306197054672</data>
+  <data key="d7">0.3195854410765179</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0139+5621">
+  <data key="d6">3.462692842697143</data>
+  <data key="d7">0.031345240465941185</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1629-6902" target="J0125-2327">
+  <data key="d6">1.5070145387928737</data>
+  <data key="d7">0.22157048159224177</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0600-5756">
+  <data key="d6">0.884593954170044</data>
+  <data key="d7">0.41288178817543525</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J1152-6012">
+  <data key="d6">0.6696778253679911</data>
+  <data key="d7">0.5118734638689169</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0613-0200">
+  <data key="d6">1.6568310952689884</data>
+  <data key="d7">0.1907424681080969</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1629-6902" target="J0840-5332">
+  <data key="d6">0.8554561177008215</data>
+  <data key="d7">0.42508925612290577</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J1730-2304">
+  <data key="d6">0.3060663334041518</data>
+  <data key="d7">0.7363377740449188</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1751-4657" target="J1503+2111">
+  <data key="d6">0.7309908677677146</data>
+  <data key="d7">0.481431718500517</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J1456-6843">
+  <data key="d6">0.4325079819684034</data>
+  <data key="d7">0.6488796737767291</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1751-4657" target="J1911+1758">
+  <data key="d6">1.803083906594584</data>
+  <data key="d7">0.1647899071186004</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J1822-0848">
+  <data key="d6">3.280037061894184</data>
+  <data key="d7">0.037626862258546556</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1751-4657" target="J2010-1323">
+  <data key="d6">0.8174358450964118</data>
+  <data key="d7">0.44156243862585415</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J1822+0705">
+  <data key="d6">2.514407955720747</data>
+  <data key="d7">0.0809108008059662</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1751-4657" target="J2307+2225">
+  <data key="d6">0.9536932492714455</data>
+  <data key="d7">0.38531532679851</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J2124-3358">
+  <data key="d6">0.5139312336800803</data>
+  <data key="d7">0.5981395245024492</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J2330-2005">
+  <data key="d6">0.9481774228966091</data>
+  <data key="d7">0.3874465315149143</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0034-0721">
+  <data key="d6">1.28794095867791</data>
+  <data key="d7">0.2758381609336541</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0304+1932">
+  <data key="d6">1.384352922459222</data>
+  <data key="d7">0.25048583111822603</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0337+1715">
+  <data key="d6">1.925478278284769</data>
+  <data key="d7">0.14580600433133745</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0054+6946">
+  <data key="d6">3.3497153535139734</data>
+  <data key="d7">0.035094342160419935</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1751-4657" target="J0038-2501">
+  <data key="d6">0.8659662296228122</data>
+  <data key="d7">0.420644916627952</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0139+5621">
+  <data key="d6">3.0246280565956636</data>
+  <data key="d7">0.048575885390567286</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1751-4657" target="J0125-2327">
+  <data key="d6">1.375493008975557</data>
+  <data key="d7">0.2527149743369138</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0600-5756">
+  <data key="d6">0.803146741029119</data>
+  <data key="d7">0.44791726452166625</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J1152-6012">
+  <data key="d6">1.062559912445722</data>
+  <data key="d7">0.34557004801000557</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0613-0200">
+  <data key="d6">1.5408065233502641</data>
+  <data key="d7">0.21420826776938076</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1751-4657" target="J0840-5332">
+  <data key="d6">0.7938466480821553</data>
+  <data key="d7">0.45210236747279753</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J1503+2111">
+  <data key="d6">0.5554795722489074</data>
+  <data key="d7">0.5737970180758551</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J1456-6843">
+  <data key="d6">0.50734389599671</data>
+  <data key="d7">0.6020926776144221</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J1911+1758">
+  <data key="d6">1.5927242025563069</data>
+  <data key="d7">0.20337083306925655</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J1822-0848">
+  <data key="d6">3.2184379774383274</data>
+  <data key="d7">0.040017517731962035</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1730-2304" target="J2010-1323">
+  <data key="d6">0.7755362090078372</data>
+  <data key="d7">0.46045681370061187</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J1822+0705">
+  <data key="d6">2.3516013606109336</data>
+  <data key="d7">0.09521656401066687</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1730-2304" target="J2307+2225">
+  <data key="d6">0.8411693313323249</data>
+  <data key="d7">0.4312060058191513</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J2124-3358">
+  <data key="d6">0.5118055742479476</data>
+  <data key="d7">0.5994123177076282</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J2330-2005">
+  <data key="d6">1.0090273797530351</data>
+  <data key="d7">0.36457339865503197</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0034-0721">
+  <data key="d6">1.3235483991465946</data>
+  <data key="d7">0.26618907906942346</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0304+1932">
+  <data key="d6">1.3379822866553248</data>
+  <data key="d7">0.2623745314474741</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0337+1715">
+  <data key="d6">1.9021199579790231</data>
+  <data key="d7">0.14925187589480135</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0054+6946">
+  <data key="d6">3.1230011014421737</data>
+  <data key="d7">0.044024846932283555</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1730-2304" target="J0038-2501">
+  <data key="d6">0.9208623922803456</data>
+  <data key="d7">0.3981755094907004</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0139+5621">
+  <data key="d6">2.8472103965555218</data>
+  <data key="d7">0.058005908870020106</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1730-2304" target="J0125-2327">
+  <data key="d6">1.49159089261402</data>
+  <data key="d7">0.22501439689741362</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0600-5756">
+  <data key="d6">0.915090471217689</data>
+  <data key="d7">0.4004803925030248</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J1152-6012">
+  <data key="d6">1.2676704599723392</data>
+  <data key="d7">0.28148659287684347</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0613-0200">
+  <data key="d6">1.5566665616597142</data>
+  <data key="d7">0.21083771563169448</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1730-2304" target="J0840-5332">
+  <data key="d6">0.8852091816482076</data>
+  <data key="d7">0.4126278500769741</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J1456-6843">
+  <data key="d6">0.49412720476433003</data>
+  <data key="d7">0.6101031701244423</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1503+2111" target="J1911+1758">
+  <data key="d6">1.8359322808064709</data>
+  <data key="d7">0.15946476650625369</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J1822-0848">
+  <data key="d6">3.699922271886131</data>
+  <data key="d7">0.024725448258107626</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1503+2111" target="J2010-1323">
+  <data key="d6">1.1571802827505069</data>
+  <data key="d7">0.3143713706802909</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J1822+0705">
+  <data key="d6">2.721195973069042</data>
+  <data key="d7">0.06579601708743286</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1503+2111" target="J2307+2225">
+  <data key="d6">0.613214091992789</data>
+  <data key="d7">0.5416072929050196</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J2124-3358">
+  <data key="d6">0.5311150607474381</data>
+  <data key="d7">0.5879490051690246</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J2330-2005">
+  <data key="d6">1.038598833002521</data>
+  <data key="d7">0.3539502781196552</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0034-0721">
+  <data key="d6">1.2299457596514891</data>
+  <data key="d7">0.2923084321621124</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0304+1932">
+  <data key="d6">0.9473665685017176</data>
+  <data key="d7">0.38776082164232406</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0337+1715">
+  <data key="d6">1.4967618167972692</data>
+  <data key="d7">0.22385386760131457</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0054+6946">
+  <data key="d6">2.7515934521899874</data>
+  <data key="d7">0.06382607633246866</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1503+2111" target="J0038-2501">
+  <data key="d6">0.8183920905795115</data>
+  <data key="d7">0.4411403983576214</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0139+5621">
+  <data key="d6">2.465899187195637</data>
+  <data key="d7">0.08493243786524793</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1503+2111" target="J0125-2327">
+  <data key="d6">1.418341858940736</data>
+  <data key="d7">0.24211514530488834</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0600-5756">
+  <data key="d6">0.7373678534897515</data>
+  <data key="d7">0.47837140346901097</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J1152-6012">
+  <data key="d6">1.389118274426262</data>
+  <data key="d7">0.24929501754656203</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0613-0200">
+  <data key="d6">1.122507138020659</data>
+  <data key="d7">0.32546279074326845</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1503+2111" target="J0840-5332">
+  <data key="d6">0.6906835663659195</data>
+  <data key="d7">0.501233325692559</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1701-3006E" target="J1609-5158">
+  <data key="d6">2.664340633767635</data>
+  <data key="d7">0.06964526012974986</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1701-3006E" target="J1705-4108">
+  <data key="d6">1.2715224732766006</data>
+  <data key="d7">0.2804043884471871</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1701-3006E" target="J1822-0848">
+  <data key="d6">3.557935687721461</data>
+  <data key="d7">0.028497591965339124</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1701-3006E" target="J1823-1347">
+  <data key="d6">2.709861157717156</data>
+  <data key="d7">0.06654604547850498</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1701-3006E" target="J1822+0705">
+  <data key="d6">4.686930094940837</data>
+  <data key="d7">0.009214931744006108</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1701-3006E" target="J1819-1408">
+  <data key="d6">4.0759706523651955</data>
+  <data key="d7">0.016975729145757235</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1456-6843" target="J1911+1758">
+  <data key="d6">2.0562049118201156</data>
+  <data key="d7">0.12793858795192772</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1456-6843" target="J1822-0848">
+  <data key="d6">3.6908501004635643</data>
+  <data key="d7">0.02495078235247586</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1456-6843" target="J2010-1323">
+  <data key="d6">1.1181198016223022</data>
+  <data key="d7">0.32689384244853226</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J1822+0705">
+  <data key="d6">2.857391692443671</data>
+  <data key="d7">0.05741832978246326</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1456-6843" target="J2307+2225">
+  <data key="d6">0.8099252149745174</data>
+  <data key="d7">0.44489133618879184</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J2124-3358">
+  <data key="d6">0.4273474996852556</data>
+  <data key="d7">0.6522368607387523</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1456-6843" target="J2330-2005">
+  <data key="d6">0.9227826798076599</data>
+  <data key="d7">0.3974116316933802</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0034-0721">
+  <data key="d6">1.1830395096529254</data>
+  <data key="d7">0.306346179887583</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0304+1932">
+  <data key="d6">1.0801906986963883</data>
+  <data key="d7">0.3395307713953711</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0337+1715">
+  <data key="d6">1.6015216729583877</data>
+  <data key="d7">0.2015895311488566</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0054+6946">
+  <data key="d6">3.180576529316355</data>
+  <data key="d7">0.041561686681773874</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1456-6843" target="J0038-2501">
+  <data key="d6">0.6969629946717562</data>
+  <data key="d7">0.49809572842784844</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0139+5621">
+  <data key="d6">2.8274720407159615</data>
+  <data key="d7">0.05916222448287928</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1456-6843" target="J0125-2327">
+  <data key="d6">1.2396253866868687</data>
+  <data key="d7">0.28949264542762304</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0600-5756">
+  <data key="d6">0.4224551341632196</data>
+  <data key="d7">0.6554356603365297</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1456-6843" target="J1152-6012">
+  <data key="d6">0.9772734073870272</data>
+  <data key="d7">0.3763358156789224</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0613-0200">
+  <data key="d6">1.1195088876103674</data>
+  <data key="d7">0.3264400740270447</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1456-6843" target="J0840-5332">
+  <data key="d6">0.38469489404172214</data>
+  <data key="d7">0.6806582774226833</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1609-5158" target="J1705-4108">
+  <data key="d6">1.6418922382316583</data>
+  <data key="d7">0.19361333289887503</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1609-5158" target="J1823-1347">
+  <data key="d6">4.918439154395072</data>
+  <data key="d7">0.007310532558931955</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1705-4108" target="J1822-0848">
+  <data key="d6">3.687623405947449</data>
+  <data key="d7">0.025031420933133958</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1705-4108" target="J1823-1347">
+  <data key="d6">3.2849285470645766</data>
+  <data key="d7">0.03744326042869536</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1705-4108" target="J1822+0705">
+  <data key="d6">4.740381352908035</data>
+  <data key="d7">0.008735314312688236</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1705-4108" target="J1819-1408">
+  <data key="d6">4.977053115121108</data>
+  <data key="d7">0.006894349505472404</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J1822-0848">
+  <data key="d6">2.330978303191321</data>
+  <data key="d7">0.09720060889424104</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J2010-1323">
+  <data key="d6">1.1946317336105294</data>
+  <data key="d7">0.3028154504033233</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1911+1758" target="J1823-1347">
+  <data key="d6">4.390698824336443</data>
+  <data key="d7">0.012392066316351166</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J1822+0705">
+  <data key="d6">1.1374417174414706</data>
+  <data key="d7">0.32063825671206375</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1911+1758" target="J2307+2225">
+  <data key="d6">1.7195882964415086</data>
+  <data key="d7">0.17913988525971652</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1911+1758" target="J2124-3358">
+  <data key="d6">1.7893161743145938</data>
+  <data key="d7">0.16707438036515268</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1911+1758" target="J2330-2005">
+  <data key="d6">1.9044563428882488</data>
+  <data key="d7">0.14890357310741512</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1911+1758" target="J0034-0721">
+  <data key="d6">2.1003780859242274</data>
+  <data key="d7">0.12241013795253525</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0304+1932">
+  <data key="d6">2.304456469850535</data>
+  <data key="d7">0.09981303730774148</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0337+1715">
+  <data key="d6">2.7892293289459467</data>
+  <data key="d7">0.06146856771142559</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0054+6946">
+  <data key="d6">2.834555266602967</data>
+  <data key="d7">0.05874464573109993</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0038-2501">
+  <data key="d6">2.0466329776338896</data>
+  <data key="d7">0.12916908743064903</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0139+5621">
+  <data key="d6">2.793146836520148</data>
+  <data key="d7">0.06122823519143696</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0125-2327">
+  <data key="d6">2.456495013566137</data>
+  <data key="d7">0.08573492470628594</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0600-5756">
+  <data key="d6">2.3923464547064834</data>
+  <data key="d7">0.09141493102696839</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J1152-6012">
+  <data key="d6">2.8224519582128735</data>
+  <data key="d7">0.059459970460238425</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0613-0200">
+  <data key="d6">2.858526998925135</data>
+  <data key="d7">0.057353179370346785</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1911+1758" target="J0840-5332">
+  <data key="d6">2.417607632079724</data>
+  <data key="d7">0.0891346053555353</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1852+0031" target="J1822-0848">
+  <data key="d6">4.328884606356605</data>
+  <data key="d7">0.013182242682788024</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1852+0031" target="J1823-1347">
+  <data key="d6">2.8602514663516447</data>
+  <data key="d7">0.05725436090981277</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1852+0031" target="J1916+0740">
+  <data key="d6">1.3987013155169234</data>
+  <data key="d7">0.2469174236352269</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1852+0031" target="J1819-1408">
+  <data key="d6">2.6473132037976588</data>
+  <data key="d7">0.07084129371100886</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J2010-1323">
+  <data key="d6">2.838178197320418</data>
+  <data key="d7">0.05853220301458692</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J1823-1347">
+  <data key="d6">2.0880870627745436</data>
+  <data key="d7">0.12392396799419308</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J1822+0705">
+  <data key="d6">1.3234423218015752</data>
+  <data key="d7">0.2662173171978907</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1822-0848" target="J2307+2225">
+  <data key="d6">3.7405630691696494</data>
+  <data key="d7">0.023740731693054688</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J2124-3358">
+  <data key="d6">3.5685609523816413</data>
+  <data key="d7">0.028196400461859093</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J2330-2005">
+  <data key="d6">3.6939959373575197</data>
+  <data key="d7">0.024872414591544368</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0034-0721">
+  <data key="d6">3.99054661677536</data>
+  <data key="d7">0.018489604629002343</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0304+1932">
+  <data key="d6">4.3536066529884865</data>
+  <data key="d7">0.012860346031043858</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0337+1715">
+  <data key="d6">4.882103206962178</data>
+  <data key="d7">0.007581052725627403</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0038-2501">
+  <data key="d6">3.8703526797167918</data>
+  <data key="d7">0.020851014398453712</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0125-2327">
+  <data key="d6">4.208570542357191</data>
+  <data key="d7">0.014867605768162742</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0600-5756">
+  <data key="d6">4.074698439574104</data>
+  <data key="d7">0.01699733962916652</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J1152-6012">
+  <data key="d6">3.9730767151174065</data>
+  <data key="d7">0.01881545419618278</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0613-0200">
+  <data key="d6">4.761828945346994</data>
+  <data key="d7">0.008549957683474073</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822-0848" target="J0840-5332">
+  <data key="d6">4.065267714845337</data>
+  <data key="d7">0.017158395101575224</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J1823-1347">
+  <data key="d6">4.856229052963376</data>
+  <data key="d7">0.007779765730832621</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J1822+0705">
+  <data key="d6">2.013554426037692</data>
+  <data key="d7">0.13351326723560836</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J2307+2225">
+  <data key="d6">0.9779602702573603</data>
+  <data key="d7">0.3760774133340033</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J2124-3358">
+  <data key="d6">0.8160860229587854</data>
+  <data key="d7">0.4421588718294671</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J2330-2005">
+  <data key="d6">0.8693777777574109</data>
+  <data key="d7">0.4192123113377212</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J0034-0721">
+  <data key="d6">1.181126481264485</data>
+  <data key="d7">0.3069327897481561</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J0304+1932">
+  <data key="d6">1.554757516009176</data>
+  <data key="d7">0.21124059889460342</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J0337+1715">
+  <data key="d6">2.070639973846105</data>
+  <data key="d7">0.1261050519402216</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J0054+6946">
+  <data key="d6">3.1056053412710494</data>
+  <data key="d7">0.044797392639275804</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J0038-2501">
+  <data key="d6">1.044537828308457</data>
+  <data key="d7">0.3518543989480742</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J0139+5621">
+  <data key="d6">2.798260890088065</data>
+  <data key="d7">0.06091591002132475</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J0125-2327">
+  <data key="d6">1.42222632027212</data>
+  <data key="d7">0.24117648266486616</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J0600-5756">
+  <data key="d6">1.4011437519332195</data>
+  <data key="d7">0.24631507942108422</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J1152-6012">
+  <data key="d6">1.8571764703545168</data>
+  <data key="d7">0.15611279777526382</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2010-1323" target="J0613-0200">
+  <data key="d6">2.0266549505254865</data>
+  <data key="d7">0.1317755805644231</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2010-1323" target="J0840-5332">
+  <data key="d6">1.4769553011432075</data>
+  <data key="d7">0.22833183278749647</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1823-1347" target="J1916+0740">
+  <data key="d6">3.9951441312698512</data>
+  <data key="d7">0.018404793513278655</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1823-1347" target="J1822+0705">
+  <data key="d6">3.3501064465082075</data>
+  <data key="d7">0.03508061969261916</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1823-1347" target="J1819-1408">
+  <data key="d6">3.096115051713874</data>
+  <data key="d7">0.04522455661568123</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1916+0740" target="J1819-1408">
+  <data key="d6">3.934244677404655</data>
+  <data key="d7">0.01956046821275283</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J2307+2225">
+  <data key="d6">2.743579782991409</data>
+  <data key="d7">0.06433961229989951</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J2124-3358">
+  <data key="d6">2.687587402903611</data>
+  <data key="d7">0.06804490644269696</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J2330-2005">
+  <data key="d6">2.8579000709038924</data>
+  <data key="d7">0.05738914695896793</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0034-0721">
+  <data key="d6">3.115053904438011</data>
+  <data key="d7">0.04437611501347502</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0304+1932">
+  <data key="d6">3.353793940134617</data>
+  <data key="d7">0.034951498344478055</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0337+1715">
+  <data key="d6">3.8722319525906315</data>
+  <data key="d7">0.02081186644906379</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0054+6946">
+  <data key="d6">3.8454993457960733</data>
+  <data key="d7">0.02137572501730988</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0038-2501">
+  <data key="d6">3.001678511775694</data>
+  <data key="d7">0.04970357028319436</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0139+5621">
+  <data key="d6">3.892778772435196</data>
+  <data key="d7">0.02038861193602504</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0125-2327">
+  <data key="d6">3.418134342554189</data>
+  <data key="d7">0.03277352210297682</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0600-5756">
+  <data key="d6">3.248360655078174</data>
+  <data key="d7">0.03883782426281823</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J1152-6012">
+  <data key="d6">3.3842959079600523</data>
+  <data key="d7">0.033901503723299364</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0613-0200">
+  <data key="d6">3.818704069234649</data>
+  <data key="d7">0.02195623622718875</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J1822+0705" target="J0840-5332">
+  <data key="d6">3.2364542291378617</data>
+  <data key="d7">0.039303007782176824</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2307+2225" target="J2124-3358">
+  <data key="d6">0.4671588151325883</data>
+  <data key="d7">0.6267805402729447</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J2307+2225" target="J2330-2005">
+  <data key="d6">0.6044185577631047</data>
+  <data key="d7">0.5463920297008155</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0034-0721">
+  <data key="d6">0.6986349558174605</data>
+  <data key="d7">0.49726362753709674</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0304+1932">
+  <data key="d6">0.6168670180196507</data>
+  <data key="d7">0.5396324507006747</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0337+1715">
+  <data key="d6">1.164115800143916</data>
+  <data key="d7">0.3121985859735031</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0054+6946">
+  <data key="d6">2.468906446489836</data>
+  <data key="d7">0.0846774076652677</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2307+2225" target="J0038-2501">
+  <data key="d6">0.49351330868280247</data>
+  <data key="d7">0.6104778250577406</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J2307+2225" target="J0139+5621">
+  <data key="d6">2.0826199570817194</data>
+  <data key="d7">0.12460332880162946</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2307+2225" target="J0125-2327">
+  <data key="d6">1.0082459646438948</data>
+  <data key="d7">0.364858393152133</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0600-5756">
+  <data key="d6">0.8869035286744287</data>
+  <data key="d7">0.41192930726034765</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J1152-6012">
+  <data key="d6">1.7790754592533478</data>
+  <data key="d7">0.16879413220328826</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0613-0200">
+  <data key="d6">1.1849152208328684</data>
+  <data key="d7">0.30577210150397083</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2307+2225" target="J0840-5332">
+  <data key="d6">0.9909845091956004</data>
+  <data key="d7">0.37121105037068886</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J2330-2005">
+  <data key="d6">0.5547757912018821</data>
+  <data key="d7">0.5742009876784173</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0034-0721">
+  <data key="d6">0.8354192820311934</data>
+  <data key="d7">0.43369260379081076</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0304+1932">
+  <data key="d6">0.8954042748075054</data>
+  <data key="d7">0.40844244226909227</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0337+1715">
+  <data key="d6">1.443146569776504</data>
+  <data key="d7">0.23618342062738573</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0054+6946">
+  <data key="d6">2.9258656594540216</data>
+  <data key="d7">0.05361825666628351</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2124-3358" target="J0038-2501">
+  <data key="d6">0.41054548854907774</data>
+  <data key="d7">0.6632883352434665</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J2124-3358" target="J0139+5621">
+  <data key="d6">2.548311422674091</data>
+  <data key="d7">0.07821362431148299</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2124-3358" target="J0125-2327">
+  <data key="d6">0.9988372465563876</data>
+  <data key="d7">0.36830744304060087</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0600-5756">
+  <data key="d6">0.6202557857597015</data>
+  <data key="d7">0.5378068566643986</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J1152-6012">
+  <data key="d6">1.3644709736378875</data>
+  <data key="d7">0.2555158148409056</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0613-0200">
+  <data key="d6">1.2204003616548464</data>
+  <data key="d7">0.2951119917438078</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2124-3358" target="J0840-5332">
+  <data key="d6">0.710947271251217</data>
+  <data key="d7">0.4911786975590286</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J0034-0721">
+  <data key="d6">0.36729281633736943</data>
+  <data key="d7">0.6926068087599738</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J2330-2005" target="J0304+1932">
+  <data key="d6">0.8805314846952507</data>
+  <data key="d7">0.4145625194848988</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J0337+1715">
+  <data key="d6">1.309179048844967</data>
+  <data key="d7">0.2700416564205838</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J0054+6946">
+  <data key="d6">2.9052026919557066</data>
+  <data key="d7">0.05473769458662516</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2330-2005" target="J0038-2501">
+  <data key="d6">0.3316064859406124</data>
+  <data key="d7">0.7177697197633517</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J2330-2005" target="J0139+5621">
+  <data key="d6">2.43192086015909</data>
+  <data key="d7">0.0878678884491061</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J2330-2005" target="J0125-2327">
+  <data key="d6">0.5718429615604667</data>
+  <data key="d7">0.5644841568704668</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J0600-5756">
+  <data key="d6">0.9148308989185736</data>
+  <data key="d7">0.4005843596121645</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J1152-6012">
+  <data key="d6">1.734361167499213</data>
+  <data key="d7">0.17651292647016953</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J0613-0200">
+  <data key="d6">1.385082688170066</data>
+  <data key="d7">0.2503031018305174</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J2330-2005" target="J0840-5332">
+  <data key="d6">1.0957096626768934</data>
+  <data key="d7">0.3343022808962946</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0034-0721" target="J0304+1932">
+  <data key="d6">0.7386472465594204</data>
+  <data key="d7">0.4777597697540822</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0034-0721" target="J0337+1715">
+  <data key="d6">1.0428226884938159</data>
+  <data key="d7">0.35245839625851905</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0034-0721" target="J0054+6946">
+  <data key="d6">2.721315645281496</data>
+  <data key="d7">0.06578814360362537</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0034-0721" target="J0038-2501">
+  <data key="d6">0.4901911555710053</data>
+  <data key="d7">0.6125092984283325</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0034-0721" target="J0139+5621">
+  <data key="d6">2.186754547784789</data>
+  <data key="d7">0.11228055912251976</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0034-0721" target="J0125-2327">
+  <data key="d6">0.42014544581881047</data>
+  <data key="d7">0.656951262051759</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J0034-0721" target="J0600-5756">
+  <data key="d6">1.075147852585016</data>
+  <data key="d7">0.34124729727587894</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0034-0721" target="J1152-6012">
+  <data key="d6">1.995396040612135</data>
+  <data key="d7">0.13595979790133234</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0034-0721" target="J0613-0200">
+  <data key="d6">1.3349297802097575</data>
+  <data key="d7">0.26317665501671766</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0034-0721" target="J0840-5332">
+  <data key="d6">1.2738427676505508</data>
+  <data key="d7">0.2797545219545862</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0337+1715">
+  <data key="d6">0.5687654141374727</data>
+  <data key="d7">0.5662240595760472</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0054+6946">
+  <data key="d6">2.3935549515464003</data>
+  <data key="d7">0.09130452309895437</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0304+1932" target="J0038-2501">
+  <data key="d6">0.6584714227277664</data>
+  <data key="d7">0.5176419858266077</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0139+5621">
+  <data key="d6">1.8991220389025363</data>
+  <data key="d7">0.1496999923135067</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0125-2327">
+  <data key="d6">0.9039345445903567</data>
+  <data key="d7">0.40497313614150887</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0600-5756">
+  <data key="d6">0.896664343553354</data>
+  <data key="d7">0.4079281008339493</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J1152-6012">
+  <data key="d6">1.9149304490706582</data>
+  <data key="d7">0.14735208070392816</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0613-0200">
+  <data key="d6">0.7558057209128612</data>
+  <data key="d7">0.46963206987021683</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0304+1932" target="J0840-5332">
+  <data key="d6">1.0302284373359731</data>
+  <data key="d7">0.356925416164399</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0337+1715" target="J0054+6946">
+  <data key="d6">2.345455392460369</data>
+  <data key="d7">0.09580356397429879</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0337+1715" target="J0038-2501">
+  <data key="d6">1.1353836145133258</data>
+  <data key="d7">0.32129884279097454</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0337+1715" target="J0139+5621">
+  <data key="d6">1.751058545618289</data>
+  <data key="d7">0.1735900931281767</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0337+1715" target="J0125-2327">
+  <data key="d6">1.0967840202488879</data>
+  <data key="d7">0.3339433135736372</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0337+1715" target="J0600-5756">
+  <data key="d6">1.3288994382950083</data>
+  <data key="d7">0.2647684950764264</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0337+1715" target="J1152-6012">
+  <data key="d6">2.326277915706774</data>
+  <data key="d7">0.09765856486186791</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0337+1715" target="J0613-0200">
+  <data key="d6">0.8866878945363875</data>
+  <data key="d7">0.41201814285910227</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0337+1715" target="J0840-5332">
+  <data key="d6">1.4685576657610213</data>
+  <data key="d7">0.23025735386166582</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0054+6946" target="J0038-2501">
+  <data key="d6">2.871786510401487</data>
+  <data key="d7">0.056597723784598784</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0054+6946" target="J0139+5621">
+  <data key="d6">0.7286639150112045</data>
+  <data key="d7">0.48255329178289097</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0054+6946" target="J0125-2327">
+  <data key="d6">3.0667964926757865</data>
+  <data key="d7">0.04657010381917858</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0054+6946" target="J0600-5756">
+  <data key="d6">3.193866072335975</data>
+  <data key="d7">0.04101300479967774</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0054+6946" target="J1152-6012">
+  <data key="d6">4.105525699654914</data>
+  <data key="d7">0.016481352319341815</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0054+6946" target="J0613-0200">
+  <data key="d6">2.8900090715689184</data>
+  <data key="d7">0.05557570845032691</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0054+6946" target="J0840-5332">
+  <data key="d6">3.2507856668322064</data>
+  <data key="d7">0.038743756186673715</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0038-2501" target="J0139+5621">
+  <data key="d6">2.406054191471792</data>
+  <data key="d7">0.09017038863340494</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0038-2501" target="J0125-2327">
+  <data key="d6">0.6077609787864016</data>
+  <data key="d7">0.5445688061814793</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0038-2501" target="J0600-5756">
+  <data key="d6">0.6155738121425567</data>
+  <data key="d7">0.5403307579876155</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0038-2501" target="J1152-6012">
+  <data key="d6">1.5350353750067685</data>
+  <data key="d7">0.2154480695580167</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0038-2501" target="J0613-0200">
+  <data key="d6">1.0675479980527134</data>
+  <data key="d7">0.3438506069520322</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0038-2501" target="J0840-5332">
+  <data key="d6">0.8006141960696161</data>
+  <data key="d7">0.44905307276786033</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0139+5621" target="J0125-2327">
+  <data key="d6">2.493262283005095</data>
+  <data key="d7">0.08263993150515844</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0139+5621" target="J0600-5756">
+  <data key="d6">2.768952059516737</data>
+  <data key="d7">0.06272770521276376</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0139+5621" target="J1152-6012">
+  <data key="d6">3.7493594505350987</data>
+  <data key="d7">0.023532814961271274</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0139+5621" target="J0613-0200">
+  <data key="d6">2.4323530795015986</data>
+  <data key="d7">0.08782991845440719</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0139+5621" target="J0840-5332">
+  <data key="d6">2.862853174205916</data>
+  <data key="d7">0.05710559539546071</data>
+  <data key="d8">narrowing</data>
+</edge>
+<edge source="J0125-2327" target="J0600-5756">
+  <data key="d6">1.0239806628992807</data>
+  <data key="d7">0.3591623864214962</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0125-2327" target="J1152-6012">
+  <data key="d6">1.8780776783564228</data>
+  <data key="d7">0.15288371513519233</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0125-2327" target="J0613-0200">
+  <data key="d6">1.2858540087065493</data>
+  <data key="d7">0.27641442248107256</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0125-2327" target="J0840-5332">
+  <data key="d6">1.2428896445289985</data>
+  <data key="d7">0.2885492074396963</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0600-5756" target="J1152-6012">
+  <data key="d6">1.024079876069075</data>
+  <data key="d7">0.35912675455027315</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0600-5756" target="J0613-0200">
+  <data key="d6">0.7878267004584534</data>
+  <data key="d7">0.45483220855163065</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0600-5756" target="J0840-5332">
+  <data key="d6">0.21953412720430254</data>
+  <data key="d7">0.8028927567403321</data>
+  <data key="d8">borrowing</data>
+</edge>
+<edge source="J1152-6012" target="J0613-0200">
+  <data key="d6">1.6046534294974224</data>
+  <data key="d7">0.2009591893701678</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J1152-6012" target="J0840-5332">
+  <data key="d6">0.8957706023440862</data>
+  <data key="d7">0.40829284595767784</data>
+  <data key="d8">extension</data>
+</edge>
+<edge source="J0613-0200" target="J0840-5332">
+  <data key="d6">0.8250219990613756</data>
+  <data key="d7">0.4382253518124961</data>
+  <data key="d8">extension</data>
+</edge>
+</graph></graphml>

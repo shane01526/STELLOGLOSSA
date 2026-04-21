@@ -1,0 +1,54 @@
+{
+  "jname": "J0111+6624",
+  "constellation": "Cassiopeia",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 4,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "m",
+    "n",
+    "l",
+    "b",
+    "d",
+    "g",
+    "s",
+    "ŋ",
+    "r",
+    "h",
+    "j",
+    "w"
+  ],
+  "complexity_score": 240,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "suffix",
+    "tense_marker": "particle",
+    "plural_marker": "none",
+    "question_marker": "final-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 4.301872100793386,
+    "dm": 111.2,
+    "period_dot": 8.364758814356194e-15,
+    "w50_ms": 33.0
+  }
+}

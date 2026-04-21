@@ -1,0 +1,48 @@
+{
+  "jname": "J1456-6843",
+  "constellation": "Circinus",
+  "syllable_structure": "CCVC",
+  "tone_count": 0,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v"
+  ],
+  "complexity_score": 28,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "none",
+    "question_marker": "initial-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.26337692665373175,
+    "dm": 8.635,
+    "period_dot": 9.89456671960214e-17,
+    "w50_ms": 13.0
+  }
+}

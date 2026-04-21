@@ -1,0 +1,54 @@
+{
+  "jname": "J0600-5756",
+  "constellation": "Pictor",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 2,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p",
+    "l",
+    "r",
+    "b",
+    "ʃ",
+    "h",
+    "d",
+    "g",
+    "j",
+    "w"
+  ],
+  "complexity_score": 120,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "none",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 2.261364513,
+    "dm": 30.0,
+    "period_dot": 2.78e-15,
+    "w50_ms": 60.0
+  }
+}

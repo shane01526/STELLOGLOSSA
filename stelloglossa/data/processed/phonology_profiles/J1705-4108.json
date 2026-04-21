@@ -1,0 +1,51 @@
+{
+  "jname": "J1705-4108",
+  "constellation": "Scorpius",
+  "syllable_structure": "CCVC",
+  "tone_count": 6,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "b",
+    "d",
+    "g",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "ɾ",
+    "r"
+  ],
+  "complexity_score": 240,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "none",
+    "question_marker": "intonation",
+    "possessive": "NN-concat",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.8610674067,
+    "dm": 1077.0,
+    "period_dot": 3.471e-14,
+    "w50_ms": 40.4
+  }
+}

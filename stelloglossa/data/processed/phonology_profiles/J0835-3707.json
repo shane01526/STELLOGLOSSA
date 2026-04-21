@@ -1,0 +1,46 @@
+{
+  "jname": "J0835-3707",
+  "constellation": "Pyxis",
+  "syllable_structure": "CCVC",
+  "tone_count": 4,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "m",
+    "n",
+    "l",
+    "b",
+    "d",
+    "g",
+    "s",
+    "ŋ",
+    "r"
+  ],
+  "complexity_score": 80,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "none",
+    "question_marker": "initial-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.5414043736269504,
+    "dm": 112.4,
+    "period_dot": 9.778439691300547e-15,
+    "w50_ms": 4.2
+  }
+}

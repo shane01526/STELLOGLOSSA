@@ -1,0 +1,54 @@
+{
+  "jname": "J1819-1408",
+  "constellation": "Serpens",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 6,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "b",
+    "d",
+    "g",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "ɾ",
+    "r",
+    "s",
+    "j",
+    "w"
+  ],
+  "complexity_score": 360,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "none",
+    "question_marker": "intonation",
+    "possessive": "NN-concat",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 1.7884904527734455,
+    "dm": 1075.0,
+    "period_dot": 2.5909454607260294e-15,
+    "w50_ms": 116.8
+  }
+}

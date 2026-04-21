@@ -1,0 +1,38 @@
+{
+  "jname": "J1629-6902",
+  "constellation": "Triangulum Australe",
+  "syllable_structure": "CV",
+  "tone_count": 2,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p"
+  ],
+  "complexity_score": 12,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "reduplication",
+    "question_marker": "initial-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.0060006034432179,
+    "dm": 29.4948,
+    "period_dot": 1e-20,
+    "w50_ms": 0.4
+  }
+}

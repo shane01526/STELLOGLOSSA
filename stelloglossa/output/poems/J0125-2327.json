@@ -1,0 +1,31 @@
+{
+  "title": "Cetus · J0125-2327",
+  "theme": "接觸與語言",
+  "lines": [
+    "ki suma.",
+    "saku nu.",
+    "sa nu.",
+    "nu ta."
+  ],
+  "literal": [
+    "說 · 他們",
+    "上 · 污染",
+    "劍 · 問候",
+    "問候 · 借用"
+  ],
+  "polished": [
+    "他們說。",
+    "讓上污染吧。",
+    "劍問候得緩慢。",
+    "問候,然後借用。"
+  ],
+  "translation": [
+    "他們說。",
+    "讓上污染吧。",
+    "劍問候得緩慢。",
+    "問候,然後借用。"
+  ],
+  "_provider": "static",
+  "jname": "J0125-2327",
+  "constellation": "Cetus"
+}

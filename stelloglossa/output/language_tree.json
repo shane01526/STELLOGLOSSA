@@ -1,0 +1,593 @@
+{
+  "name": "node_98",
+  "leaf": false,
+  "height": 15.21919847931182,
+  "children": [
+    {
+      "name": "node_95",
+      "leaf": false,
+      "height": 5.501147607126884,
+      "children": [
+        {
+          "name": "node_87",
+          "leaf": false,
+          "height": 1.7885929132462974,
+          "children": [
+            {
+              "name": "node_75",
+              "leaf": false,
+              "height": 0.9386400834699344,
+              "children": [
+                {
+                  "name": "J0514-4002A",
+                  "leaf": true,
+                  "height": 0.0
+                },
+                {
+                  "name": "J1701-3006E",
+                  "leaf": true,
+                  "height": 0.0
+                }
+              ]
+            },
+            {
+              "name": "node_76",
+              "leaf": false,
+              "height": 0.9619546023606695,
+              "children": [
+                {
+                  "name": "J1101-6424",
+                  "leaf": true,
+                  "height": 0.0
+                },
+                {
+                  "name": "J1916+0740",
+                  "leaf": true,
+                  "height": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "node_91",
+          "leaf": false,
+          "height": 2.718630462066288,
+          "children": [
+            {
+              "name": "node_68",
+              "leaf": false,
+              "height": 0.4438397354109054,
+              "children": [
+                {
+                  "name": "node_58",
+                  "leaf": false,
+                  "height": 0.11549488104045279,
+                  "children": [
+                    {
+                      "name": "J0645+5158",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "node_55",
+                      "leaf": false,
+                      "height": 0.022289536139145694,
+                      "children": [
+                        {
+                          "name": "J0337+1715",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "J2010-1323",
+                          "leaf": true,
+                          "height": 0.0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "node_60",
+                  "leaf": false,
+                  "height": 0.15673126423426745,
+                  "children": [
+                    {
+                      "name": "J0613-0200",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "J1629-6902",
+                      "leaf": true,
+                      "height": 0.0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "node_74",
+              "leaf": false,
+              "height": 0.8806999148623897,
+              "children": [
+                {
+                  "name": "node_56",
+                  "leaf": false,
+                  "height": 0.04191233111419711,
+                  "children": [
+                    {
+                      "name": "J1012+5307",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "node_50",
+                      "leaf": false,
+                      "height": 0.0016858232579279875,
+                      "children": [
+                        {
+                          "name": "J0125-2327",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "J1730-2304",
+                          "leaf": true,
+                          "height": 0.0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "node_65",
+                  "leaf": false,
+                  "height": 0.31618732688566764,
+                  "children": [
+                    {
+                      "name": "J0437-4715",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "J2124-3358",
+                      "leaf": true,
+                      "height": 0.0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "node_97",
+      "leaf": false,
+      "height": 9.93777987332157,
+      "children": [
+        {
+          "name": "node_93",
+          "leaf": false,
+          "height": 2.9443357858514663,
+          "children": [
+            {
+              "name": "node_83",
+              "leaf": false,
+              "height": 1.6091904612365089,
+              "children": [
+                {
+                  "name": "J2330-2005",
+                  "leaf": true,
+                  "height": 0.0
+                },
+                {
+                  "name": "node_67",
+                  "leaf": false,
+                  "height": 0.32498013637292833,
+                  "children": [
+                    {
+                      "name": "J0814+7429",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "J1503+2111",
+                      "leaf": true,
+                      "height": 0.0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "node_88",
+              "leaf": false,
+              "height": 2.0072797355967666,
+              "children": [
+                {
+                  "name": "node_80",
+                  "leaf": false,
+                  "height": 1.1813468571321426,
+                  "children": [
+                    {
+                      "name": "node_59",
+                      "leaf": false,
+                      "height": 0.11858447270349393,
+                      "children": [
+                        {
+                          "name": "J0038-2501",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "J2307+2225",
+                          "leaf": true,
+                          "height": 0.0
+                        }
+                      ]
+                    },
+                    {
+                      "name": "node_71",
+                      "leaf": false,
+                      "height": 0.6112089273859979,
+                      "children": [
+                        {
+                          "name": "J0953+0755",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "J1456-6843",
+                          "leaf": true,
+                          "height": 0.0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "node_82",
+                  "leaf": false,
+                  "height": 1.344504656494051,
+                  "children": [
+                    {
+                      "name": "J0034-0721",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "J0108-1431",
+                      "leaf": true,
+                      "height": 0.0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "node_96",
+          "leaf": false,
+          "height": 6.640773203508148,
+          "children": [
+            {
+              "name": "node_92",
+              "leaf": false,
+              "height": 2.8403267546928372,
+              "children": [
+                {
+                  "name": "node_78",
+                  "leaf": false,
+                  "height": 1.0649486923850127,
+                  "children": [
+                    {
+                      "name": "J1550-5317",
+                      "leaf": true,
+                      "height": 0.0
+                    },
+                    {
+                      "name": "node_61",
+                      "leaf": false,
+                      "height": 0.2043222590408318,
+                      "children": [
+                        {
+                          "name": "J1852+0031",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "node_52",
+                          "leaf": false,
+                          "height": 0.0032046183867955325,
+                          "children": [
+                            {
+                              "name": "J1609-5158",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "J1819-1408",
+                              "leaf": true,
+                              "height": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "node_85",
+                  "leaf": false,
+                  "height": 1.7164191622077067,
+                  "children": [
+                    {
+                      "name": "node_54",
+                      "leaf": false,
+                      "height": 0.02187511867300569,
+                      "children": [
+                        {
+                          "name": "J1705-4108",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "node_51",
+                          "leaf": false,
+                          "height": 0.002252974413044617,
+                          "children": [
+                            {
+                              "name": "J1019-5749",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "J1823-1347",
+                              "leaf": true,
+                              "height": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "node_81",
+                      "leaf": false,
+                      "height": 1.286482052267102,
+                      "children": [
+                        {
+                          "name": "J0137+6349",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "J0840-5332",
+                          "leaf": true,
+                          "height": 0.0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "node_94",
+              "leaf": false,
+              "height": 5.170870507963295,
+              "children": [
+                {
+                  "name": "node_89",
+                  "leaf": false,
+                  "height": 2.3833049622511244,
+                  "children": [
+                    {
+                      "name": "node_70",
+                      "leaf": false,
+                      "height": 0.5931896610852082,
+                      "children": [
+                        {
+                          "name": "J0304+1932",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "node_63",
+                          "leaf": false,
+                          "height": 0.282776108578494,
+                          "children": [
+                            {
+                              "name": "J0600-5756",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "J1018-1642",
+                              "leaf": true,
+                              "height": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "node_86",
+                      "leaf": false,
+                      "height": 1.7622509782131748,
+                      "children": [
+                        {
+                          "name": "node_69",
+                          "leaf": false,
+                          "height": 0.5216754296919752,
+                          "children": [
+                            {
+                              "name": "J0647+0913",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "J1822+0705",
+                              "leaf": true,
+                              "height": 0.0
+                            }
+                          ]
+                        },
+                        {
+                          "name": "node_77",
+                          "leaf": false,
+                          "height": 1.0349174853197218,
+                          "children": [
+                            {
+                              "name": "J1745+1252",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "node_66",
+                              "leaf": false,
+                              "height": 0.3173047398769343,
+                              "children": [
+                                {
+                                  "name": "J0102+6537",
+                                  "leaf": true,
+                                  "height": 0.0
+                                },
+                                {
+                                  "name": "node_57",
+                                  "leaf": false,
+                                  "height": 0.050343463302699176,
+                                  "children": [
+                                    {
+                                      "name": "J0111+6624",
+                                      "leaf": true,
+                                      "height": 0.0
+                                    },
+                                    {
+                                      "name": "J0139+5621",
+                                      "leaf": true,
+                                      "height": 0.0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "node_90",
+                  "leaf": false,
+                  "height": 2.4310367127205246,
+                  "children": [
+                    {
+                      "name": "node_79",
+                      "leaf": false,
+                      "height": 1.0801405606632044,
+                      "children": [
+                        {
+                          "name": "J1751-4657",
+                          "leaf": true,
+                          "height": 0.0
+                        },
+                        {
+                          "name": "node_73",
+                          "leaf": false,
+                          "height": 0.8426961523387382,
+                          "children": [
+                            {
+                              "name": "J0134-2937",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "J1911+1758",
+                              "leaf": true,
+                              "height": 0.0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "node_84",
+                      "leaf": false,
+                      "height": 1.703230475053004,
+                      "children": [
+                        {
+                          "name": "node_64",
+                          "leaf": false,
+                          "height": 0.3143193797034004,
+                          "children": [
+                            {
+                              "name": "J1822-0848",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "node_53",
+                              "leaf": false,
+                              "height": 0.007020474162624524,
+                              "children": [
+                                {
+                                  "name": "J0054+6946",
+                                  "leaf": true,
+                                  "height": 0.0
+                                },
+                                {
+                                  "name": "J1755-2725",
+                                  "leaf": true,
+                                  "height": 0.0
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "node_72",
+                          "leaf": false,
+                          "height": 0.8276112113785813,
+                          "children": [
+                            {
+                              "name": "J1152-6012",
+                              "leaf": true,
+                              "height": 0.0
+                            },
+                            {
+                              "name": "node_62",
+                              "leaf": false,
+                              "height": 0.2054843384402854,
+                              "children": [
+                                {
+                                  "name": "J0835-3707",
+                                  "leaf": true,
+                                  "height": 0.0
+                                },
+                                {
+                                  "name": "J1104-6103",
+                                  "leaf": true,
+                                  "height": 0.0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

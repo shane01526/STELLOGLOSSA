@@ -1,0 +1,48 @@
+{
+  "jname": "J0953+0755",
+  "constellation": "Leo",
+  "syllable_structure": "CCVC",
+  "tone_count": 0,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v"
+  ],
+  "complexity_score": 28,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "suffix",
+    "question_marker": "initial-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.2530654277592876,
+    "dm": 2.96927,
+    "period_dot": 2.2975875728636817e-16,
+    "w50_ms": 8.6
+  }
+}

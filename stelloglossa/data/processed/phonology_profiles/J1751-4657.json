@@ -1,0 +1,48 @@
+{
+  "jname": "J1751-4657",
+  "constellation": "Ara",
+  "syllable_structure": "CCVC",
+  "tone_count": 2,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p",
+    "l",
+    "r",
+    "b",
+    "ʃ",
+    "h",
+    "d"
+  ],
+  "complexity_score": 56,
+  "grammar": {
+    "word_order": "VSO",
+    "adjective_position": "before",
+    "negation": "suffix",
+    "tense_marker": "particle",
+    "plural_marker": "none",
+    "question_marker": "initial-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.7423536034382896,
+    "dm": 20.588,
+    "period_dot": 1.2978694037138041e-15,
+    "w50_ms": 13.0
+  }
+}

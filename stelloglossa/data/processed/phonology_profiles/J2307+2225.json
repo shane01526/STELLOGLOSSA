@@ -1,0 +1,48 @@
+{
+  "jname": "J2307+2225",
+  "constellation": "Pegasus",
+  "syllable_structure": "CCVC",
+  "tone_count": 0,
+  "tense_richness": "past-nonpast",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v"
+  ],
+  "complexity_score": 28,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "reduplication",
+    "question_marker": "final-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.535828895432,
+    "dm": 7.024,
+    "period_dot": 8.7e-18,
+    "w50_ms": 10.7
+  }
+}

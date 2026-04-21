@@ -1,0 +1,31 @@
+{
+  "title": "Carina · J1101-6424",
+  "theme": "接觸與語言",
+  "lines": [
+    "di ki.",
+    "diku bi.",
+    "didi bu.",
+    "di bu."
+  ],
+  "literal": [
+    "理解 · 那",
+    "他們 · 獵人",
+    "從未 · 王",
+    "我們 · 他"
+  ],
+  "polished": [
+    "那理解。",
+    "他們看見獵人。",
+    "它從未就王了。",
+    "所有我們都記得他。"
+  ],
+  "translation": [
+    "那理解。",
+    "他們看見獵人。",
+    "它從未就王了。",
+    "所有我們都記得他。"
+  ],
+  "_provider": "static",
+  "jname": "J1101-6424",
+  "constellation": "Carina"
+}

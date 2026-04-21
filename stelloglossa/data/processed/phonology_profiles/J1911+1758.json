@@ -1,0 +1,48 @@
+{
+  "jname": "J1911+1758",
+  "constellation": "Sagitta",
+  "syllable_structure": "CCVC",
+  "tone_count": 2,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p",
+    "l",
+    "r",
+    "b",
+    "ʃ",
+    "h",
+    "d"
+  ],
+  "complexity_score": 56,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "reduplication",
+    "question_marker": "intonation",
+    "possessive": "NN-concat",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.46040581878,
+    "dm": 48.98,
+    "period_dot": 1.31e-17,
+    "w50_ms": 8.7
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "jname": "J1755-2725",
+  "constellation": "Sagittarius",
+  "syllable_structure": "CCVC",
+  "tone_count": 4,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "m",
+    "n",
+    "l",
+    "b",
+    "d",
+    "g",
+    "s",
+    "ŋ",
+    "r"
+  ],
+  "complexity_score": 112,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "suffix",
+    "question_marker": "initial-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "round",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.2619546783248513,
+    "dm": 115.1,
+    "period_dot": 1.3724050699255263e-17,
+    "w50_ms": 9.0
+  }
+}

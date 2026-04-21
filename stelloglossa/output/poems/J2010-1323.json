@@ -1,0 +1,31 @@
+{
+  "title": "Capricornus · J2010-1323",
+  "theme": "節奏與時間",
+  "lines": [
+    "tuka ka.",
+    "tu ni.",
+    "tata ki.",
+    "ki si."
+  ],
+  "literal": [
+    "一生 · 年輕",
+    "又 · 自己",
+    "薄 · 東",
+    "螺旋 · 回顧"
+  ],
+  "polished": [
+    "一生始終年輕。",
+    "又地,自己。",
+    "薄且東。",
+    "螺旋正在回顧。"
+  ],
+  "translation": [
+    "一生始終年輕。",
+    "又地,自己。",
+    "薄且東。",
+    "螺旋正在回顧。"
+  ],
+  "_provider": "static",
+  "jname": "J2010-1323",
+  "constellation": "Capricornus"
+}

@@ -1,0 +1,38 @@
+{
+  "jname": "J1730-2304",
+  "constellation": "Ophiucus",
+  "syllable_structure": "CV",
+  "tone_count": 0,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ"
+  ],
+  "complexity_score": 6,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "none",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.008122798048058056,
+    "dm": 9.6257,
+    "period_dot": 2.0184027301002547e-20,
+    "w50_ms": 0.965
+  }
+}

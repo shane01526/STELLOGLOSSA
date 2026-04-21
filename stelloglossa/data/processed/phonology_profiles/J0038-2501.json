@@ -1,0 +1,48 @@
+{
+  "jname": "J0038-2501",
+  "constellation": "Sculptor",
+  "syllable_structure": "CCVC",
+  "tone_count": 0,
+  "tense_richness": "past-nonpast",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v"
+  ],
+  "complexity_score": 28,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "suffix",
+    "question_marker": "intonation",
+    "possessive": "N-of-N",
+    "vowel_harmony": "round",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.2569264575329,
+    "dm": 5.71,
+    "period_dot": 7.6e-19,
+    "w50_ms": 14.0
+  }
+}

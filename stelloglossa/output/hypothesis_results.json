@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "n_pulsars": 50,
+    "n_lexicons": 50,
+    "graph_edges": 659
+  },
+  "results": [
+    {
+      "name": "H1: 銀河核心語言複雜度",
+      "passed": false,
+      "statistic": 625.0,
+      "p_value": 1.8759409880704114e-10,
+      "effect_size": -0.4229667935725133,
+      "notes": "Mann-Whitney U=625.0 (high DM 聲調數 > low DM? p=0.0000); Spearman ρ(DM, degree)=-0.423 p=0.0022"
+    },
+    {
+      "name": "H2: 聲象徵的宇宙版本",
+      "passed": false,
+      "statistic": 12.893327481488823,
+      "p_value": 0.00032975564211252026,
+      "effect_size": 0.115890247475291,
+      "notes": "2x2 χ²=12.89 p=0.0003, Cramér's V=0.116; light fh/bl=0.34, death bl/fh=1.74; table=[[128, 372], [168, 292]]"
+    },
+    {
+      "name": "H3: 借用不對稱性",
+      "passed": true,
+      "statistic": 10758279.0,
+      "p_value": 4.477614034673339e-20,
+      "effect_size": 2.13831105318756e-09,
+      "notes": "Wilcoxon W=10758279.0 p=0.0000; mean drift low=0.0000 vs high=0.0000; priority(time+death) low/high ratio=1.01"
+    }
+  ]
+}

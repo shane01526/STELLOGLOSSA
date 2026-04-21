@@ -1,0 +1,51 @@
+{
+  "jname": "J0647+0913",
+  "constellation": "Monoceros",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 4,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "m",
+    "n",
+    "l",
+    "b",
+    "d",
+    "g",
+    "s",
+    "ŋ",
+    "r",
+    "h",
+    "j",
+    "w"
+  ],
+  "complexity_score": 168,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "reduplication",
+    "question_marker": "initial-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 1.23485362778,
+    "dm": 154.7,
+    "period_dot": 6.421e-15,
+    "w50_ms": 9.6
+  }
+}

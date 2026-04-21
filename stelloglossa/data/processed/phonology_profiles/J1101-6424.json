@@ -1,0 +1,38 @@
+{
+  "jname": "J1101-6424",
+  "constellation": "Carina",
+  "syllable_structure": "CV",
+  "tone_count": 6,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "b",
+    "d",
+    "g"
+  ],
+  "complexity_score": 36,
+  "grammar": {
+    "word_order": "VOS",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "suffix",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.005109272904279,
+    "dm": 207.3633,
+    "period_dot": 1.8e-21,
+    "w50_ms": 0.54
+  }
+}

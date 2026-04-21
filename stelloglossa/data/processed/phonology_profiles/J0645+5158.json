@@ -1,0 +1,38 @@
+{
+  "jname": "J0645+5158",
+  "constellation": "Lynx",
+  "syllable_structure": "CV",
+  "tone_count": 2,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p"
+  ],
+  "complexity_score": 12,
+  "grammar": {
+    "word_order": "VSO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "reduplication",
+    "question_marker": "intonation",
+    "possessive": "N-of-N",
+    "vowel_harmony": "round",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 0.008853496686414667,
+    "dm": 18.25136,
+    "period_dot": 4.921129625330751e-21,
+    "w50_ms": 0.26
+  }
+}

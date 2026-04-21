@@ -1,0 +1,31 @@
+{
+  "title": "Microscopium · J2124-3358",
+  "theme": "節奏與時間",
+  "lines": [
+    "mimu ti.",
+    "nu sima.",
+    "sinu na.",
+    "su ma."
+  ],
+  "literal": [
+    "片刻 · 重來",
+    "環繞 · 終結",
+    "昨天 · 永恆",
+    "追憶 · 朝向"
+  ],
+  "polished": [
+    "片刻忘了重來。",
+    "終將環繞終結。",
+    "讓昨天成為永恆。",
+    "追憶,然後朝向。"
+  ],
+  "translation": [
+    "片刻忘了重來。",
+    "終將環繞終結。",
+    "讓昨天成為永恆。",
+    "追憶,然後朝向。"
+  ],
+  "_provider": "static",
+  "jname": "J2124-3358",
+  "constellation": "Microscopium"
+}

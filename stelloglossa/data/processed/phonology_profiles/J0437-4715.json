@@ -1,0 +1,38 @@
+{
+  "jname": "J0437-4715",
+  "constellation": "Pictor",
+  "syllable_structure": "CV",
+  "tone_count": 0,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ"
+  ],
+  "complexity_score": 6,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "none",
+    "question_marker": "initial-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.005757451941593412,
+    "dm": 2.64539,
+    "period_dot": 5.729220049814834e-20,
+    "w50_ms": 0.141
+  }
+}

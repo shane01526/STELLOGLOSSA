@@ -1,0 +1,54 @@
+{
+  "jname": "J1852+0031",
+  "constellation": "Aquila",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 6,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "b",
+    "d",
+    "g",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "ɾ",
+    "r",
+    "s",
+    "j",
+    "w"
+  ],
+  "complexity_score": 360,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "suffix",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 2.180195177536572,
+    "dm": 787.0,
+    "period_dot": 9.695491284550682e-14,
+    "w50_ms": 331.0
+  }
+}

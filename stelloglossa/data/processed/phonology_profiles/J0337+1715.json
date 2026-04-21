@@ -1,0 +1,38 @@
+{
+  "jname": "J0337+1715",
+  "constellation": "Taurus",
+  "syllable_structure": "CV",
+  "tone_count": 2,
+  "tense_richness": "none",
+  "vowel_inventory": [
+    "a",
+    "i",
+    "u"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p"
+  ],
+  "complexity_score": 12,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "reduplication",
+    "question_marker": "intonation",
+    "possessive": "NN-concat",
+    "vowel_harmony": "front-back",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.0027325886324418656,
+    "dm": 21.3162,
+    "period_dot": 1.7665524732273266e-20,
+    "w50_ms": 0.7
+  }
+}

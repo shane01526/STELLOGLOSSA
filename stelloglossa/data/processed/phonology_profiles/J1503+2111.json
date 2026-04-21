@@ -1,0 +1,54 @@
+{
+  "jname": "J1503+2111",
+  "constellation": "Boötes",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 0,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v",
+    "z",
+    "j",
+    "w"
+  ],
+  "complexity_score": 60,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "suffix",
+    "tense_marker": "particle",
+    "plural_marker": "reduplication",
+    "question_marker": "initial-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 3.31400150122,
+    "dm": 3.26,
+    "period_dot": 1.4e-16,
+    "w50_ms": 85.8
+  }
+}

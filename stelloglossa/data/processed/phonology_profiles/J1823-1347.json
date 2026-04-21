@@ -1,0 +1,51 @@
+{
+  "jname": "J1823-1347",
+  "constellation": "Scutum",
+  "syllable_structure": "CCVC",
+  "tone_count": 6,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "b",
+    "d",
+    "g",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "ɾ",
+    "r"
+  ],
+  "complexity_score": 240,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "reduplication",
+    "question_marker": "final-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 0.6171072055520304,
+    "dm": 1044.0,
+    "period_dot": 9.600505052266186e-15,
+    "w50_ms": 34.6
+  }
+}

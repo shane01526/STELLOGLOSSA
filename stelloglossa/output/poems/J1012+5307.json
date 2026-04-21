@@ -1,0 +1,31 @@
+{
+  "title": "Ursa Major · J1012+5307",
+  "theme": "重力與密度",
+  "lines": [
+    "nu sisu.",
+    "kaʃi tu.",
+    "ta kiki.",
+    "ni mu."
+  ],
+  "literal": [
+    "崩解 · 左",
+    "擠 · 後",
+    "內 · 石",
+    "光年 · 虛"
+  ],
+  "polished": [
+    "有人在崩解左。",
+    "擠了後。",
+    "內是石的倒影。",
+    "光年如此虛。"
+  ],
+  "translation": [
+    "有人在崩解左。",
+    "擠了後。",
+    "內是石的倒影。",
+    "光年如此虛。"
+  ],
+  "_provider": "static",
+  "jname": "J1012+5307",
+  "constellation": "Ursa Major"
+}

@@ -1,0 +1,51 @@
+{
+  "jname": "J2330-2005",
+  "constellation": "Aquarius",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 0,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v",
+    "z",
+    "j",
+    "w"
+  ],
+  "complexity_score": 42,
+  "grammar": {
+    "word_order": "SOV",
+    "adjective_position": "after",
+    "negation": "particle-before",
+    "tense_marker": "none",
+    "plural_marker": "none",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 1.6436221853269488,
+    "dm": 8.456,
+    "period_dot": 4.630379434658791e-15,
+    "w50_ms": 8.0
+  }
+}

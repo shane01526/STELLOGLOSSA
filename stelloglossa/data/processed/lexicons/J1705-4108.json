@@ -1,0 +1,1711 @@
+{
+  "jname": "J1705-4108",
+  "constellation": "Scorpius",
+  "provider": "static",
+  "lexicon": {
+    "celestial": [
+      {
+        "form": "mriŋ",
+        "tone": null,
+        "gloss": "星",
+        "explanation": "語言中最基本的天體詞;任何點狀光源都適用。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋrup",
+        "tone": null,
+        "gloss": "太陽",
+        "explanation": "自己所在的恆星;在這門語言裡常指這顆脈衝星自己。",
+        "pos": "N"
+      },
+      {
+        "form": "rrøɾ",
+        "tone": null,
+        "gloss": "月亮",
+        "explanation": "伴星或任何環繞天體運行的較小體。",
+        "pos": "N"
+      },
+      {
+        "form": "grik",
+        "tone": null,
+        "gloss": "銀河",
+        "explanation": "所有星的總和;這門語言的宇宙觀單位。",
+        "pos": "N"
+      },
+      {
+        "form": "nbal",
+        "tone": null,
+        "gloss": "彗星",
+        "explanation": "短暫劃過的光;字根與「流逝」相通。",
+        "pos": "N"
+      },
+      {
+        "form": "lrãt",
+        "tone": null,
+        "gloss": "行星",
+        "explanation": "繞恆星運行但自己不發光的體。",
+        "pos": "N"
+      },
+      {
+        "form": "mrãŋ",
+        "tone": null,
+        "gloss": "流星",
+        "explanation": "劃過天空的瞬間光點。",
+        "pos": "N"
+      },
+      {
+        "form": "brur",
+        "tone": null,
+        "gloss": "黑暗",
+        "explanation": "光不在的狀態。",
+        "pos": "N"
+      },
+      {
+        "form": "mmãb",
+        "tone": null,
+        "gloss": "夜",
+        "explanation": "黑暗統治的時段。",
+        "pos": "N"
+      },
+      {
+        "form": "griŋ",
+        "tone": null,
+        "gloss": "黎明",
+        "explanation": "光剛出現的那一刻。",
+        "pos": "N"
+      },
+      {
+        "form": "trul",
+        "tone": null,
+        "gloss": "黃昏",
+        "explanation": "光準備離開的那一刻。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋtaɾ",
+        "tone": null,
+        "gloss": "星雲",
+        "explanation": "氣體與塵埃形成的雲。",
+        "pos": "N"
+      },
+      {
+        "form": "drut",
+        "tone": null,
+        "gloss": "黑洞",
+        "explanation": "光也無法逃逸的極端重力場。",
+        "pos": "N"
+      },
+      {
+        "form": "ɾbãg",
+        "tone": null,
+        "gloss": "白矮星",
+        "explanation": "耗盡核燃料的恆星殘骸。",
+        "pos": "N"
+      },
+      {
+        "form": "lrɔp",
+        "tone": null,
+        "gloss": "中子星",
+        "explanation": "比白矮星更緻密的殘骸;這門語言的說話者。",
+        "pos": "N"
+      },
+      {
+        "form": "prør",
+        "tone": null,
+        "gloss": "天頂",
+        "explanation": "頭頂正上方的位置。",
+        "pos": "N"
+      },
+      {
+        "form": "rrob",
+        "tone": null,
+        "gloss": "地平線",
+        "explanation": "天與地的交界。",
+        "pos": "N"
+      },
+      {
+        "form": "mrøk",
+        "tone": null,
+        "gloss": "宇宙",
+        "explanation": "一切所在的整體。",
+        "pos": "N"
+      },
+      {
+        "form": "lbyɾ",
+        "tone": null,
+        "gloss": "光年",
+        "explanation": "光一年走的距離。",
+        "pos": "N"
+      },
+      {
+        "form": "drɔɾ",
+        "tone": null,
+        "gloss": "星團",
+        "explanation": "一群被重力束縛在一起的星。",
+        "pos": "N"
+      }
+    ],
+    "time": [
+      {
+        "form": "ɾrød",
+        "tone": null,
+        "gloss": "此刻",
+        "explanation": "當下發聲的瞬間。",
+        "pos": "N"
+      },
+      {
+        "form": "lrøt",
+        "tone": null,
+        "gloss": "昨天",
+        "explanation": "前一次完整的脈衝週期。",
+        "pos": "N"
+      },
+      {
+        "form": "llim",
+        "tone": null,
+        "gloss": "循環",
+        "explanation": "重複的時間;與「回歸」共享字根。",
+        "pos": "N"
+      },
+      {
+        "form": "trɔb",
+        "tone": null,
+        "gloss": "終結",
+        "explanation": "時間的結束;這個詞總帶有沉重感。",
+        "pos": "N"
+      },
+      {
+        "form": "grøŋ",
+        "tone": null,
+        "gloss": "永恆",
+        "explanation": "超出單次脈衝、難以計數的漫長時間。",
+        "pos": "N"
+      },
+      {
+        "form": "kbɛt",
+        "tone": null,
+        "gloss": "明天",
+        "explanation": "下一次完整的脈衝週期。",
+        "pos": "N"
+      },
+      {
+        "form": "trøn",
+        "tone": null,
+        "gloss": "以前",
+        "explanation": "此刻之前的廣義時間。",
+        "pos": "N"
+      },
+      {
+        "form": "grɛg",
+        "tone": null,
+        "gloss": "以後",
+        "explanation": "此刻之後的廣義時間。",
+        "pos": "N"
+      },
+      {
+        "form": "trãp",
+        "tone": null,
+        "gloss": "片刻",
+        "explanation": "短暫的時間段。",
+        "pos": "N"
+      },
+      {
+        "form": "trɛp",
+        "tone": null,
+        "gloss": "一生",
+        "explanation": "從出現到沉寂的整段時間。",
+        "pos": "N"
+      },
+      {
+        "form": "pmɛm",
+        "tone": null,
+        "gloss": "年",
+        "explanation": "恆星級時間單位。",
+        "pos": "N"
+      },
+      {
+        "form": "brøk",
+        "tone": null,
+        "gloss": "日",
+        "explanation": "白天的時間段。",
+        "pos": "N"
+      },
+      {
+        "form": "drøm",
+        "tone": null,
+        "gloss": "秒",
+        "explanation": "最短的可感知時間。",
+        "pos": "N"
+      },
+      {
+        "form": "mrep",
+        "tone": null,
+        "gloss": "起源",
+        "explanation": "一切事物的開始。",
+        "pos": "N"
+      },
+      {
+        "form": "rrøm",
+        "tone": null,
+        "gloss": "未來",
+        "explanation": "尚未到來的時間。",
+        "pos": "N"
+      },
+      {
+        "form": "ɾran",
+        "tone": null,
+        "gloss": "老",
+        "explanation": "被時間磨損的狀態。",
+        "pos": "A"
+      },
+      {
+        "form": "ɾrat",
+        "tone": null,
+        "gloss": "年輕",
+        "explanation": "時間尚未在它身上累積太久。",
+        "pos": "A"
+      },
+      {
+        "form": "lryɾ",
+        "tone": null,
+        "gloss": "等待",
+        "explanation": "讓時間流過而不動作。",
+        "pos": "V"
+      },
+      {
+        "form": "ɾryl",
+        "tone": null,
+        "gloss": "流逝",
+        "explanation": "時間離開的動作。",
+        "pos": "V"
+      },
+      {
+        "form": "plel",
+        "tone": null,
+        "gloss": "停留",
+        "explanation": "讓時間暫時不動。",
+        "pos": "V"
+      }
+    ],
+    "death": [
+      {
+        "form": "mbuɾ",
+        "tone": null,
+        "gloss": "消滅",
+        "explanation": "徹底的不存在;最終結。",
+        "pos": "V"
+      },
+      {
+        "form": "groɾ",
+        "tone": null,
+        "gloss": "沉寂",
+        "explanation": "停止發聲,但物質還在;許多脈衝星的命運。",
+        "pos": "N"
+      },
+      {
+        "form": "ntuk",
+        "tone": null,
+        "gloss": "轉化",
+        "explanation": "死是形式改變,不是真的結束。",
+        "pos": "V"
+      },
+      {
+        "form": "rrøŋ",
+        "tone": null,
+        "gloss": "墓",
+        "explanation": "存放遺物的所在。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋrog",
+        "tone": null,
+        "gloss": "遺忘",
+        "explanation": "訊息的消失;一種比物理消亡更深的死。",
+        "pos": "V"
+      },
+      {
+        "form": "trem",
+        "tone": null,
+        "gloss": "離開",
+        "explanation": "向遠處去,可能一去不返。",
+        "pos": "V"
+      },
+      {
+        "form": "drat",
+        "tone": null,
+        "gloss": "結束",
+        "explanation": "一個事件的終點。",
+        "pos": "V"
+      },
+      {
+        "form": "dbep",
+        "tone": null,
+        "gloss": "告別",
+        "explanation": "在離開前最後的接觸。",
+        "pos": "V"
+      },
+      {
+        "form": "lrik",
+        "tone": null,
+        "gloss": "死",
+        "explanation": "生命終止的動詞/名詞。",
+        "pos": "V"
+      },
+      {
+        "form": "drol",
+        "tone": null,
+        "gloss": "熄滅",
+        "explanation": "光源不再發光。",
+        "pos": "V"
+      },
+      {
+        "form": "krod",
+        "tone": null,
+        "gloss": "冷卻",
+        "explanation": "熱散去,趨近靜止。",
+        "pos": "V"
+      },
+      {
+        "form": "llɛŋ",
+        "tone": null,
+        "gloss": "崩解",
+        "explanation": "結構失去凝聚。",
+        "pos": "V"
+      },
+      {
+        "form": "lreŋ",
+        "tone": null,
+        "gloss": "哀悼",
+        "explanation": "對失去的儀式性紀念。",
+        "pos": "V"
+      },
+      {
+        "form": "nrãn",
+        "tone": null,
+        "gloss": "永眠",
+        "explanation": "永遠的沉睡。",
+        "pos": "V"
+      },
+      {
+        "form": "mrɔg",
+        "tone": null,
+        "gloss": "靜止",
+        "explanation": "停止一切運動。",
+        "pos": "A"
+      },
+      {
+        "form": "tral",
+        "tone": null,
+        "gloss": "終點",
+        "explanation": "路徑或時間的盡頭。",
+        "pos": "N"
+      },
+      {
+        "form": "trɔl",
+        "tone": null,
+        "gloss": "殘骸",
+        "explanation": "死後留下的物質。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋreŋ",
+        "tone": null,
+        "gloss": "空",
+        "explanation": "什麼都沒有的狀態。",
+        "pos": "A"
+      },
+      {
+        "form": "prob",
+        "tone": null,
+        "gloss": "冷",
+        "explanation": "熱能離去的感覺。",
+        "pos": "A"
+      },
+      {
+        "form": "dlel",
+        "tone": null,
+        "gloss": "黯淡",
+        "explanation": "光微弱接近熄滅。",
+        "pos": "A"
+      }
+    ],
+    "light": [
+      {
+        "form": "plɔk",
+        "tone": null,
+        "gloss": "光",
+        "explanation": "這門語言的核心詞,幾乎是「說話」的同義詞。",
+        "pos": "N"
+      },
+      {
+        "form": "pbãd",
+        "tone": null,
+        "gloss": "輻射",
+        "explanation": "持續向外發送的信號,不單指可見光。",
+        "pos": "N"
+      },
+      {
+        "form": "nrød",
+        "tone": null,
+        "gloss": "閃現",
+        "explanation": "一次單獨的脈衝,極其短暫。",
+        "pos": "V"
+      },
+      {
+        "form": "grym",
+        "tone": null,
+        "gloss": "穿透",
+        "explanation": "光穿越厚介質抵達遠方的動作。",
+        "pos": "V"
+      },
+      {
+        "form": "mmid",
+        "tone": null,
+        "gloss": "光譜",
+        "explanation": "各種頻率的光的集合;語言裡的「全景」。",
+        "pos": "N"
+      },
+      {
+        "form": "plɛr",
+        "tone": null,
+        "gloss": "亮",
+        "explanation": "光很強。",
+        "pos": "A"
+      },
+      {
+        "form": "kmɛn",
+        "tone": null,
+        "gloss": "暗",
+        "explanation": "光很弱。",
+        "pos": "A"
+      },
+      {
+        "form": "grym",
+        "tone": null,
+        "gloss": "影",
+        "explanation": "光被擋住形成的形狀。",
+        "pos": "N"
+      },
+      {
+        "form": "pred",
+        "tone": null,
+        "gloss": "白",
+        "explanation": "所有頻率的光混合。",
+        "pos": "A"
+      },
+      {
+        "form": "rlem",
+        "tone": null,
+        "gloss": "彩虹",
+        "explanation": "光被折射分離的結果。",
+        "pos": "N"
+      },
+      {
+        "form": "krãŋ",
+        "tone": null,
+        "gloss": "照耀",
+        "explanation": "持續投射光的動作。",
+        "pos": "V"
+      },
+      {
+        "form": "trog",
+        "tone": null,
+        "gloss": "反射",
+        "explanation": "光碰到表面後返回。",
+        "pos": "V"
+      },
+      {
+        "form": "ttet",
+        "tone": null,
+        "gloss": "燦爛",
+        "explanation": "光豐盛而華麗。",
+        "pos": "A"
+      },
+      {
+        "form": "klyr",
+        "tone": null,
+        "gloss": "微光",
+        "explanation": "非常微弱的光。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋmøb",
+        "tone": null,
+        "gloss": "晨光",
+        "explanation": "黎明時的第一道光。",
+        "pos": "N"
+      },
+      {
+        "form": "lrɔn",
+        "tone": null,
+        "gloss": "夜光",
+        "explanation": "夜裡才能看見的光。",
+        "pos": "N"
+      },
+      {
+        "form": "nror",
+        "tone": null,
+        "gloss": "光芒",
+        "explanation": "發散出去的光的形體。",
+        "pos": "N"
+      },
+      {
+        "form": "dbap",
+        "tone": null,
+        "gloss": "發亮",
+        "explanation": "自身能發出光。",
+        "pos": "V"
+      },
+      {
+        "form": "bryn",
+        "tone": null,
+        "gloss": "耀眼",
+        "explanation": "亮到難以直視。",
+        "pos": "A"
+      },
+      {
+        "form": "gryp",
+        "tone": null,
+        "gloss": "透明",
+        "explanation": "光可完全穿過。",
+        "pos": "A"
+      }
+    ],
+    "return": [
+      {
+        "form": "trøɾ",
+        "tone": null,
+        "gloss": "回歸",
+        "explanation": "自轉的本質;這門語言的神聖詞。",
+        "pos": "V"
+      },
+      {
+        "form": "dreg",
+        "tone": null,
+        "gloss": "週期",
+        "explanation": "可數的重複時間單位。",
+        "pos": "N"
+      },
+      {
+        "form": "ɾlɛŋ",
+        "tone": null,
+        "gloss": "記憶",
+        "explanation": "過去在現在的回聲;一種緩慢的回歸。",
+        "pos": "N"
+      },
+      {
+        "form": "llid",
+        "tone": null,
+        "gloss": "重生",
+        "explanation": "超新星殘骸再度成為脈衝星的過程。",
+        "pos": "V"
+      },
+      {
+        "form": "trog",
+        "tone": null,
+        "gloss": "環繞",
+        "explanation": "軌道運動;繞著某物轉動。",
+        "pos": "V"
+      },
+      {
+        "form": "nbyr",
+        "tone": null,
+        "gloss": "轉動",
+        "explanation": "自轉或公轉的動作。",
+        "pos": "V"
+      },
+      {
+        "form": "nrad",
+        "tone": null,
+        "gloss": "重複",
+        "explanation": "同一件事再做一次。",
+        "pos": "V"
+      },
+      {
+        "form": "lryt",
+        "tone": null,
+        "gloss": "回聲",
+        "explanation": "聲音撞上某物再回來。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋrib",
+        "tone": null,
+        "gloss": "輪迴",
+        "explanation": "重複的生命循環。",
+        "pos": "N"
+      },
+      {
+        "form": "rtøg",
+        "tone": null,
+        "gloss": "復原",
+        "explanation": "回到原本的樣子。",
+        "pos": "V"
+      },
+      {
+        "form": "brãn",
+        "tone": null,
+        "gloss": "再現",
+        "explanation": "曾消失的事物重新出現。",
+        "pos": "V"
+      },
+      {
+        "form": "drɔr",
+        "tone": null,
+        "gloss": "回頭",
+        "explanation": "把方向反過來。",
+        "pos": "V"
+      },
+      {
+        "form": "drad",
+        "tone": null,
+        "gloss": "擺動",
+        "explanation": "來回重複的小幅運動。",
+        "pos": "V"
+      },
+      {
+        "form": "rrop",
+        "tone": null,
+        "gloss": "回顧",
+        "explanation": "往過去看。",
+        "pos": "V"
+      },
+      {
+        "form": "gluɾ",
+        "tone": null,
+        "gloss": "迴盪",
+        "explanation": "聲音在空間中反覆。",
+        "pos": "V"
+      },
+      {
+        "form": "ŋbil",
+        "tone": null,
+        "gloss": "重來",
+        "explanation": "從頭再開始。",
+        "pos": "V"
+      },
+      {
+        "form": "rrɛn",
+        "tone": null,
+        "gloss": "往返",
+        "explanation": "來回移動。",
+        "pos": "V"
+      },
+      {
+        "form": "ŋlop",
+        "tone": null,
+        "gloss": "追憶",
+        "explanation": "主動地回想過去。",
+        "pos": "V"
+      },
+      {
+        "form": "brøg",
+        "tone": null,
+        "gloss": "再見",
+        "explanation": "下次再相遇;兼告別與重逢。",
+        "pos": "X"
+      },
+      {
+        "form": "trãk",
+        "tone": null,
+        "gloss": "又",
+        "explanation": "再一次。",
+        "pos": "D"
+      }
+    ],
+    "distance": [
+      {
+        "form": "dbub",
+        "tone": null,
+        "gloss": "遠",
+        "explanation": "超出能直接接觸的尺度。",
+        "pos": "A"
+      },
+      {
+        "form": "nmɔp",
+        "tone": null,
+        "gloss": "近",
+        "explanation": "能互相聽見脈衝的距離。",
+        "pos": "A"
+      },
+      {
+        "form": "ɾrud",
+        "tone": null,
+        "gloss": "孤獨",
+        "explanation": "附近沒有鄰居的狀態;不是情緒,是拓撲。",
+        "pos": "A"
+      },
+      {
+        "form": "pruk",
+        "tone": null,
+        "gloss": "穿越",
+        "explanation": "訊號跨越星際介質的動作。",
+        "pos": "V"
+      },
+      {
+        "form": "krøŋ",
+        "tone": null,
+        "gloss": "千秒差距",
+        "explanation": "這門語言的標準距離單位 (kpc)。",
+        "pos": "N"
+      },
+      {
+        "form": "dryt",
+        "tone": null,
+        "gloss": "長",
+        "explanation": "延展的距離。",
+        "pos": "A"
+      },
+      {
+        "form": "grɔŋ",
+        "tone": null,
+        "gloss": "短",
+        "explanation": "壓縮的距離。",
+        "pos": "A"
+      },
+      {
+        "form": "ŋlid",
+        "tone": null,
+        "gloss": "此處",
+        "explanation": "說話者所在。",
+        "pos": "N"
+      },
+      {
+        "form": "nrer",
+        "tone": null,
+        "gloss": "彼處",
+        "explanation": "說話者不在的地方。",
+        "pos": "N"
+      },
+      {
+        "form": "brød",
+        "tone": null,
+        "gloss": "邊緣",
+        "explanation": "空間的最外圈。",
+        "pos": "N"
+      },
+      {
+        "form": "kbin",
+        "tone": null,
+        "gloss": "中心",
+        "explanation": "空間的最內圈。",
+        "pos": "N"
+      },
+      {
+        "form": "bran",
+        "tone": null,
+        "gloss": "間隔",
+        "explanation": "兩個點之間的空隙。",
+        "pos": "N"
+      },
+      {
+        "form": "grur",
+        "tone": null,
+        "gloss": "相鄰",
+        "explanation": "彼此挨著。",
+        "pos": "A"
+      },
+      {
+        "form": "ttoɾ",
+        "tone": null,
+        "gloss": "分離",
+        "explanation": "不再相連。",
+        "pos": "V"
+      },
+      {
+        "form": "brɛp",
+        "tone": null,
+        "gloss": "路徑",
+        "explanation": "從一處到另一處的軌跡。",
+        "pos": "N"
+      },
+      {
+        "form": "lrɛŋ",
+        "tone": null,
+        "gloss": "跨越",
+        "explanation": "橫過某個界線。",
+        "pos": "V"
+      },
+      {
+        "form": "ŋrɛg",
+        "tone": null,
+        "gloss": "無邊",
+        "explanation": "沒有終點的延伸。",
+        "pos": "A"
+      },
+      {
+        "form": "kmym",
+        "tone": null,
+        "gloss": "距離",
+        "explanation": "兩點之間的量測。",
+        "pos": "N"
+      },
+      {
+        "form": "mrɛp",
+        "tone": null,
+        "gloss": "深處",
+        "explanation": "最遠、最內側的位置。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋrug",
+        "tone": null,
+        "gloss": "附近",
+        "explanation": "相對靠近的區域。",
+        "pos": "N"
+      }
+    ],
+    "density": [
+      {
+        "form": "rrom",
+        "tone": null,
+        "gloss": "重",
+        "explanation": "中子星核心級的重量感。",
+        "pos": "A"
+      },
+      {
+        "form": "mrib",
+        "tone": null,
+        "gloss": "壓縮",
+        "explanation": "物質被擠到極限的過程。",
+        "pos": "V"
+      },
+      {
+        "form": "ɾrop",
+        "tone": null,
+        "gloss": "核心",
+        "explanation": "最中心、最稠密的那個點。",
+        "pos": "N"
+      },
+      {
+        "form": "ɾtiŋ",
+        "tone": null,
+        "gloss": "緻密",
+        "explanation": "僅次於黑洞的物質狀態。",
+        "pos": "A"
+      },
+      {
+        "form": "bror",
+        "tone": null,
+        "gloss": "重力",
+        "explanation": "讓密度成為可能的那種力。",
+        "pos": "N"
+      },
+      {
+        "form": "drøg",
+        "tone": null,
+        "gloss": "輕",
+        "explanation": "不沉重。",
+        "pos": "A"
+      },
+      {
+        "form": "mbãk",
+        "tone": null,
+        "gloss": "空",
+        "explanation": "沒有物質填充。",
+        "pos": "A"
+      },
+      {
+        "form": "ŋron",
+        "tone": null,
+        "gloss": "滿",
+        "explanation": "完全填充。",
+        "pos": "A"
+      },
+      {
+        "form": "trɛŋ",
+        "tone": null,
+        "gloss": "實",
+        "explanation": "內部充實。",
+        "pos": "A"
+      },
+      {
+        "form": "priɾ",
+        "tone": null,
+        "gloss": "虛",
+        "explanation": "內部空洞。",
+        "pos": "A"
+      },
+      {
+        "form": "nmur",
+        "tone": null,
+        "gloss": "厚",
+        "explanation": "體積大而密。",
+        "pos": "A"
+      },
+      {
+        "form": "bmyn",
+        "tone": null,
+        "gloss": "薄",
+        "explanation": "體積小而稀。",
+        "pos": "A"
+      },
+      {
+        "form": "ɾrøŋ",
+        "tone": null,
+        "gloss": "鐵",
+        "explanation": "常見的重元素。",
+        "pos": "N"
+      },
+      {
+        "form": "rrãt",
+        "tone": null,
+        "gloss": "石",
+        "explanation": "堅硬的礦物。",
+        "pos": "N"
+      },
+      {
+        "form": "rrøk",
+        "tone": null,
+        "gloss": "硬",
+        "explanation": "不易變形。",
+        "pos": "A"
+      },
+      {
+        "form": "nrek",
+        "tone": null,
+        "gloss": "軟",
+        "explanation": "容易變形。",
+        "pos": "A"
+      },
+      {
+        "form": "mrup",
+        "tone": null,
+        "gloss": "質量",
+        "explanation": "物質多寡的量測。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋtuɾ",
+        "tone": null,
+        "gloss": "堆",
+        "explanation": "物質的積聚。",
+        "pos": "V"
+      },
+      {
+        "form": "tryt",
+        "tone": null,
+        "gloss": "擠",
+        "explanation": "用力使物質收攏。",
+        "pos": "V"
+      },
+      {
+        "form": "trer",
+        "tone": null,
+        "gloss": "承載",
+        "explanation": "背負重量。",
+        "pos": "V"
+      }
+    ],
+    "direction": [
+      {
+        "form": "dtid",
+        "tone": null,
+        "gloss": "朝向",
+        "explanation": "指向某目標的有意義運動。",
+        "pos": "V"
+      },
+      {
+        "form": "pryl",
+        "tone": null,
+        "gloss": "漂移",
+        "explanation": "無目標的緩慢偏移。",
+        "pos": "V"
+      },
+      {
+        "form": "gmøl",
+        "tone": null,
+        "gloss": "螺旋",
+        "explanation": "自轉與公轉合成的軌跡。",
+        "pos": "N"
+      },
+      {
+        "form": "dlid",
+        "tone": null,
+        "gloss": "上",
+        "explanation": "銀道面的法向;這門語言的絕對方向。",
+        "pos": "N"
+      },
+      {
+        "form": "brɔt",
+        "tone": null,
+        "gloss": "回望",
+        "explanation": "指向原點、來時路的方向。",
+        "pos": "V"
+      },
+      {
+        "form": "grɛŋ",
+        "tone": null,
+        "gloss": "下",
+        "explanation": "上的反方向。",
+        "pos": "N"
+      },
+      {
+        "form": "driɾ",
+        "tone": null,
+        "gloss": "左",
+        "explanation": "面向某物時的其中一側。",
+        "pos": "N"
+      },
+      {
+        "form": "krɔb",
+        "tone": null,
+        "gloss": "右",
+        "explanation": "左的反方向。",
+        "pos": "N"
+      },
+      {
+        "form": "bbɛp",
+        "tone": null,
+        "gloss": "前",
+        "explanation": "面朝的方向。",
+        "pos": "N"
+      },
+      {
+        "form": "ɾrãr",
+        "tone": null,
+        "gloss": "後",
+        "explanation": "背對的方向。",
+        "pos": "N"
+      },
+      {
+        "form": "kmeɾ",
+        "tone": null,
+        "gloss": "內",
+        "explanation": "內部。",
+        "pos": "N"
+      },
+      {
+        "form": "prem",
+        "tone": null,
+        "gloss": "外",
+        "explanation": "外部。",
+        "pos": "N"
+      },
+      {
+        "form": "nrɔŋ",
+        "tone": null,
+        "gloss": "去",
+        "explanation": "離開說話者。",
+        "pos": "V"
+      },
+      {
+        "form": "nrad",
+        "tone": null,
+        "gloss": "來",
+        "explanation": "朝向說話者。",
+        "pos": "V"
+      },
+      {
+        "form": "trãr",
+        "tone": null,
+        "gloss": "縱",
+        "explanation": "垂直方向。",
+        "pos": "A"
+      },
+      {
+        "form": "ptãp",
+        "tone": null,
+        "gloss": "橫",
+        "explanation": "水平方向。",
+        "pos": "A"
+      },
+      {
+        "form": "rlɔg",
+        "tone": null,
+        "gloss": "升",
+        "explanation": "向上運動。",
+        "pos": "V"
+      },
+      {
+        "form": "nrub",
+        "tone": null,
+        "gloss": "降",
+        "explanation": "向下運動。",
+        "pos": "V"
+      },
+      {
+        "form": "drim",
+        "tone": null,
+        "gloss": "東",
+        "explanation": "日出的方向。",
+        "pos": "N"
+      },
+      {
+        "form": "lrãd",
+        "tone": null,
+        "gloss": "西",
+        "explanation": "日落的方向。",
+        "pos": "N"
+      }
+    ],
+    "contact": [
+      {
+        "form": "trøk",
+        "tone": null,
+        "gloss": "相遇",
+        "explanation": "兩顆星的訊號首次相觸。",
+        "pos": "V"
+      },
+      {
+        "form": "nrak",
+        "tone": null,
+        "gloss": "借用",
+        "explanation": "把鄰居的詞拿來用;語言接觸的基本動作。",
+        "pos": "V"
+      },
+      {
+        "form": "grig",
+        "tone": null,
+        "gloss": "污染",
+        "explanation": "被過度借用到失去原意;帶負面色彩。",
+        "pos": "V"
+      },
+      {
+        "form": "gmuk",
+        "tone": null,
+        "gloss": "誤解",
+        "explanation": "接觸中產生的語義偏差;往往開啟新詞義。",
+        "pos": "V"
+      },
+      {
+        "form": "krøm",
+        "tone": null,
+        "gloss": "融合",
+        "explanation": "兩種語言形式合成新的詞;罕見但珍貴。",
+        "pos": "V"
+      },
+      {
+        "form": "rrɔŋ",
+        "tone": null,
+        "gloss": "分開",
+        "explanation": "彼此不再相連。",
+        "pos": "V"
+      },
+      {
+        "form": "drop",
+        "tone": null,
+        "gloss": "握手",
+        "explanation": "物理上的接觸動作;也是訊號的比喻。",
+        "pos": "V"
+      },
+      {
+        "form": "dbim",
+        "tone": null,
+        "gloss": "交換",
+        "explanation": "相互給予。",
+        "pos": "V"
+      },
+      {
+        "form": "gmɔl",
+        "tone": null,
+        "gloss": "共享",
+        "explanation": "多方共同擁有。",
+        "pos": "V"
+      },
+      {
+        "form": "drap",
+        "tone": null,
+        "gloss": "擁抱",
+        "explanation": "靠得非常近的接觸。",
+        "pos": "V"
+      },
+      {
+        "form": "drɛŋ",
+        "tone": null,
+        "gloss": "問候",
+        "explanation": "打招呼。",
+        "pos": "V"
+      },
+      {
+        "form": "brar",
+        "tone": null,
+        "gloss": "訊息",
+        "explanation": "傳遞的內容。",
+        "pos": "N"
+      },
+      {
+        "form": "drar",
+        "tone": null,
+        "gloss": "信號",
+        "explanation": "有意義的電磁波。",
+        "pos": "N"
+      },
+      {
+        "form": "brãt",
+        "tone": null,
+        "gloss": "語言",
+        "explanation": "一整套溝通系統。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋbãr",
+        "tone": null,
+        "gloss": "說",
+        "explanation": "發聲傳訊。",
+        "pos": "V"
+      },
+      {
+        "form": "grɛl",
+        "tone": null,
+        "gloss": "聽",
+        "explanation": "接收聲音。",
+        "pos": "V"
+      },
+      {
+        "form": "rraɾ",
+        "tone": null,
+        "gloss": "理解",
+        "explanation": "弄懂訊息的意思。",
+        "pos": "V"
+      },
+      {
+        "form": "rluŋ",
+        "tone": null,
+        "gloss": "沉默",
+        "explanation": "選擇不說。",
+        "pos": "N"
+      },
+      {
+        "form": "klãɾ",
+        "tone": null,
+        "gloss": "回應",
+        "explanation": "對他人訊息的反饋。",
+        "pos": "V"
+      },
+      {
+        "form": "nbul",
+        "tone": null,
+        "gloss": "吶喊",
+        "explanation": "大聲發聲。",
+        "pos": "V"
+      }
+    ],
+    "myth": [
+      {
+        "form": "lrɔŋ",
+        "tone": null,
+        "gloss": "獵人",
+        "explanation": "星座敘事裡的常見人物 (如獵戶座)。",
+        "pos": "N"
+      },
+      {
+        "form": "mret",
+        "tone": null,
+        "gloss": "熊",
+        "explanation": "古老的原型動物 (如大熊、小熊座)。",
+        "pos": "N"
+      },
+      {
+        "form": "lrud",
+        "tone": null,
+        "gloss": "蠍",
+        "explanation": "代表威脅與轉化的星宿。",
+        "pos": "N"
+      },
+      {
+        "form": "ptøɾ",
+        "tone": null,
+        "gloss": "女神",
+        "explanation": "為星座命名的神祇。",
+        "pos": "N"
+      },
+      {
+        "form": "klɛm",
+        "tone": null,
+        "gloss": "英雄",
+        "explanation": "星座故事的主角;經歷命運考驗的那個。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋryk",
+        "tone": null,
+        "gloss": "龍",
+        "explanation": "古老的意義承載者。",
+        "pos": "N"
+      },
+      {
+        "form": "grɔp",
+        "tone": null,
+        "gloss": "鳳凰",
+        "explanation": "死而復生的神鳥。",
+        "pos": "N"
+      },
+      {
+        "form": "kryg",
+        "tone": null,
+        "gloss": "劍",
+        "explanation": "英雄的武器,也是十字架的隱喻。",
+        "pos": "N"
+      },
+      {
+        "form": "prel",
+        "tone": null,
+        "gloss": "冠",
+        "explanation": "王者的象徵。",
+        "pos": "N"
+      },
+      {
+        "form": "plyg",
+        "tone": null,
+        "gloss": "王",
+        "explanation": "至高的統治者。",
+        "pos": "N"
+      },
+      {
+        "form": "nbɛŋ",
+        "tone": null,
+        "gloss": "旅人",
+        "explanation": "永遠在路上的人。",
+        "pos": "N"
+      },
+      {
+        "form": "nrøɾ",
+        "tone": null,
+        "gloss": "預言",
+        "explanation": "提前被知曉的未來。",
+        "pos": "N"
+      },
+      {
+        "form": "tmop",
+        "tone": null,
+        "gloss": "誓言",
+        "explanation": "不可違背的約定。",
+        "pos": "N"
+      },
+      {
+        "form": "nbur",
+        "tone": null,
+        "gloss": "命運",
+        "explanation": "被安排的人生軌跡。",
+        "pos": "N"
+      },
+      {
+        "form": "nrɛg",
+        "tone": null,
+        "gloss": "愛",
+        "explanation": "最核心的情感。",
+        "pos": "N"
+      },
+      {
+        "form": "brɔɾ",
+        "tone": null,
+        "gloss": "夢",
+        "explanation": "睡眠中的幻象。",
+        "pos": "N"
+      },
+      {
+        "form": "tril",
+        "tone": null,
+        "gloss": "迷宮",
+        "explanation": "曲折而難以逃脫的路徑。",
+        "pos": "N"
+      },
+      {
+        "form": "trer",
+        "tone": null,
+        "gloss": "島",
+        "explanation": "被海隔開的陸地;星座裡常見的意象。",
+        "pos": "N"
+      },
+      {
+        "form": "driɾ",
+        "tone": null,
+        "gloss": "樹",
+        "explanation": "連接天與地的生命柱。",
+        "pos": "N"
+      },
+      {
+        "form": "nbãm",
+        "tone": null,
+        "gloss": "火",
+        "explanation": "原始的光與熱。",
+        "pos": "N"
+      }
+    ],
+    "pronoun": [
+      {
+        "form": "btun",
+        "tone": null,
+        "gloss": "我",
+        "explanation": "說話者自己。",
+        "pos": "PRON"
+      },
+      {
+        "form": "lrøg",
+        "tone": null,
+        "gloss": "你",
+        "explanation": "被說話的對象。",
+        "pos": "PRON"
+      },
+      {
+        "form": "dleɾ",
+        "tone": null,
+        "gloss": "他",
+        "explanation": "第三人稱單數(中性)。",
+        "pos": "PRON"
+      },
+      {
+        "form": "drot",
+        "tone": null,
+        "gloss": "我們",
+        "explanation": "說話者及其同伴。",
+        "pos": "PRON"
+      },
+      {
+        "form": "dreɾ",
+        "tone": null,
+        "gloss": "你們",
+        "explanation": "多個被說話的對象。",
+        "pos": "PRON"
+      },
+      {
+        "form": "gryb",
+        "tone": null,
+        "gloss": "他們",
+        "explanation": "第三人稱複數。",
+        "pos": "PRON"
+      },
+      {
+        "form": "nrot",
+        "tone": null,
+        "gloss": "自己",
+        "explanation": "指涉回本身。",
+        "pos": "PRON"
+      },
+      {
+        "form": "lryŋ",
+        "tone": null,
+        "gloss": "彼此",
+        "explanation": "相互之間。",
+        "pos": "PRON"
+      },
+      {
+        "form": "kbig",
+        "tone": null,
+        "gloss": "任何人",
+        "explanation": "不特定的任何一位。",
+        "pos": "PRON"
+      },
+      {
+        "form": "lrob",
+        "tone": null,
+        "gloss": "誰",
+        "explanation": "疑問代詞。",
+        "pos": "PRON"
+      },
+      {
+        "form": "gtyd",
+        "tone": null,
+        "gloss": "這",
+        "explanation": "近指指示詞。",
+        "pos": "PRON"
+      },
+      {
+        "form": "trom",
+        "tone": null,
+        "gloss": "那",
+        "explanation": "遠指指示詞。",
+        "pos": "PRON"
+      },
+      {
+        "form": "nryb",
+        "tone": null,
+        "gloss": "某",
+        "explanation": "不特定。",
+        "pos": "PRON"
+      },
+      {
+        "form": "krur",
+        "tone": null,
+        "gloss": "每",
+        "explanation": "遍指。",
+        "pos": "PRON"
+      },
+      {
+        "form": "brɛd",
+        "tone": null,
+        "gloss": "所有",
+        "explanation": "全部。",
+        "pos": "PRON"
+      },
+      {
+        "form": "rbop",
+        "tone": null,
+        "gloss": "別人",
+        "explanation": "他人。",
+        "pos": "PRON"
+      },
+      {
+        "form": "pron",
+        "tone": null,
+        "gloss": "大家",
+        "explanation": "眾人。",
+        "pos": "PRON"
+      },
+      {
+        "form": "glãt",
+        "tone": null,
+        "gloss": "自我",
+        "explanation": "內在的自己。",
+        "pos": "N"
+      },
+      {
+        "form": "dmug",
+        "tone": null,
+        "gloss": "事物",
+        "explanation": "不特定的指涉對象。",
+        "pos": "N"
+      },
+      {
+        "form": "ŋlag",
+        "tone": null,
+        "gloss": "一切",
+        "explanation": "無所不包。",
+        "pos": "PRON"
+      }
+    ],
+    "function": [
+      {
+        "form": "rrɛk",
+        "tone": null,
+        "gloss": "和",
+        "explanation": "並列連接兩個名詞。",
+        "pos": "X"
+      },
+      {
+        "form": "rrøl",
+        "tone": null,
+        "gloss": "或",
+        "explanation": "表示選擇。",
+        "pos": "X"
+      },
+      {
+        "form": "ɾriŋ",
+        "tone": null,
+        "gloss": "但",
+        "explanation": "表示轉折。",
+        "pos": "X"
+      },
+      {
+        "form": "mrom",
+        "tone": null,
+        "gloss": "因為",
+        "explanation": "表示原因。",
+        "pos": "X"
+      },
+      {
+        "form": "grãd",
+        "tone": null,
+        "gloss": "所以",
+        "explanation": "表示結果。",
+        "pos": "X"
+      },
+      {
+        "form": "mril",
+        "tone": null,
+        "gloss": "如果",
+        "explanation": "表示條件。",
+        "pos": "X"
+      },
+      {
+        "form": "trɔn",
+        "tone": null,
+        "gloss": "即使",
+        "explanation": "表示讓步。",
+        "pos": "X"
+      },
+      {
+        "form": "drom",
+        "tone": null,
+        "gloss": "雖然",
+        "explanation": "表示讓步。",
+        "pos": "X"
+      },
+      {
+        "form": "prar",
+        "tone": null,
+        "gloss": "於是",
+        "explanation": "順承關係。",
+        "pos": "X"
+      },
+      {
+        "form": "ŋryr",
+        "tone": null,
+        "gloss": "只要",
+        "explanation": "條件關係。",
+        "pos": "X"
+      },
+      {
+        "form": "pbɛg",
+        "tone": null,
+        "gloss": "在",
+        "explanation": "表示處所或時間。",
+        "pos": "P"
+      },
+      {
+        "form": "rrot",
+        "tone": null,
+        "gloss": "向",
+        "explanation": "表示方向。",
+        "pos": "P"
+      },
+      {
+        "form": "nrem",
+        "tone": null,
+        "gloss": "從",
+        "explanation": "表示起點。",
+        "pos": "P"
+      },
+      {
+        "form": "blop",
+        "tone": null,
+        "gloss": "到",
+        "explanation": "表示終點。",
+        "pos": "P"
+      },
+      {
+        "form": "trap",
+        "tone": null,
+        "gloss": "為",
+        "explanation": "表示目的。",
+        "pos": "P"
+      },
+      {
+        "form": "brib",
+        "tone": null,
+        "gloss": "很",
+        "explanation": "程度副詞,表示非常。",
+        "pos": "D"
+      },
+      {
+        "form": "mmon",
+        "tone": null,
+        "gloss": "也",
+        "explanation": "表示並列或附加。",
+        "pos": "D"
+      },
+      {
+        "form": "ɾbãd",
+        "tone": null,
+        "gloss": "總是",
+        "explanation": "一直持續。",
+        "pos": "D"
+      },
+      {
+        "form": "gbiŋ",
+        "tone": null,
+        "gloss": "從未",
+        "explanation": "一次也沒有。",
+        "pos": "D"
+      },
+      {
+        "form": "ŋrɔɾ",
+        "tone": null,
+        "gloss": "忽然",
+        "explanation": "突然之間。",
+        "pos": "D"
+      }
+    ]
+  }
+}

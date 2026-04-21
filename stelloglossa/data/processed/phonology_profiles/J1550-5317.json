@@ -1,0 +1,54 @@
+{
+  "jname": "J1550-5317",
+  "constellation": "Norma",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 6,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "p",
+    "b",
+    "d",
+    "g",
+    "m",
+    "n",
+    "ŋ",
+    "l",
+    "ɾ",
+    "r",
+    "s",
+    "j",
+    "w"
+  ],
+  "complexity_score": 360,
+  "grammar": {
+    "word_order": "VSO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "reduplication",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "round",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 1.42112434544,
+    "dm": 600.0,
+    "period_dot": 9.35e-16,
+    "w50_ms": 85.0
+  }
+}

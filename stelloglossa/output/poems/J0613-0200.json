@@ -1,0 +1,31 @@
+{
+  "title": "Orion · J0613-0200",
+  "theme": "距離與訊息",
+  "lines": [
+    "ki sapu.",
+    "na pi.",
+    "na pa.",
+    "sipi ni."
+  ],
+  "literal": [
+    "附近 · 事物",
+    "漂移 · 我",
+    "冷卻 · 輻射",
+    "去 · 我們"
+  ],
+  "polished": [
+    "附近與事物。",
+    "我漂移。",
+    "去冷卻那輻射。",
+    "我們去。"
+  ],
+  "translation": [
+    "附近與事物。",
+    "我漂移。",
+    "去冷卻那輻射。",
+    "我們去。"
+  ],
+  "_provider": "static",
+  "jname": "J0613-0200",
+  "constellation": "Orion"
+}

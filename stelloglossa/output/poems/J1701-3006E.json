@@ -1,0 +1,31 @@
+{
+  "title": "Ophiucus · J1701-3006E",
+  "theme": "死亡與遺忘",
+  "lines": [
+    "pa la.",
+    "mi nila.",
+    "lu pa.",
+    "mi numi."
+  ],
+  "literal": [
+    "哀悼 · 崩解",
+    "昨天 · 死",
+    "分離 · 此刻",
+    "停留 · 他"
+  ],
+  "polished": [
+    "哀悼,然後崩解。",
+    "昨天曾經死。",
+    "我們分離此刻。",
+    "他停留。"
+  ],
+  "translation": [
+    "哀悼,然後崩解。",
+    "昨天曾經死。",
+    "我們分離此刻。",
+    "他停留。"
+  ],
+  "_provider": "static",
+  "jname": "J1701-3006E",
+  "constellation": "Ophiucus"
+}

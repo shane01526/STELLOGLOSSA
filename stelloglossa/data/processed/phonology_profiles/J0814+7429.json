@@ -1,0 +1,54 @@
+{
+  "jname": "J0814+7429",
+  "constellation": "Camelopardalis",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 0,
+  "tense_richness": "past-present-future",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "s",
+    "t",
+    "m",
+    "n",
+    "k",
+    "ʃ",
+    "h",
+    "l",
+    "f",
+    "p",
+    "r",
+    "v",
+    "z",
+    "j",
+    "w"
+  ],
+  "complexity_score": 60,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "before",
+    "negation": "particle-after",
+    "tense_marker": "prefix",
+    "plural_marker": "suffix",
+    "question_marker": "initial-particle",
+    "possessive": "NN-concat",
+    "vowel_harmony": "none",
+    "emphasis_position": "final"
+  },
+  "source_params": {
+    "period_s": 1.2922414468619536,
+    "dm": 5.7507,
+    "period_dot": 1.6811430018179736e-16,
+    "w50_ms": 41.4
+  }
+}

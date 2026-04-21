@@ -1,0 +1,31 @@
+{
+  "title": "Triangulum Australe · J1629-6902",
+  "theme": "距離與訊息",
+  "lines": [
+    "pa nu.",
+    "si suki.",
+    "ka ku.",
+    "suki tu."
+  ],
+  "literal": [
+    "借用 · 遠",
+    "起源 · 回望",
+    "分開 · 無邊",
+    "回望 · 外"
+  ],
+  "polished": [
+    "借用與遠。",
+    "起源回望得緩慢。",
+    "分開,以及無邊。",
+    "去回望那外。"
+  ],
+  "translation": [
+    "借用與遠。",
+    "起源回望得緩慢。",
+    "分開,以及無邊。",
+    "去回望那外。"
+  ],
+  "_provider": "static",
+  "jname": "J1629-6902",
+  "constellation": "Triangulum Australe"
+}

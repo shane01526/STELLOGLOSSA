@@ -1,0 +1,54 @@
+{
+  "jname": "J0304+1932",
+  "constellation": "Aries",
+  "syllable_structure": "CCCVCC",
+  "tone_count": 2,
+  "tense_richness": "compound",
+  "vowel_inventory": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ɛ",
+    "ɔ",
+    "y",
+    "ø",
+    "ã"
+  ],
+  "consonant_inventory": [
+    "t",
+    "k",
+    "m",
+    "n",
+    "s",
+    "p",
+    "l",
+    "r",
+    "b",
+    "ʃ",
+    "h",
+    "d",
+    "g",
+    "j",
+    "w"
+  ],
+  "complexity_score": 120,
+  "grammar": {
+    "word_order": "SVO",
+    "adjective_position": "after",
+    "negation": "prefix",
+    "tense_marker": "suffix",
+    "plural_marker": "none",
+    "question_marker": "final-particle",
+    "possessive": "N-of-N",
+    "vowel_harmony": "none",
+    "emphasis_position": "initial"
+  },
+  "source_params": {
+    "period_s": 1.387584446262276,
+    "dm": 15.6568,
+    "period_dot": 1.2952352836766371e-15,
+    "w50_ms": 48.1
+  }
+}
