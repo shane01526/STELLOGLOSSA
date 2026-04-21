@@ -919,23 +919,32 @@ function bindGestureEvents() {
     const hit = raycastToPulsar(x, y);
     if (hit) selectPulsar(hit.jname);
   });
-  window.addEventListener('gesture:drag_update', (e) => {
+  window.addEventListener('gesture:grab_drag', (e) => {
     if (!handModeOn || mode !== 'orbit') return;
     const { x, y, dx, dy } = e.detail;
-    setGestureCursor(x, y, true);
-    // Map normalized deltas to OrbitControls rotation.
-    // Positive dx (hand moves right) → orbit rotates right (camera moves left around target)
-    // Empirically 1 unit dx ≈ 0.6π rotation feels natural.
-    orbit.rotateLeft?.(dx * Math.PI * 0.8);
-    orbit.rotateUp?.(dy * Math.PI * 0.5);
+    // Visual: cursor glows when grabbing
+    if (gestureCursorEl) {
+      gestureCursorEl.style.background = 'rgba(255,154,200,0.35)';
+      gestureCursorEl.style.borderColor = '#ff9ac8';
+    }
+    setGestureCursor(x, y, false);
+    // Direct spherical-coordinate rotation (independent of OrbitControls internals).
+    // dx/dy are normalized (0..1); multiply to get radian rotation.
+    const offset = new THREE.Vector3().subVectors(camera.position, orbit.target);
+    const sph = new THREE.Spherical().setFromVector3(offset);
+    sph.theta -= dx * Math.PI * 1.8;
+    sph.phi -= dy * Math.PI * 1.2;
+    // Clamp polar angle to avoid flip-over at poles
+    sph.phi = Math.max(0.05, Math.min(Math.PI - 0.05, sph.phi));
+    offset.setFromSpherical(sph);
+    camera.position.copy(orbit.target).add(offset);
     orbit.update();
   });
-  window.addEventListener('gesture:drag_end', () => {
+  window.addEventListener('gesture:grab_end', () => {
     if (!handModeOn) return;
-    // Keep cursor visible; just drop pinch highlight
     if (gestureCursorEl) {
       gestureCursorEl.style.background = 'transparent';
-      gestureCursorEl.style.transform = 'translate(-50%, -50%) scale(1)';
+      gestureCursorEl.style.borderColor = '#8ad9ff';
     }
   });
   window.addEventListener('gesture:dolly', (e) => {

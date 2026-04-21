@@ -5,12 +5,12 @@
    to OrbitControls / selectPulsar.
 
    Emitted events (all on `window`):
-     gesture:idle           no hand visible — detail: {}
-     gesture:cursor         hand visible, not pinching — detail: { x, y }   (normalized 0..1)
-     gesture:tap            pinch onset — detail: { x, y }
-     gesture:drag_update    pinch held — detail: { x, y, dx, dy }           (dx/dy delta since last frame)
-     gesture:drag_end       pinch released — detail: {}
-     gesture:dolly          two-hand stretch/pinch — detail: { delta }      (positive = zoom in)
+     gesture:idle          no hand visible — detail: {}
+     gesture:cursor        hand visible — detail: { x, y }               normalized 0..1, mirrored
+     gesture:tap           pinch onset (discrete click) — detail: { x, y }
+     gesture:grab_drag     single-hand fist moving — detail: { x, y, dx, dy }
+     gesture:grab_end      fist released — detail: {}
+     gesture:dolly         two fists changing distance — detail: { delta }   positive = zoom in
 
    Design notes:
    - X is mirrored (1 - x) so "move hand right" moves cursor right from the
@@ -25,8 +25,8 @@ const MP_BUNDLE = `https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${MP_VER
 const MP_WASM = `https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${MP_VERSION}/wasm`;
 const MP_MODEL = 'https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task';
 
-const PINCH_ON_THRESHOLD = 0.05;   // normalized distance thumb-tip ↔ index-tip
-const PINCH_OFF_THRESHOLD = 0.08;  // hysteresis to avoid flicker
+const PINCH_ON_THRESHOLD = 0.06;   // normalized distance thumb-tip ↔ index-tip
+const PINCH_OFF_THRESHOLD = 0.10;  // hysteresis — widened so pinch doesn't flicker
 const IDLE_TIMEOUT_MS = 350;       // if no hand for this long → idle event
 
 let landmarker = null;
@@ -40,7 +40,8 @@ let wasIdle = true;
 
 // Per-hand state
 let pinchState = false;
-let lastPinchPos = null;
+let fistState = false;
+let lastFistPos = null;
 let lastTwoHandDist = null;
 let oneHandGraceFrames = 0;   // tolerate brief drops from 2 hands → 1 hand
 
@@ -130,7 +131,8 @@ export async function startHandControl({ onStatus } = {}) {
   active = true;
   wasIdle = true;
   pinchState = false;
-  lastPinchPos = null;
+  fistState = false;
+  lastFistPos = null;
   lastTwoHandDist = null;
   setStatus('手勢啟用中');
   loop();
@@ -230,7 +232,8 @@ function loop() {
   if (landmarks.length === 0) {
     if (!wasIdle && now - lastHandSeen > IDLE_TIMEOUT_MS) {
       wasIdle = true;
-      if (pinchState) { pinchState = false; lastPinchPos = null; emit('drag_end', {}); }
+      pinchState = false;
+      if (fistState) { fistState = false; lastFistPos = null; emit('grab_end', {}); }
       lastTwoHandDist = null;
       emit('idle', {});
     }
@@ -255,39 +258,61 @@ function loop() {
 }
 
 function processOneHand(lm) {
-  // Reset two-hand state if we were in it
+  // Reset two-hand state
   lastTwoHandDist = null;
 
+  const shape = handShape(lm);
   const pinchDist = dist(lm[4], lm[8]);
-  // Cursor = index fingertip (landmark 8), mirrored horizontally
-  const cursor = { x: 1 - lm[8].x, y: lm[8].y };
+  const cursor = { x: 1 - lm[8].x, y: lm[8].y };          // index fingertip, mirrored
+  const palm = { x: 1 - lm[9].x, y: lm[9].y };            // middle-MCP = palm centre
 
-  // Hysteresis for pinch
+  // Fist → grab & drag (rotate view). Takes priority — a fist has
+  // no extended index, so cursor/pinch logic wouldn't apply anyway.
+  if (shape === 'fist') {
+    if (pinchState) pinchState = false;                   // drop any stale pinch
+    if (!fistState) {
+      fistState = true;
+      lastFistPos = palm;
+      setStatus('✊ 抓住');
+    } else {
+      const dx = palm.x - lastFistPos.x;
+      const dy = palm.y - lastFistPos.y;
+      lastFistPos = palm;
+      emit('grab_drag', { x: palm.x, y: palm.y, dx, dy });
+    }
+    // Still update cursor visual so user sees where the fist is
+    emit('cursor', palm);
+    return;
+  }
+
+  // Not a fist any more — end any grab in progress
+  if (fistState) {
+    fistState = false;
+    lastFistPos = null;
+    emit('grab_end', {});
+  }
+
+  // Pinch: purely a discrete TAP (click). No drag on pinch — that's the fist's job.
   const nowPinching = pinchState
     ? pinchDist < PINCH_OFF_THRESHOLD
     : pinchDist < PINCH_ON_THRESHOLD;
 
   if (nowPinching && !pinchState) {
     pinchState = true;
-    lastPinchPos = cursor;
     emit('tap', cursor);
-  } else if (nowPinching && pinchState) {
-    const dx = cursor.x - lastPinchPos.x;
-    const dy = cursor.y - lastPinchPos.y;
-    lastPinchPos = cursor;
-    emit('drag_update', { x: cursor.x, y: cursor.y, dx, dy });
+    setStatus('🤏 點選');
   } else if (!nowPinching && pinchState) {
     pinchState = false;
-    lastPinchPos = null;
-    emit('drag_end', {});
-  } else {
-    emit('cursor', cursor);
   }
+
+  // Always emit cursor so the pointer visual follows the fingertip.
+  emit('cursor', cursor);
 }
 
 function processTwoHands(lmA, lmB) {
   // Cancel any one-hand state
-  if (pinchState) { pinchState = false; lastPinchPos = null; emit('drag_end', {}); }
+  pinchState = false;
+  if (fistState) { fistState = false; lastFistPos = null; emit('grab_end', {}); }
 
   const shapeA = handShape(lmA);
   const shapeB = handShape(lmB);
