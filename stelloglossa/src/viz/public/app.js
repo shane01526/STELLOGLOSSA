@@ -856,6 +856,13 @@ function raycastToPulsar(nx, ny) {
   return jname ? bundle.pulsars.find(p => p.jname === jname) : null;
 }
 
+function syncHandButton() {
+  const btn = document.getElementById('btn-hand');
+  if (!btn) return;
+  btn.classList.toggle('active', handModeOn);
+  btn.textContent = handModeOn ? '🖐 手勢 ●' : '🖐 手勢';
+}
+
 async function toggleHandMode() {
   if (handModeOn) {
     hand.stopHandControl();
@@ -863,21 +870,41 @@ async function toggleHandMode() {
     hideGestureCursor();
     if (gestureStatusEl) gestureStatusEl.textContent = '';
     updateHudMode();
+    syncHandButton();
     return;
   }
   ensureGestureCursorUI();
   gestureStatusEl.textContent = '啟動中…';
+  const btn = document.getElementById('btn-hand');
+  if (btn) { btn.disabled = true; btn.textContent = '🖐 載入中…'; }
   const ok = await hand.startHandControl({
     onStatus: (msg) => { if (gestureStatusEl) gestureStatusEl.textContent = msg; },
   });
+  if (btn) btn.disabled = false;
   if (!ok) {
     gestureStatusEl.textContent = '啟動失敗';
     setTimeout(() => { if (gestureStatusEl) gestureStatusEl.textContent = ''; }, 3000);
+    syncHandButton();
     return;
   }
   handModeOn = true;
   updateHudMode();
+  syncHandButton();
 }
+
+// Bind the toolbar button once DOM is ready.
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('btn-hand');
+  if (btn) btn.addEventListener('click', () => toggleHandMode());
+});
+// Fallback in case DOMContentLoaded already fired by the time this runs.
+queueMicrotask(() => {
+  const btn = document.getElementById('btn-hand');
+  if (btn && !btn.dataset.bound) {
+    btn.dataset.bound = '1';
+    btn.addEventListener('click', () => toggleHandMode());
+  }
+});
 
 function bindGestureEvents() {
   window.addEventListener('gesture:cursor', (e) => {
