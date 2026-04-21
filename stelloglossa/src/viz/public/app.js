@@ -941,10 +941,18 @@ function bindGestureEvents() {
   window.addEventListener('gesture:dolly', (e) => {
     if (!handModeOn || mode !== 'orbit') return;
     const { delta } = e.detail;
-    // delta > 0 means hands spread apart → zoom in (dolly in)
-    const factor = 1 + delta * 4;
-    if (factor > 1) orbit.dollyIn?.(factor);
-    else orbit.dollyOut?.(1 / Math.max(factor, 0.1));
+    // delta > 0 → hands moved apart → user wants to zoom IN (camera gets closer to target).
+    // Use target-relative exponential scaling (always works, independent of OrbitControls internals).
+    const factor = Math.exp(-delta * 8);   // k=8 → ~0.67× per ~0.05 spread
+    const offset = new THREE.Vector3().subVectors(camera.position, orbit.target);
+    offset.multiplyScalar(factor);
+    // Clamp to OrbitControls distance limits if set
+    const newDist = offset.length();
+    const minD = orbit.minDistance ?? 0.01;
+    const maxD = orbit.maxDistance ?? 10000;
+    if (newDist < minD) offset.setLength(minD);
+    else if (newDist > maxD) offset.setLength(maxD);
+    camera.position.copy(orbit.target).add(offset);
     orbit.update();
   });
   window.addEventListener('gesture:idle', () => {

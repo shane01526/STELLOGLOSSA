@@ -42,6 +42,7 @@ let wasIdle = true;
 let pinchState = false;
 let lastPinchPos = null;
 let lastTwoHandDist = null;
+let oneHandGraceFrames = 0;   // tolerate brief drops from 2 hands → 1 hand
 
 let statusCb = null;
 
@@ -220,10 +221,18 @@ function loop() {
   lastHandSeen = now;
   wasIdle = false;
 
-  if (landmarks.length === 1) {
-    processOneHand(landmarks[0]);
-  } else {
+  if (landmarks.length >= 2) {
+    oneHandGraceFrames = 0;
     processTwoHands(landmarks[0], landmarks[1]);
+  } else if (landmarks.length === 1) {
+    // Brief drop from 2 hands → 1 hand: keep two-hand state alive for a few
+    // frames so MediaPipe flicker doesn't kill a sustained dolly gesture.
+    if (lastTwoHandDist !== null && oneHandGraceFrames < 8) {
+      oneHandGraceFrames += 1;
+      return;
+    }
+    oneHandGraceFrames = 0;
+    processOneHand(landmarks[0]);
   }
 }
 
@@ -262,16 +271,19 @@ function processTwoHands(lmA, lmB) {
   // Cancel any one-hand state
   if (pinchState) { pinchState = false; lastPinchPos = null; emit('drag_end', {}); }
 
-  // Centre of each hand = wrist (landmark 0)
-  const a = { x: lmA[0].x, y: lmA[0].y };
-  const b = { x: lmB[0].x, y: lmB[0].y };
+  // Use middle-finger MCP (landmark 9) as a stable hand centre — less jittery than wrist
+  const a = { x: lmA[9].x, y: lmA[9].y };
+  const b = { x: lmB[9].x, y: lmB[9].y };
   const d = dist(a, b);
 
   if (lastTwoHandDist != null) {
     const delta = d - lastTwoHandDist;
-    if (Math.abs(delta) > 0.003) {   // deadband
+    if (Math.abs(delta) > 0.0015) {   // deadband (halved)
       emit('dolly', { delta });
+      setStatus(`雙手 d=${d.toFixed(2)} Δ=${delta >= 0 ? '＋' : '－'}${Math.abs(delta).toFixed(3)}`);
     }
+  } else {
+    setStatus(`雙手就位 d=${d.toFixed(2)}`);
   }
   lastTwoHandDist = d;
 }
