@@ -15,6 +15,7 @@ import {
 } from './features.js';
 import { speakWord } from './speech.js';
 import { duckAmbient } from './ambient.js';
+import * as hand from './hand_control.js';
 
 // Start the intro immediately, before any async work. This guarantees that
 // the keydown/click listeners are always registered even if bundle loading
@@ -67,6 +68,7 @@ document.addEventListener('keydown', (e) => {
   }
   if (e.code === 'KeyF' && !e.repeat) toggleMode();
   if (e.code === 'KeyT' && !e.repeat) toggleTimeMode();
+  if (e.code === 'KeyG' && !e.repeat) toggleHandMode();
   if (mode !== 'fly') return;
   switch (e.code) {
     case 'KeyW': case 'ArrowUp': flyState.forward = true; break;
@@ -780,13 +782,154 @@ function updateHudMode() {
   if (!line) return;
   const crosshair = document.getElementById('crosshair');
   const timeBadge = timeMode ? ' · <span style="color:#ffd58a">● 時間膨脹</span>' : '';
+  const handBadge = handModeOn ? ' · <span style="color:#7aff8a">🖐 手勢</span>' : '';
   if (mode === 'fly') {
-    line.innerHTML = `<span style="color:#ff9ac8">● FLY</span> WASD 移動 · Space 上 · Ctrl 下 · Shift 加速 · Esc/F 退出${timeBadge}`;
+    line.innerHTML = `<span style="color:#ff9ac8">● FLY</span> WASD 移動 · Space 上 · Ctrl 下 · Shift 加速 · Esc/F 退出${timeBadge}${handBadge}`;
     if (crosshair) crosshair.style.display = 'block';
   } else {
-    line.innerHTML = `<span style="color:#8ad9ff">● ORBIT</span> 拖曳旋轉 · 滾輪縮放 · <b>F</b> 飛行 · <b>T</b> 時間膨脹 · <b>H</b> 收合${timeBadge}`;
+    line.innerHTML = `<span style="color:#8ad9ff">● ORBIT</span> 拖曳旋轉 · 滾輪縮放 · <b>F</b> 飛行 · <b>T</b> 時間膨脹 · <b>G</b> 手勢 · <b>H</b> 收合${timeBadge}${handBadge}`;
     if (crosshair) crosshair.style.display = 'none';
   }
+}
+
+/* ═══════════════════════════ Gesture control ═══════════════════════════
+   Toggle with G key or URL query `?input=hand`. Maps MediaPipe gestures
+   (cursor / tap / drag / dolly) into OrbitControls operations + star select.
+   Only active when in orbit mode (fly mode keeps mouse/keyboard dominance).
+*/
+
+let handModeOn = false;
+let gestureCursorEl = null;
+let gestureStatusEl = null;
+
+function ensureGestureCursorUI() {
+  if (!gestureCursorEl) {
+    gestureCursorEl = document.createElement('div');
+    gestureCursorEl.id = 'gesture-cursor';
+    Object.assign(gestureCursorEl.style, {
+      position: 'fixed', width: '28px', height: '28px',
+      border: '2px solid #8ad9ff', borderRadius: '50%',
+      pointerEvents: 'none', zIndex: '25',
+      transform: 'translate(-50%, -50%)',
+      transition: 'background 0.1s, transform 0.1s',
+      display: 'none',
+      boxShadow: '0 0 12px rgba(138,217,255,0.5)',
+    });
+    document.body.appendChild(gestureCursorEl);
+  }
+  if (!gestureStatusEl) {
+    gestureStatusEl = document.createElement('div');
+    gestureStatusEl.id = 'gesture-status';
+    Object.assign(gestureStatusEl.style, {
+      position: 'fixed', bottom: '144px', right: '16px',
+      width: '160px', textAlign: 'center',
+      color: '#8ad9ff', fontSize: '11px',
+      letterSpacing: '0.1em', zIndex: '20',
+      padding: '2px 4px',
+      background: 'rgba(15,18,30,0.8)',
+      border: '1px solid #22304a', borderRadius: '3px',
+    });
+    document.body.appendChild(gestureStatusEl);
+  }
+}
+
+function setGestureCursor(nx, ny, pinching = false) {
+  if (!gestureCursorEl) return;
+  gestureCursorEl.style.display = 'block';
+  gestureCursorEl.style.left = (nx * window.innerWidth) + 'px';
+  gestureCursorEl.style.top = (ny * window.innerHeight) + 'px';
+  gestureCursorEl.style.background = pinching ? 'rgba(138,217,255,0.6)' : 'transparent';
+  gestureCursorEl.style.transform = `translate(-50%, -50%) scale(${pinching ? 0.7 : 1})`;
+}
+
+function hideGestureCursor() {
+  if (gestureCursorEl) gestureCursorEl.style.display = 'none';
+}
+
+function raycastToPulsar(nx, ny) {
+  // Screen (nx, ny) in 0..1 → NDC -1..1
+  const ndc = new THREE.Vector2(nx * 2 - 1, -(ny * 2 - 1));
+  raycaster.setFromCamera(ndc, camera);
+  const hits = raycaster.intersectObjects(pulsarMeshes, false);
+  if (!hits.length) return null;
+  const jname = hits[0].object.userData?.jname;
+  return jname ? bundle.pulsars.find(p => p.jname === jname) : null;
+}
+
+async function toggleHandMode() {
+  if (handModeOn) {
+    hand.stopHandControl();
+    handModeOn = false;
+    hideGestureCursor();
+    if (gestureStatusEl) gestureStatusEl.textContent = '';
+    updateHudMode();
+    return;
+  }
+  ensureGestureCursorUI();
+  gestureStatusEl.textContent = '啟動中…';
+  const ok = await hand.startHandControl({
+    onStatus: (msg) => { if (gestureStatusEl) gestureStatusEl.textContent = msg; },
+  });
+  if (!ok) {
+    gestureStatusEl.textContent = '啟動失敗';
+    setTimeout(() => { if (gestureStatusEl) gestureStatusEl.textContent = ''; }, 3000);
+    return;
+  }
+  handModeOn = true;
+  updateHudMode();
+}
+
+function bindGestureEvents() {
+  window.addEventListener('gesture:cursor', (e) => {
+    if (!handModeOn) return;
+    const { x, y } = e.detail;
+    setGestureCursor(x, y, false);
+  });
+  window.addEventListener('gesture:tap', (e) => {
+    if (!handModeOn) return;
+    const { x, y } = e.detail;
+    setGestureCursor(x, y, true);
+    const hit = raycastToPulsar(x, y);
+    if (hit) selectPulsar(hit.jname);
+  });
+  window.addEventListener('gesture:drag_update', (e) => {
+    if (!handModeOn || mode !== 'orbit') return;
+    const { x, y, dx, dy } = e.detail;
+    setGestureCursor(x, y, true);
+    // Map normalized deltas to OrbitControls rotation.
+    // Positive dx (hand moves right) → orbit rotates right (camera moves left around target)
+    // Empirically 1 unit dx ≈ 0.6π rotation feels natural.
+    orbit.rotateLeft?.(dx * Math.PI * 0.8);
+    orbit.rotateUp?.(dy * Math.PI * 0.5);
+    orbit.update();
+  });
+  window.addEventListener('gesture:drag_end', () => {
+    if (!handModeOn) return;
+    // Keep cursor visible; just drop pinch highlight
+    if (gestureCursorEl) {
+      gestureCursorEl.style.background = 'transparent';
+      gestureCursorEl.style.transform = 'translate(-50%, -50%) scale(1)';
+    }
+  });
+  window.addEventListener('gesture:dolly', (e) => {
+    if (!handModeOn || mode !== 'orbit') return;
+    const { delta } = e.detail;
+    // delta > 0 means hands spread apart → zoom in (dolly in)
+    const factor = 1 + delta * 4;
+    if (factor > 1) orbit.dollyIn?.(factor);
+    else orbit.dollyOut?.(1 / Math.max(factor, 0.1));
+    orbit.update();
+  });
+  window.addEventListener('gesture:idle', () => {
+    hideGestureCursor();
+  });
+}
+bindGestureEvents();
+
+// Auto-activate when ?input=hand in URL (exhibition kiosk mode)
+if (new URLSearchParams(location.search).get('input') === 'hand') {
+  // Wait for the scene to build; toggle after a short delay.
+  setTimeout(() => toggleHandMode(), 1500);
 }
 
 function animate() {
