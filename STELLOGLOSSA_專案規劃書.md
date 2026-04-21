@@ -1,11 +1,12 @@
 # 🌌 STELLOGLOSSA — 讓宇宙自己說話的語言考古機
-### 專案規劃書 v2.2（肖像融合版）
+### 專案規劃書 v2.3（展覽手勢版）
 
 > 撰寫時間：2026-04-21
-> 對應程式碼：`stelloglossa/` 倉內最新 master
+> 對應程式碼：`stelloglossa/` 倉內最新 master（git 本地 repo 已建立於專案根）
 > 本版與 v1.1 的差異：把原本停留在構想階段的 12 章規劃，重寫為「**規劃書 ＋ 實作現況** 雙層文件」——每個模組都附已完成的檔案路徑、呼叫介面與實測結果。
 > v2.1 變更：音訊層從「未渲染」升級為 **MBROLA + ffmpeg 物理驅動語音合成**，12,000 個詞 100% 成功，前端 ▶ 按鈕改吃真實 .wav。
 > v2.2 變更：新增 **融合式肖像 (Portrait)** 視覺層——logogram 墨環 × avatar 物理肖像合而為一。每顆星有獨一無二的「圓相」，detail 頁動、map popup 靜、可匯出 PNG。§3 教學區保留純 logogram。
+> v2.3 變更：新增 **MediaPipe Hands 手勢控制層**（展覽專用）——純瀏覽器、零硬體擴充，四種手形各司其職（✊拳=抓、🤏捏=點、🖐攤=暫停、🫵指=游標）。`G` 鍵 / 工具列按鈕 / `?input=hand` URL 三種觸發方式。同時建立專案級 git 版控（原本的 `.git` 在家目錄，會污染追蹤範圍）。
 
 ---
 
@@ -126,6 +127,14 @@
 │ LAYER 5.6 · 肖像視覺層 ─────────────────────────────────────────────│
 │   public/portrait.js  (融合 logogram 墨環 × 物理光球,detail 頁動態) │
 │   public/logogram.js  (純 logogram,供 §3 教學解剖)                  │
+│                                                                     │
+│ LAYER 5.7 · 手勢輸入層(展覽專用) ──────────────────────────────────│
+│   public/hand_control.js  (MediaPipe Hands + 4 shape 狀態機)        │
+│     ├─ 單手 ✊ 握拳 → 旋轉視角 (Spherical 直接運算)                  │
+│     ├─ 單手 🤏 捏合 → 點擊選取                                      │
+│     ├─ 單手 🖐 攤開 → cursor                                        │
+│     ├─ 雙拳距離變化 → dolly                                         │
+│     └─ 雙掌全開 → 暫停                                              │
 │                                                                     │
 │ LAYER 6 · 視覺化層 ───────────────────────────────────────────────  │
 │   bundle_data.py      (全體資料打包為 public/data/bundle.json)      │
@@ -514,6 +523,73 @@ ring_radius(θ) = R · (1 + low(θ) + tremor + notch)
 | Map node 本身 | — | 不加（會干擾 3D 分佈） |
 | §3 圓環符號解剖 | 320 px | ❌ 純 logogram（非 portrait） |
 
+### 6.12 Module 10 · 手勢輸入層 Hand Control（v2.3 新增）
+
+#### 6.12.1 目的與約束
+展覽情境下觀眾不想碰共用觸控螢幕。需要一個**零額外硬體、純瀏覽器、純 gesture** 的控制層做為第二輸入方式（滑鼠鍵盤保留，兩者並行）。
+
+#### 6.12.2 技術選擇
+**MediaPipe Hands**（Google Tasks Vision）：
+- 純 WebAssembly，CDN 載入，總大小 ~4.5 MB（wasm ~1.5 MB + 模型 ~3 MB）
+- 每幀偵測 2 隻手、每手 21 個 landmark，GPU delegate 在現代 laptop 約 30 fps
+- lazy load：只在使用者觸發 G 鍵 / 按鈕時才下載
+
+放棄的選項：Leap Motion（要硬體）、WebXR VR（一次一人 + 戴戴衛生）、gamepad（無 wow 因子）、語音（展場噪音）。
+
+#### 6.12.3 手勢詞彙（四種手形，各司其職）
+| 手形 | 檢測方式 | 對應操作 |
+|------|---------|---------|
+| ✊ **fist** | 4 根非拇指手指全彎（tip-to-wrist < MCP-to-wrist × 1.35） | 單手：旋轉視角；雙手：dolly |
+| 🤏 **pinch** | 拇指尖與食指尖距離 < 0.06（hysteresis off=0.10） | 單手：點擊選取（discrete tap）|
+| 🖐 **open** | 4 根非拇指手指全伸（同上公式反向）| 單手：cursor；雙手：**暫停** |
+| 🫵 **其他** | 1-2 根伸直（典型指向）| 單手：cursor；雙手：忽略 |
+
+設計原則：**四種形狀不重疊語義**。握拳是連續動作（拖曳）、捏合是離散動作（敲擊）、攤開是靜止狀態（暫停/idle）、指向是預設（僅游標）。
+
+#### 6.12.4 狀態機（processOneHand 優先序）
+```
+入一手 → handShape 分類
+  ├─ fist  → 若 fistState==false 建立 grab；否則 emit grab_drag(dx, dy)
+  ├─ pinch（not fist）→ 若 pinchState==false 則 emit tap
+  └─ else → emit cursor
+```
+雙手處理（processTwoHands）：兩拳才算 dolly、兩掌則暫停、其他忽略。
+
+#### 6.12.5 事件協議
+hand_control.js 在 `window` 發 CustomEvent，app.js adapter 綁事件做 3D 操作：
+
+| Event | 來源手勢 | adapter 動作 |
+|-------|---------|-------------|
+| `gesture:cursor` | open/other 手 | 更新螢幕游標位置 |
+| `gesture:tap` | 拇食捏合 onset | raycast → `selectPulsar()` |
+| `gesture:grab_drag` | 單拳移動 | 旋轉鏡頭（Spherical 運算）|
+| `gesture:grab_end` | 拳頭放開 | 游標回青色 |
+| `gesture:dolly` | 雙拳距離改變 | 鏡頭縮放（target-relative scaling）|
+| `gesture:idle` | 3 秒無手 | 游標隱藏、狀態清除 |
+
+#### 6.12.6 踩到的 4 個坑與修法
+| 坑 | 症狀 | 修法 |
+|----|------|------|
+| `orbit.rotateLeft/Up` / `dollyIn/Out` 被新版 OrbitControls silently no-op | 捏合拖曳 / 雙手縮放**完全沒反應** | 改用 `THREE.Spherical` + 直接 `camera.position` 運算，繞過 OrbitControls 內部 API |
+| MediaPipe 1手↔2手偵測閃跳 | 雙拳縮放偶爾失效 | 雙手狀態下寬限 8 frames（~250ms）的單手幀不重置 baseline |
+| 手腕（landmark 0）抖動大 | 手勢判讀雜訊 | 手部中心用 landmark 9（中指 MCP）取代手腕 |
+| 工具列按鈕雙重 binding | 按第二下關不掉（兩個 listener 互相抵消）| 合併成單一 `bindHandButton()` + `dataset.bound` guard |
+
+#### 6.12.7 視覺回饋
+- **webcam 預覽**：右下角 160×120 canvas，畫即時影像 + 青色 landmark 標示（5 指尖 + 拇食連線）
+- **螢幕游標**：28×28 圓圈跟隨指尖／掌心；捏合時變實心縮小、握拳時變**粉紅色填充**
+- **狀態列**：預覽視窗上方印 `✊ 抓住` / `🤏 點選` / `雙拳 d=... Δ=＋...` / `雙掌攤開 · 暫停` 等 live 文字
+
+#### 6.12.8 啟用方式（三種觸發）
+| 方式 | 場景 |
+|------|------|
+| 工具列 🖐 手勢按鈕 | 一般使用者 |
+| `G` 鍵 | 快速切換 |
+| `?input=hand` URL | 展覽 kiosk 模式（頁面載入 1.5 秒後自動啟用）|
+
+#### 6.12.9 尚未納入手勢的操作
+保留為鍵盤/滑鼠專屬：飛行模式（F + WASD）、時間膨脹（T）、搜尋/比較/猜謎 overlays。下一階段若展覽情境需要完全 touchless 可再擴展。
+
 ---
 
 ## 7. 前端視覺化與互動功能
@@ -658,6 +734,9 @@ ring_radius(θ) = R · (1 + low(θ) + tremor + notch)
 - [x] **serve.py no-cache headers**：避免瀏覽器 cache ES module 造成改動不生效
 - [x] **融合式肖像 Portrait**（v2.2，logogram ⊗ avatar，detail 頁動、map popup 靜、PNG 可匯出）
 - [x] **detail-select dropdown 修復**：修正 `!sel.options.length - 1` 運算子優先序 bug，「語言檔案」tab 選單現在會列出 50 顆脈衝星
+- [x] **MediaPipe Hands 手勢控制**（v2.3，4 種手形狀態機 + Spherical 相機運算）
+- [x] **手勢工具列按鈕 + G 鍵 + URL query 三入口**，展覽模式 kiosk-ready
+- [x] **專案級 git 版控**（root `.git`，.gitignore 排除 361 MB .wav / 60 MB drift / 9 MB embedding / .env）
 - [x] Interstellar / Kamakura 雙氛圍音樂
 - [x] 11 個互動功能（搜尋/quiz/custom/earth-compare/translate…）
 - [x] `/translate` REST 端點
@@ -786,14 +865,15 @@ STELLOGLOSSA/
     │   ├── serve.py                  — HTTP 8765 + /translate REST + no-cache headers
     │   ├── bundle_data.py            — 打包 bundle.json
     │   └── public/
-    │       ├── index.html            — 入口（含 inline SVG favicon）
-    │       ├── app.js                — Three.js 3D 星圖 + speak() 吃 MBROLA .wav
+    │       ├── index.html            — 入口（含 🖐 手勢 按鈕、SVG favicon）
+    │       ├── app.js                — Three.js 3D 星圖 + speak() + gesture adapter
     │       ├── pulsar_detail.js      — 詳細頁（§1–§9）+ idx-aware play buttons
     │       ├── features.js           — 11 個互動
     │       ├── portrait.js           — 融合肖像 (v2.2 新)
     │       ├── logogram.js           — 純墨環 logogram（§3 教學用）
     │       ├── speech.js             — Web Audio formant（v2.1 退為 fallback）
     │       ├── ambient.js            — 兩套氛圍音樂
+    │       ├── hand_control.js       — MediaPipe Hands 手勢輸入 (v2.3 新)
     │       ├── tree_view.js          — D3 家譜樹
     │       ├── results_view.js       — 假說儀表板
     │       ├── about_view.js         — 專案說明
@@ -863,8 +943,9 @@ contact 接觸     myth 神話     pronoun 代詞   function 虛詞
 
 ---
 
-*STELLOGLOSSA 專案規劃書 v2.2*
+*STELLOGLOSSA 專案規劃書 v2.3*
 *撰寫日期：2026-04-21*
+*v2.3 變更摘要：**新增手勢輸入層（展覽專用）**。新檔 `src/viz/public/hand_control.js` 封裝 MediaPipe Hands，四種手形狀態機（✊拳=抓、🤏捏=點、🖐攤=暫停、🫵指=游標）搭配 8-frame 寬限窗口處理 1↔2 手偵測閃跳。旋轉用 `THREE.Spherical` 直算 camera 位置（繞過 OrbitControls 的 no-op `rotateLeft/Up`），縮放用 target-relative exponential scaling（繞過 no-op `dollyIn/Out`）。三種啟用方式：工具列 🖐 按鈕、`G` 鍵、`?input=hand` URL query（kiosk 模式）。右下角即時 webcam 預覽 + 手勢狀態 live 文字便於 debug。同時修復 dropdown 運算子優先序 bug、建立專案級 git 版控（root `.git`，合理 .gitignore 排除 ~430 MB 生成產物）。*
 *v2.2 變更摘要：**新增融合式肖像視覺層**。新檔 `src/viz/public/portrait.js` 把 logogram 墨環與 avatar 物理肖像合而為一——墨環即光球邊界、tones 突起即磁極、jets 沿 bulge[0] 軸射出（固定不隨 spin，形成 lighthouse 觀感）、DM 驅動 HSL hue、距離驅動背景光暈 alpha、period 驅動整個 spin group 旋轉速度、syllable 結構疊加高頻 tremor + 低頻 body 變形成唯一墨環邊界。Detail 頁 320 px 動態 + map popup 180 px 靜態；PNG 匯出（自動剝除 SMIL）。§3「圓環符號解剖」教學區保留純 logogram.js，避免物理質感干擾語言參數對應。同時修正「語言檔案」tab 下拉選單的運算子優先序 bug。舊檔 avatar.js 已刪除。*
 *v2.1 變更摘要：**音訊層從「未渲染」升級為可用產品**。捨棄 v2.0 的 eSpeak NG 方案（需 admin 安裝），改走 **MBROLA 3.3 + ffmpeg** 純 user-dir 安裝路線。新增 `src/core/sampa_mapper.py` 負責 IPA→SAMPA per-voice mapping 與 deterministic voice 選擇；重寫 `src/core/audio_renderer.py` 含物理驅動的 `speech_params_for()` / `reverb_params_for()` / `build_pho()` 三層；前端 `app.js:speak()` 改為先查 audio_manifest 再走 `/audio/*.wav`，失敗 fallback 到 speech.js formant；`serve.py` 加 `Cache-Control: no-cache` 解 ES module 更新不生效問題。實測 12,000 / 12,000 詞 100% 成功，總合成時間 ~8 分鐘，產生 361 MB .wav 檔。*
 *v2.0 變更摘要：從「僅規劃」升級為「規劃+實作進度雙層文件」；補齊所有已落地模組的細節、實測資料規模、H1/H2/H3 真實統計結果、已知限制與下一階段規劃；新增前端 11 互動、Web Audio formant、Arrival logogram、敘事層（letter/poem/translator）、文法生成器、子音庫兩軸規則、分層抽樣策略等章節。*
