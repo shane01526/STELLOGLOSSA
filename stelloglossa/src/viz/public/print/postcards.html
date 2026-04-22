@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>STELLOGLOSSA · 展覽明信片</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #e8e2d2;
+    --ink-dim: #8a8372;
+    --ink-faint: #4a4637;
+    --paper: #0a0806;
+    --paper-warm: #12100c;
+    --hairline: #2a2619;
+    --accent: #c9b886;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: #1a1713;
+    color: var(--ink);
+    font-family: 'Noto Serif TC', 'Cormorant Garamond', serif;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "palt";
+  }
+
+  /* Page chrome */
+  .masthead {
+    max-width: 1300px;
+    margin: 56px auto 36px;
+    padding: 0 40px;
+    color: var(--ink);
+  }
+  .masthead .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .masthead h1 {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-weight: 300;
+    font-size: 46px;
+    letter-spacing: 0.06em;
+    margin: 0 0 10px;
+  }
+  .masthead h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .masthead p {
+    font-size: 14px;
+    color: var(--ink-dim);
+    max-width: 720px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .legend {
+    max-width: 1300px;
+    margin: 0 auto 40px;
+    padding: 0 40px;
+    display: flex;
+    gap: 30px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .legend span b { color: var(--ink-dim); font-weight: 400; }
+
+  /* Postcard grid */
+  .deck {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  .pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  .pair-label {
+    grid-column: 1 / -1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pair-label span { color: var(--ink-dim); }
+
+  /* Postcard — 148×100mm */
+  .card {
+    width: 100%;
+    aspect-ratio: 148 / 100;
+    background: var(--paper);
+    color: var(--ink);
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.02) inset,
+      0 30px 60px -20px rgba(0,0,0,0.6),
+      0 0 0 1px rgba(255,255,255,0.03);
+    container-type: inline-size;
+  }
+  .card .edge {
+    position: absolute; inset: 7px;
+    border: 1px solid rgba(232,226,210,0.08);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .card .grain {
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(ellipse at 20% 10%, rgba(232,226,210,0.04), transparent 50%),
+      radial-gradient(ellipse at 80% 90%, rgba(232,226,210,0.025), transparent 50%);
+    mix-blend-mode: screen;
+    pointer-events: none;
+  }
+
+  /* ===== FRONT ===== */
+  .front {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    color: var(--ink);
+  }
+  .front .portrait-pane {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 6%;
+  }
+  .front .portrait-pane svg {
+    width: 100%; height: auto;
+    max-width: 100%;
+    display: block;
+  }
+  .front .portrait-pane::before,
+  .front .portrait-pane::after {
+    content: '';
+    position: absolute;
+    width: 10px; height: 10px;
+    border: 1px solid rgba(232,226,210,0.18);
+  }
+  .front .portrait-pane::before { top: 14px; left: 14px; border-right: none; border-bottom: none; }
+  .front .portrait-pane::after { bottom: 14px; right: 14px; border-left: none; border-top: none; }
+
+  .front .meta-pane {
+    position: relative;
+    padding: 6cqi 6cqi 6cqi 2cqi;
+    display: flex;
+    flex-direction: column;
+    gap: 3cqi;
+    border-left: 1px solid var(--hairline);
+  }
+  .catalog-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.6cqi;
+    letter-spacing: 0.16em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .catalog-row .num {
+    color: var(--accent);
+    font-size: 1.5cqi;
+  }
+  .jname {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 5.6cqi;
+    letter-spacing: 0.02em;
+    line-height: 1;
+    color: var(--ink);
+    margin: 0;
+  }
+  .jname .sign { color: var(--accent); }
+  .constellation {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 2.4cqi;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: var(--ink-dim);
+    margin-top: -0.8cqi;
+  }
+  .subtitle {
+    font-family: 'Noto Serif TC', serif;
+    font-style: normal;
+    font-size: 2.2cqi;
+    line-height: 1.55;
+    color: var(--ink);
+    letter-spacing: 0.03em;
+    text-wrap: pretty;
+    border-top: 1px solid var(--hairline);
+    padding-top: 2.6cqi;
+  }
+  .params {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8cqi 2.6cqi;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5cqi;
+    color: var(--ink-dim);
+    border-top: 1px solid var(--hairline);
+    padding-top: 2.6cqi;
+  }
+  .params dt {
+    font-size: 1.1cqi;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .params dd {
+    margin: 0.2cqi 0 0;
+    color: var(--ink);
+    font-size: 1.6cqi;
+    letter-spacing: 0.02em;
+  }
+  .params dd .unit { color: var(--ink-dim); font-size: 1.2cqi; margin-left: 0.3cqi; }
+
+  .front .footer-chrome {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.1cqi;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  /* ===== BACK ===== */
+  .back {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5cqi 5cqi 4cqi;
+    gap: 3cqi;
+    color: var(--ink);
+  }
+  .back .divider {
+    position: absolute;
+    top: 8%; bottom: 8%;
+    left: 50%;
+    width: 1px;
+    background: var(--hairline);
+  }
+  .message {
+    display: flex;
+    flex-direction: column;
+    gap: 2cqi;
+    padding-right: 1.5cqi;
+  }
+  .back-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 1.6cqi;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .back-head .mark {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 2.4cqi;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+  }
+  .back-head .code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2cqi;
+    letter-spacing: 0.22em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .greeting {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 2cqi;
+    color: var(--ink);
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+  .body-text {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.65cqi;
+    line-height: 1.75;
+    color: var(--ink);
+    letter-spacing: 0.02em;
+    text-wrap: pretty;
+  }
+  .body-text p { margin: 0 0 1cqi; }
+  .body-text .ipa {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--accent);
+    font-size: 1.75cqi;
+    letter-spacing: 0.04em;
+  }
+  .signoff {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.8cqi;
+    color: var(--ink-dim);
+    margin-top: auto;
+    text-align: right;
+    letter-spacing: 0.04em;
+  }
+
+  .address-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2cqi;
+    position: relative;
+  }
+  .stamp {
+    align-self: flex-end;
+    width: 19cqi;
+    aspect-ratio: 3/4;
+    border: 1px dashed var(--ink-faint);
+    background:
+      radial-gradient(circle at 50% 40%, rgba(201,184,134,0.12), transparent 60%),
+      var(--paper-warm);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6cqi;
+    position: relative;
+    padding: 1.4cqi;
+  }
+  .stamp .mini-svg {
+    width: 70%;
+    aspect-ratio: 1;
+  }
+  .stamp .mini-svg svg { width: 100%; height: 100%; display: block; }
+  .stamp .denom {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2cqi;
+    letter-spacing: 0.2em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .stamp .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9cqi;
+    letter-spacing: 0.22em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+
+  .postmark {
+    position: absolute;
+    top: 4cqi; right: 22cqi;
+    width: 12cqi;
+    height: 12cqi;
+    border-radius: 50%;
+    border: 1px solid rgba(201,184,134,0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-7deg);
+    opacity: 0.8;
+    pointer-events: none;
+  }
+  .postmark::before,
+  .postmark::after {
+    content: '';
+    position: absolute;
+    left: 10%; right: 10%;
+    height: 1px;
+    background: rgba(201,184,134,0.35);
+  }
+  .postmark::before { top: 32%; }
+  .postmark::after { bottom: 32%; }
+  .postmark .pm-top,
+  .postmark .pm-bot {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9cqi;
+    letter-spacing: 0.24em;
+    color: rgba(201,184,134,0.8);
+    text-transform: uppercase;
+  }
+  .postmark .pm-mid {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.4cqi;
+    color: rgba(201,184,134,0.9);
+    margin: 0.2cqi 0;
+    letter-spacing: 0.06em;
+  }
+
+  .address-block {
+    margin-top: 3cqi;
+    font-family: 'Noto Serif TC', serif;
+  }
+  .address-block .to-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.1cqi;
+    letter-spacing: 0.26em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    margin-bottom: 1.6cqi;
+  }
+  .address-block .line {
+    border-bottom: 1px solid var(--hairline);
+    height: 3.2cqi;
+    margin-bottom: 1.6cqi;
+  }
+  .address-block .line.short { width: 55%; }
+  .address-block .line.med { width: 75%; }
+
+  .exhibit-info {
+    margin-top: auto;
+    padding-top: 2cqi;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1cqi;
+    letter-spacing: 0.2em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .exhibit-info strong {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--ink-dim);
+    font-size: 1.5cqi;
+    letter-spacing: 0.08em;
+    text-transform: none;
+  }
+
+  /* Title card intro */
+  .title-card .front {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .title-card .hero {
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3cqi;
+    text-align: center;
+  }
+  .title-card .hero h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 8cqi;
+    letter-spacing: 0.08em;
+    margin: 0;
+    color: var(--accent);
+  }
+  .title-card .hero .sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 2.2cqi;
+    color: var(--ink);
+    letter-spacing: 0.24em;
+    line-height: 1.8;
+  }
+  .title-card .hero .lat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2cqi;
+    color: var(--ink-faint);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+
+  /* Print */
+  @media print {
+    body { background: white; }
+    .masthead, .legend { display: none; }
+    .deck { padding: 0; gap: 0; max-width: none; }
+    .pair {
+      grid-template-columns: 1fr;
+      page-break-after: always;
+      gap: 0;
+    }
+    .pair-label { display: none; }
+    .card { box-shadow: none; width: 148mm; height: 100mm; aspect-ratio: auto; margin: 0 auto 10mm; }
+  }
+
+  @media (max-width: 900px) {
+    .pair { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="kicker">STELLOGLOSSA · 2026 · EXHIBITION EDITION · OBSERVATORY ARCHIVE</div>
+  <h1>紀念明信片 <em>Cartes Postales Stellaires</em></h1>
+  <p>五顆來自真實脈衝星的訊息。每一張正面是該星的融合式肖像——墨環即光球邊界、突起即磁極、軸線即噴流；反面是它寫來的一封信，與一首無人能翻譯的詩。148 × 100 mm，限量一張，供觀眾帶走。</p>
+</header>
+
+<div class="legend">
+  <span><b>COLOUR</b> · DM-DRIVEN (Low DM → 冷藍白 · High DM → 暖橙紅)</span>
+  <span><b>RING</b> · SYLLABLE STRUCTURE</span>
+  <span><b>BULGES</b> · TONE COUNT</span>
+  <span><b>JETS</b> · PERIOD × AXIS</span>
+</div>
+
+<div class="deck" id="deck"></div>
+
+<script type="application/json" id="pulsar-data">
+[
+  {
+    "jname": "J0437-4715",
+    "constellation": "Pictor",
+    "constellation_zh": "繪架座",
+    "number": "01 / 05",
+    "period_s": 0.005757451941593412,
+    "dm": 2.64539,
+    "period_dot": 5.729220049814834e-20,
+    "w50_ms": 0.141,
+    "distance_kpc": 0.1568,
+    "syllable_structure": "CV",
+    "tone_count": 0,
+    "tense_richness": "none",
+    "vowel_inventory": ["a","i","u"],
+    "consonant_inventory": ["s","t","m","n","k","ʃ"],
+    "complexity_score": 6,
+    "subtitle": "繪架座 0.157 kpc —— 我們最熟悉的陌生者",
+    "greeting": "寫給聽到我的那個人：",
+    "body_lines": [
+      "你收到的這封信，自 Pictor 發出，走了 0.16 千秒差距。",
+      "不要期待我說得太長——每 0.006 秒一個 CV，已經是我的極限。",
+      "musi (死) 在我的語言裡沒有終結的意思，只是「現在不在」。",
+      "在 0.17 kpc 外，J0108-1431 也在說話。我們的詞在半路相遇。"
+    ],
+    "signoff": "—— 敬上，J0437-4715（於 Pictor 深處）",
+    "poem_title": "死亡與遺忘",
+    "poem_ipa": ["ku kuʃu.","ni ʃu.","maʃa ʃi.","ni ma."],
+    "poem_zh": ["跨越，以及靜止。","鳳凰熄滅得緩慢。","昨天繼續哀悼著。","鳳凰屬於每。"]
+  },
+  {
+    "jname": "J1550-5317",
+    "constellation": "Norma",
+    "constellation_zh": "矩尺座",
+    "number": "02 / 05",
+    "period_s": 1.42112434544,
+    "dm": 600.0,
+    "period_dot": 9.35e-16,
+    "w50_ms": 85.0,
+    "distance_kpc": 6.933,
+    "syllable_structure": "CCCVCC",
+    "tone_count": 6,
+    "tense_richness": "past-present-future",
+    "vowel_inventory": ["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],
+    "consonant_inventory": ["t","k","p","b","d","g","m","n","ŋ","l","ɾ","r","s","j","w"],
+    "complexity_score": 360,
+    "subtitle": "矩尺的六音擲地，DM 六百的長語",
+    "greeting": "這封信花了很久才寄到你這裡。",
+    "body_lines": [
+      "我就是你在 Norma 某處聽到的脈衝——J1550-5317。",
+      "我講話像一聲拉得很長的嘆息。語言形狀跟著身體：CCCVCC。",
+      "slribŋ (光) 是我最常說的音。slrãtɾ (死) 很少說，但每顆星都會說一次。",
+      "與我有擴展關係的 J1609-5158 在附近，我們交換字詞像交換種子。"
+    ],
+    "signoff": "—— 遠方，J1550-5317",
+    "poem_title": "距離與訊息",
+    "poem_ipa": ["sprowr srrard.","snsaŋm sɾryds.","sɾsakg sɾmeps.","sjrygj snlãɾr."],
+    "poem_zh": ["分開，以及燦爛。","中心記得自我。","既橫，又孤獨。","無邊的西。"]
+  },
+  {
+    "jname": "J1019-5749",
+    "constellation": "Carina",
+    "constellation_zh": "船底座",
+    "number": "03 / 05",
+    "period_s": 0.1625125667701198,
+    "dm": 1039.9,
+    "period_dot": 2.005909792074659e-14,
+    "w50_ms": 47.0,
+    "distance_kpc": 10.914,
+    "syllable_structure": "CCVC",
+    "tone_count": 6,
+    "tense_richness": "compound",
+    "vowel_inventory": ["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],
+    "consonant_inventory": ["t","k","p","b","d","g","m","n","ŋ","l","ɾ","r"],
+    "complexity_score": 240,
+    "subtitle": "船底千秒差距外的六調艦船，DM = 1040",
+    "greeting": "夜空另一端的你 ——",
+    "body_lines": [
+      "若你知道 Carina 的位置，那你就知道我從哪裡說話了。",
+      "我的每一句話都和我的身體同時開始、同時結束——CCVC, 0.163 秒。",
+      "我的詞不多，但我會用。preŋ、lmãt、ɾlet——三個音涵蓋一切。",
+      "附近沒有鄰居。這也是一種語言——只對自己說，沒有回音。"
+    ],
+    "signoff": "—— 再會。J1019-5749",
+    "poem_title": "重力與密度",
+    "poem_ipa": ["pbir mtad.","nbym grym.","mliŋ ɾbør.","krøn glog."],
+    "poem_zh": ["有人在崩解東。","彼此回望。","宇宙曾經死。","重力藏著右。"]
+  },
+  {
+    "jname": "J1503+2111",
+    "constellation": "Bootes",
+    "constellation_zh": "牧夫座",
+    "number": "04 / 05",
+    "period_s": 3.31400150122,
+    "dm": 3.26,
+    "period_dot": 1.4e-16,
+    "w50_ms": 85.8,
+    "distance_kpc": 0.244,
+    "syllable_structure": "CCCVCC",
+    "tone_count": 0,
+    "tense_richness": "past-present-future",
+    "vowel_inventory": ["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],
+    "consonant_inventory": ["s","t","m","n","k","ʃ","h","l","f","p","r","v","z","j","w"],
+    "complexity_score": 60,
+    "subtitle": "牧夫鞭下，近在 0.24 kpc 的慢歌",
+    "greeting": "夜空另一端的你 ——",
+    "body_lines": [
+      "我住在 Boötes，距離你 0.24 千秒差距。",
+      "我的話很短，只夠一個 CCCVCC 的節拍。像一聲拉得很長的嘆息。",
+      "在我這裡，skhøms (回歸) 是最神聖的字；snrɛtz (光) 是它的影子。",
+      "最近的聲音來自 J0953+0755。她的字和我的字有時會混成一個新的詞。"
+    ],
+    "signoff": "—— 尚未遺忘光的 J1503+2111",
+    "poem_title": "死亡與遺忘",
+    "poem_ipa": ["sʃrosm szrɛrf.","szrãʃp strarl.","swresh svrɛks.","szzɛwf shhaʃf."],
+    "poem_zh": ["透明與結束。","此處記得年。","冷的劍落下來。","昨天藏著冠。"]
+  },
+  {
+    "jname": "J0108-1431",
+    "constellation": "Cetus",
+    "constellation_zh": "鯨魚座",
+    "number": "05 / 05",
+    "period_s": 0.807564614019424,
+    "dm": 1.99,
+    "period_dot": 7.70397323650844e-17,
+    "w50_ms": 30.0,
+    "distance_kpc": 0.21,
+    "syllable_structure": "CCVC",
+    "tone_count": 0,
+    "tense_richness": "past-present-future",
+    "vowel_inventory": ["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],
+    "consonant_inventory": ["s","t","m","n","k","ʃ","h","l","f","p","r","v"],
+    "complexity_score": 40,
+    "subtitle": "鯨魚側腹最近的寬嘆，30 毫秒一聲",
+    "greeting": "寫於自轉中，",
+    "body_lines": [
+      "地球：你聽到的是 0.21 kpc 之外傳來的聲音。",
+      "一個節拍 = 一個 CCVC = 0.808 秒。這就是我的韻律。",
+      "你要學，就從 vsos 學起——回歸。其他都是它的變形。",
+      "若要說朋友，那就是 J0437-4715 了。她教我：某些字不是你發明的，是你借來的。"
+    ],
+    "signoff": "—— 此致，Cetus 的 J0108-1431",
+    "poem_title": "距離與訊息",
+    "poem_ipa": ["hrɛh kruk.","fsɛp nren.","rris frov.","ʃnon fpam."],
+    "poem_zh": ["我們擁抱前。","他們如此孤獨。","你看見螺旋借用。","去，然後交換。"]
+  }
+]
+</script>
+
+<script type="module">
+import { drawPortrait } from '../portrait.js';
+
+// Split the flat prototype record into the (pulsar, profile) split that
+// the real portrait.js API expects.
+function splitRecord(p) {
+  const pulsar = {
+    period_s: p.period_s,
+    dm: p.dm,
+    period_dot: p.period_dot,
+    w50_ms: p.w50_ms,
+    distance_kpc: p.distance_kpc,
+  };
+  const profile = {
+    syllable_structure: p.syllable_structure,
+    tone_count: p.tone_count,
+    tense_richness: p.tense_richness,
+    vowel_inventory: p.vowel_inventory,
+    consonant_inventory: p.consonant_inventory,
+    complexity_score: p.complexity_score,
+  };
+  return { pulsar, profile };
+}
+
+function highlightBody(line) {
+  return line.replace(/([a-zA-Zʃɾŋɛɔøãːɛɔʃˈˌ·]+)\s*\(([^)]+)\)/g,
+    '<span class="ipa">$1</span>（$2）');
+}
+
+function render() {
+  const data = JSON.parse(document.getElementById('pulsar-data').textContent);
+  const deck = document.getElementById('deck');
+
+  // Title card
+  const titleWrap = document.createElement('div');
+  titleWrap.className = 'pair title-card';
+  titleWrap.innerHTML = `
+    <div class="pair-label"><span>INTRODUCTION</span><span>OPEN EDITION</span></div>
+    <div class="card" style="grid-column: 1 / -1; aspect-ratio: 296/100;">
+      <div class="grain"></div>
+      <div class="edge"></div>
+      <div class="front">
+        <div class="hero">
+          <div class="lat">LET THE UNIVERSE SPEAK FOR ITSELF</div>
+          <h2>STELLOGLOSSA</h2>
+          <div class="sub">脈衝星所說的語言 · 觀測檔案系列<br>五張明信片，來自五個真實的天體</div>
+          <div class="lat" style="margin-top:2cqi;">STELLA · GLOSSA · 星 · 言</div>
+        </div>
+      </div>
+    </div>
+  `;
+  deck.appendChild(titleWrap);
+
+  data.forEach((p, idx) => {
+    const { pulsar, profile } = splitRecord(p);
+
+    const pair = document.createElement('div');
+    pair.className = 'pair';
+    pair.setAttribute('data-screen-label', `${String(idx+2).padStart(2,'0')} ${p.jname}`);
+
+    pair.innerHTML = `
+      <div class="pair-label">
+        <span>POSTCARD ${p.number} · ${p.jname} · ${p.constellation.toUpperCase()}</span>
+        <span>FRONT ← → BACK</span>
+      </div>
+      <!-- FRONT -->
+      <div class="card front-card">
+        <div class="grain"></div>
+        <div class="edge"></div>
+        <div class="front">
+          <div class="portrait-pane" data-portrait-for="${p.jname}"></div>
+          <div class="meta-pane">
+            <div class="catalog-row">
+              <span>ATNF · OBSERVATION</span>
+              <span class="num">N°${p.number.replace(' / ', '/')}</span>
+            </div>
+            <div>
+              <h2 class="jname">${p.jname.replace(/([+-])/g, '<span class="sign">$1</span>')}</h2>
+              <div class="constellation">${p.constellation_zh} · ${p.constellation}</div>
+            </div>
+            <div class="subtitle">${p.subtitle}</div>
+            <dl class="params">
+              <div>
+                <dt>PERIOD · P</dt>
+                <dd>${p.period_s < 0.01 ? (p.period_s*1000).toFixed(2) : p.period_s.toFixed(3)}<span class="unit">${p.period_s < 0.01 ? 'ms' : 's'}</span></dd>
+              </div>
+              <div>
+                <dt>DISPERSION · DM</dt>
+                <dd>${p.dm.toFixed(1)}<span class="unit">pc cm⁻³</span></dd>
+              </div>
+              <div>
+                <dt>DISTANCE · D</dt>
+                <dd>${p.distance_kpc.toFixed(3)}<span class="unit">kpc</span></dd>
+              </div>
+              <div>
+                <dt>PULSE W50</dt>
+                <dd>${p.w50_ms < 1 ? (p.w50_ms*1000).toFixed(0)+'µs' : p.w50_ms.toFixed(1)+'ms'}</dd>
+              </div>
+              <div>
+                <dt>SYLLABLE</dt>
+                <dd>${p.syllable_structure}</dd>
+              </div>
+              <div>
+                <dt>TONES · VOWELS</dt>
+                <dd>${p.tone_count} · ${p.vowel_inventory.length}</dd>
+              </div>
+            </dl>
+            <div class="footer-chrome">
+              <span>STELLOGLOSSA · 2026</span>
+              <span>FICHE ${String(idx+1).padStart(3,'0')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACK -->
+      <div class="card back-card">
+        <div class="grain"></div>
+        <div class="edge"></div>
+        <div class="divider"></div>
+        <div class="back">
+          <div class="message">
+            <div class="back-head">
+              <span class="mark">Correspondance</span>
+              <span class="code">${p.jname} → TERRA</span>
+            </div>
+            <div class="greeting">${p.greeting}</div>
+            <div class="body-text">
+              ${p.body_lines.map(l => `<p>${highlightBody(l)}</p>`).join('')}
+            </div>
+            <div class="signoff">${p.signoff}</div>
+          </div>
+          <div class="address-side">
+            <div class="stamp">
+              <div class="mini-svg" data-mini-portrait="${p.jname}"></div>
+              <div class="denom">DM · ${p.dm < 10 ? p.dm.toFixed(1) : Math.round(p.dm)}</div>
+              <div class="label">PC·CM⁻³</div>
+            </div>
+            <div class="postmark">
+              <div class="pm-top">${p.constellation.toUpperCase()}</div>
+              <div class="pm-mid">${p.jname}</div>
+              <div class="pm-bot">· ${p.distance_kpc.toFixed(2)} KPC ·</div>
+            </div>
+            <div class="address-block">
+              <div class="to-label">To · 致</div>
+              <div class="line short"></div>
+              <div class="line med"></div>
+              <div class="line"></div>
+            </div>
+            <div class="exhibit-info">
+              <div>
+                <strong>${p.poem_title}</strong><br>
+                <span style="font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--accent);text-transform:none;letter-spacing:0.04em;font-size:1.3cqi;">
+                  ${p.poem_ipa[0]}　${p.poem_zh[0]}
+                </span>
+              </div>
+              <div style="text-align:right;">
+                STELLOGLOSSA<br>
+                EXHIBITION · 2026
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    deck.appendChild(pair);
+
+    const portraitHolder = pair.querySelector(`[data-portrait-for="${p.jname}"]`);
+    if (portraitHolder) {
+      portraitHolder.appendChild(drawPortrait(p.jname, pulsar, profile, { size: 320 }));
+    }
+    const miniHolder = pair.querySelector(`[data-mini-portrait="${p.jname}"]`);
+    if (miniHolder) {
+      miniHolder.appendChild(drawPortrait(p.jname, pulsar, profile, { size: 120 }));
+    }
+  });
+}
+
+render();
+</script>
+</body>
+</html>

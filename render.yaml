@@ -1,0 +1,35 @@
+# Render Blueprint — one-click deploy for STELLOGLOSSA.
+# Docs: https://render.com/docs/blueprint-spec
+#
+# After pushing this repo to GitHub:
+#   1. Log into render.com
+#   2. New + → Blueprint → connect the GitHub repo → Apply
+# Render reads this file, provisions a free Python web service, clones the
+# repo, installs dependencies, and starts the server on $PORT.
+
+services:
+  - type: web
+    name: stelloglossa
+    runtime: python
+    plan: free               # spins down after 15 min idle; first hit = ~30s cold start
+    region: singapore        # choose the closest to your audience
+    autoDeploy: true         # auto-redeploy on git push to the tracked branch
+    branch: master
+
+    # The serve.py module lives inside the stelloglossa/ subdirectory.
+    # We install deps from the root requirements-deploy.txt, then start
+    # from the subdir so relative paths (PUBLIC_ROOT / OUTPUT_ROOT) resolve.
+    rootDir: stelloglossa
+    buildCommand: pip install --no-cache-dir -r ../requirements-deploy.txt
+    startCommand: python -m src.viz.serve
+
+    # Pin Python version so installs are reproducible.
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: PYTHONIOENCODING
+        value: "utf-8"
+
+    # Free plan health check — Render pings / to keep the service alive and
+    # detect crashes. Our SimpleHTTPServer returns 200 on GET /.
+    healthCheckPath: /

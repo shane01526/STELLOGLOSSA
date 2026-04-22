@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>STELLOGLOSSA · 展覽概念傳單 A4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #e8e2d2;
+    --ink-dim: #8a8372;
+    --ink-faint: #4a4637;
+    --paper: #0a0806;
+    --paper-warm: #12100c;
+    --hairline: #2a2619;
+    --hairline-strong: #3a3425;
+    --accent: #c9b886;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: #1a1713;
+    color: var(--ink);
+    font-family: 'Noto Serif TC', 'Cormorant Garamond', serif;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "palt";
+  }
+
+  .stage {
+    padding: 56px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .kicker-bar {
+    width: 210mm;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .kicker-bar span b { color: var(--ink-dim); font-weight: 400; }
+
+  /* A4 page */
+  .page {
+    width: 210mm;
+    height: 297mm;
+    background: var(--paper);
+    color: var(--ink);
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0 40px 80px -20px rgba(0,0,0,0.7),
+      0 0 0 1px rgba(255,255,255,0.03);
+    container-type: inline-size;
+  }
+  .page .edge {
+    position: absolute; inset: 10mm;
+    border: 1px solid rgba(232,226,210,0.06);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .page .grain {
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(ellipse at 15% 8%, rgba(232,226,210,0.035), transparent 55%),
+      radial-gradient(ellipse at 85% 92%, rgba(232,226,210,0.025), transparent 55%);
+    mix-blend-mode: screen;
+    pointer-events: none;
+  }
+  .corner {
+    position: absolute;
+    width: 14px; height: 14px;
+    border: 1px solid rgba(232,226,210,0.25);
+    z-index: 3;
+  }
+  .corner.tl { top: 13mm; left: 13mm; border-right: none; border-bottom: none; }
+  .corner.tr { top: 13mm; right: 13mm; border-left: none; border-bottom: none; }
+  .corner.bl { bottom: 13mm; left: 13mm; border-right: none; border-top: none; }
+  .corner.br { bottom: 13mm; right: 13mm; border-left: none; border-top: none; }
+
+  /* Content: flex column (single authoritative layout — the prototype was
+     rewritten away from grid because a 4-track grid couldn't hold 6 sections). */
+  .content {
+    position: absolute;
+    top: 14mm; left: 16mm; right: 16mm; bottom: 20mm;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Top bar */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4mm;
+    border-bottom: 1px solid var(--hairline);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.24em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .topbar .left { display: flex; gap: 14px; align-items: center; }
+  .topbar .latin-mark {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: none;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 6mm 0 5mm;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 8mm;
+    align-items: center;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .hero-text h1 {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 56px;
+    line-height: 0.95;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    margin: 0 0 6px;
+  }
+  .hero-text h1 .roman {
+    font-style: normal;
+    font-weight: 300;
+    color: var(--ink);
+    letter-spacing: 0.08em;
+    display: block;
+    font-size: 30px;
+    margin-top: 4px;
+  }
+  .hero-text .tagline {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 12px;
+    line-height: 1.85;
+    letter-spacing: 0.1em;
+    color: var(--ink);
+    margin-top: 12px;
+    max-width: 95%;
+  }
+  .hero-text .tagline em {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--accent);
+    font-style: italic;
+    letter-spacing: 0.04em;
+  }
+  .hero-portrait {
+    position: relative;
+    aspect-ratio: 1;
+    max-width: 150px;
+    justify-self: end;
+  }
+  .hero-portrait svg { width: 100%; height: auto; display: block; }
+  .hero-portrait .label {
+    position: absolute;
+    bottom: -4mm; right: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+
+  /* Three columns */
+  .three {
+    padding: 5mm 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8mm;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .col h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--accent);
+    margin: 0 0 1.5mm;
+    letter-spacing: 0.04em;
+    line-height: 1.1;
+  }
+  .col h3 .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-size: 10px;
+    color: var(--ink-faint);
+    letter-spacing: 0.2em;
+    display: block;
+    margin-bottom: 1.5mm;
+  }
+  .col h3 .zh {
+    display: block;
+    font-family: 'Noto Serif TC', serif;
+    font-style: normal;
+    font-size: 13px;
+    color: var(--ink-dim);
+    letter-spacing: 0.26em;
+    margin-top: 1mm;
+  }
+  .col p {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 10px;
+    line-height: 1.75;
+    color: var(--ink);
+    letter-spacing: 0.04em;
+    margin: 2mm 0 0;
+    text-wrap: pretty;
+  }
+
+  /* Mapping */
+  .mapping {
+    padding: 4mm 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4mm 8mm;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .mapping-title {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    margin-bottom: 2mm;
+  }
+  .mapping-title em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    text-transform: none;
+  }
+  .map-grid {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4mm;
+  }
+  .map-cell {
+    border-top: 1px solid var(--hairline-strong);
+    padding-top: 2mm;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5mm;
+  }
+  .map-cell .symbol {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .map-cell .phys {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .map-cell .arrow {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--ink-faint);
+    margin: 0.5mm 0;
+    font-size: 10px;
+  }
+  .map-cell .ling {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 10px;
+    color: var(--ink);
+    letter-spacing: 0.06em;
+    line-height: 1.3;
+  }
+  .map-cell .ling em {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--ink-dim);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    margin-top: 1mm;
+  }
+
+  /* Specimens */
+  .specimens {
+    padding: 4mm 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6mm;
+    align-items: center;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .spec-head {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 2mm 0;
+  }
+  .spec-head em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--accent);
+    text-transform: none;
+    letter-spacing: 0.06em;
+  }
+  .spec-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4mm;
+  }
+  .specimen {
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+    align-items: center;
+    text-align: center;
+  }
+  .specimen .port {
+    width: 100%;
+    aspect-ratio: 1;
+    max-width: 24mm;
+  }
+  .specimen .port svg { width: 100%; height: auto; display: block; }
+  .specimen .jname {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--ink);
+  }
+  .specimen .const {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--ink-dim);
+  }
+  .specimen .tag {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+
+  /* Info strip */
+  .info-strip {
+    padding: 5mm 0 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 8mm;
+  }
+  .info-block dt {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.26em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    margin-bottom: 2mm;
+  }
+  .info-block dd {
+    margin: 0;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 10px;
+    line-height: 1.7;
+    color: var(--ink);
+    letter-spacing: 0.04em;
+  }
+  .info-block dd strong {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--accent);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+  }
+
+  /* Footer */
+  .footer {
+    position: absolute;
+    left: 18mm; right: 18mm;
+    bottom: 10mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.26em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    padding-top: 3mm;
+    border-top: 1px solid var(--hairline);
+  }
+  .footer .lat {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 12px;
+    color: var(--ink-dim);
+    letter-spacing: 0.08em;
+    text-transform: none;
+  }
+
+  @media print {
+    @page { size: A4; margin: 0; }
+    body { background: white; }
+    .stage { padding: 0; gap: 0; }
+    .kicker-bar { display: none; }
+    .page { box-shadow: none; width: 210mm; height: 297mm; }
+  }
+</style>
+</head>
+<body>
+
+<div class="stage">
+  <div class="kicker-bar">
+    <span><b>EXHIBITION FLYER</b> · A4 · 210 × 297 mm</span>
+    <span><b>PRINT-READY</b> · STELLOGLOSSA · 2026</span>
+  </div>
+
+  <div class="page" data-screen-label="01 FLYER A4">
+    <div class="grain"></div>
+    <div class="edge"></div>
+    <div class="corner tl"></div>
+    <div class="corner tr"></div>
+    <div class="corner bl"></div>
+    <div class="corner br"></div>
+
+    <div class="content">
+
+      <div class="topbar">
+        <div class="left">
+          <span>STELLOGLOSSA · 2026</span>
+          <span class="latin-mark">Observatory Archive</span>
+        </div>
+        <div>CONCEPT FLYER · FICHE 000</div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Stelloglossa
+            <span class="roman">讓宇宙自己說話的語言</span>
+          </h1>
+          <div class="tagline">
+            如果語言不是人類發明的，而是<em>宇宙的物理節奏</em>自然生長出來的——它會長什麼樣子？<br>
+            我們從 ATNF 脈衝星資料庫抓取真實觀測參數，以確定性映射將<em>自轉週期、色散量、減慢率、脈衝寬度</em>轉為音系、語法與文字，讓每顆脈衝星說出自己的語言。
+          </div>
+        </div>
+        <div class="hero-portrait">
+          <div data-portrait="hero"></div>
+          <div class="label">J1550-5317 · NORMA</div>
+        </div>
+      </div>
+
+      <div class="three">
+        <div class="col">
+          <h3>
+            <span class="num">I · PHYSICS</span>
+            Pulsa loquitur
+            <span class="zh">脈衝星發聲</span>
+          </h3>
+          <p>每顆脈衝星的四個物理量——自轉週期 P、色散量 DM、減慢率 Ṗ、脈寬 W50——構成獨一無二的「聲紋」。我們不做詮釋，只讓它們自己雕刻出語言的骨架。</p>
+        </div>
+        <div class="col">
+          <h3>
+            <span class="num">II · LANGUAGE</span>
+            Lingua ex machina
+            <span class="zh">機器之語</span>
+          </h3>
+          <p>物理量透過確定性規則映射成音節結構、聲調、時態與母音庫。每顆星都擁有 12 個語義場、共 240 個詞，涵蓋天體、時間、死亡、光、回歸等人類也熟悉的概念。</p>
+        </div>
+        <div class="col">
+          <h3>
+            <span class="num">III · DRIFT</span>
+            Inter stellas
+            <span class="zh">星際漂移</span>
+          </h3>
+          <p>50 顆星形成 659 條接觸邊。距離越近，語義越容易互借。某些星是中心，某些是孤島——就像地球上，任何語言都不是單獨存在的。</p>
+        </div>
+      </div>
+
+      <div class="mapping">
+        <div class="mapping-title">
+          <span>PHYSICAL · LINGUISTIC MAPPING</span>
+          <em>the universe's grammar</em>
+        </div>
+        <div class="map-grid">
+          <div class="map-cell">
+            <div class="phys">P · PERIOD</div>
+            <div class="symbol">P</div>
+            <div class="arrow">→</div>
+            <div class="ling">音節結構<em>syllable structure</em></div>
+          </div>
+          <div class="map-cell">
+            <div class="phys">DM · DISPERSION</div>
+            <div class="symbol">DM</div>
+            <div class="arrow">→</div>
+            <div class="ling">聲調數<em>tone system</em></div>
+          </div>
+          <div class="map-cell">
+            <div class="phys">Ṗ · SPINDOWN</div>
+            <div class="symbol">Ṗ</div>
+            <div class="arrow">→</div>
+            <div class="ling">時態豐富度<em>tense richness</em></div>
+          </div>
+          <div class="map-cell">
+            <div class="phys">W50 · PULSE WIDTH</div>
+            <div class="symbol">W</div>
+            <div class="arrow">→</div>
+            <div class="ling">母音庫<em>vowel inventory</em></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="specimens">
+        <div class="spec-head">
+          SPECIMENS · <em>cinq voix</em>
+        </div>
+        <div class="spec-grid" id="spec-grid"></div>
+      </div>
+
+      <div class="info-strip">
+        <div class="info-block">
+          <dt>EXHIBITION · 展覽介紹</dt>
+          <dd>
+            觀眾進入裝置，可以親手「觸碰」任一顆脈衝星、聽見它的語言、閱讀它的詩、收下它的明信片。
+            共 <strong>50 顆</strong>星、<strong>12,000</strong> 個被合成的詞彙、<strong>659</strong> 條語言接觸邊，
+            全部源自真實觀測數據。
+          </dd>
+        </div>
+        <div class="info-block">
+          <dt>VENUE · 場域</dt>
+          <dd>
+            <strong>B1 Gallery</strong><br>
+            週二 — 週日<br>
+            11:00 — 20:00
+          </dd>
+        </div>
+        <div class="info-block">
+          <dt>INTERACTION · 互動</dt>
+          <dd>
+            手勢控制<br>
+            語音試聽<br>
+            明信片帶走 · 限量
+          </dd>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div>STELLA · GLOSSA · 星 · 言</div>
+      <div class="lat">Let the universe speak for itself.</div>
+      <div>STELLOGLOSSA / 2026</div>
+    </div>
+
+  </div>
+</div>
+
+<script type="application/json" id="specs">
+[
+  {"jname":"J0437-4715","const":"PICTOR","zh":"繪架座","tag":"CV · fastest","period_s":0.0057574,"dm":2.645,"period_dot":5.7e-20,"w50_ms":0.141,"distance_kpc":0.157,"syllable_structure":"CV","tone_count":0,"tense_richness":"none","vowel_inventory":["a","i","u"],"consonant_inventory":["s","t","m","n","k","ʃ"],"complexity_score":6},
+  {"jname":"J1550-5317","const":"NORMA","zh":"矩尺座","tag":"CCCVCC · richest","period_s":1.4211,"dm":600,"period_dot":9.35e-16,"w50_ms":85,"distance_kpc":6.933,"syllable_structure":"CCCVCC","tone_count":6,"tense_richness":"past-present-future","vowel_inventory":["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],"consonant_inventory":["t","k","p","b","d","g","m","n","ŋ","l","ɾ","r","s","j","w"],"complexity_score":360},
+  {"jname":"J1019-5749","const":"CARINA","zh":"船底座","tag":"DM 1040 · densest","period_s":0.1625,"dm":1039.9,"period_dot":2.0e-14,"w50_ms":47,"distance_kpc":10.914,"syllable_structure":"CCVC","tone_count":6,"tense_richness":"compound","vowel_inventory":["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],"consonant_inventory":["t","k","p","b","d","g","m","n","ŋ","l","ɾ","r"],"complexity_score":240},
+  {"jname":"J1503+2111","const":"BOÖTES","zh":"牧夫座","tag":"slowest breath","period_s":3.314,"dm":3.26,"period_dot":1.4e-16,"w50_ms":85.8,"distance_kpc":0.244,"syllable_structure":"CCCVCC","tone_count":0,"tense_richness":"past-present-future","vowel_inventory":["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],"consonant_inventory":["s","t","m","n","k","ʃ","h","l","f","p","r","v","z","j","w"],"complexity_score":60},
+  {"jname":"J0108-1431","const":"CETUS","zh":"鯨魚座","tag":"closest · 0.21 kpc","period_s":0.8076,"dm":1.99,"period_dot":7.7e-17,"w50_ms":30,"distance_kpc":0.21,"syllable_structure":"CCVC","tone_count":0,"tense_richness":"past-present-future","vowel_inventory":["a","e","i","o","u","ɛ","ɔ","y","ø","ã"],"consonant_inventory":["s","t","m","n","k","ʃ","h","l","f","p","r","v"],"complexity_score":40}
+]
+</script>
+
+<script type="module">
+import { drawPortrait } from '../portrait.js';
+
+function splitRecord(p) {
+  const pulsar = {
+    period_s: p.period_s,
+    dm: p.dm,
+    period_dot: p.period_dot,
+    w50_ms: p.w50_ms,
+    distance_kpc: p.distance_kpc,
+  };
+  const profile = {
+    syllable_structure: p.syllable_structure,
+    tone_count: p.tone_count,
+    tense_richness: p.tense_richness,
+    vowel_inventory: p.vowel_inventory,
+    consonant_inventory: p.consonant_inventory,
+    complexity_score: p.complexity_score,
+  };
+  return { pulsar, profile };
+}
+
+const specs = JSON.parse(document.getElementById('specs').textContent);
+
+// Hero: J1550-5317 (index 1) — the richest language
+const heroRecord = specs[1];
+const { pulsar: heroPulsar, profile: heroProfile } = splitRecord(heroRecord);
+document.querySelector('[data-portrait="hero"]').appendChild(
+  drawPortrait(heroRecord.jname, heroPulsar, heroProfile, { size: 150 })
+);
+
+// Specimens strip
+const sg = document.getElementById('spec-grid');
+specs.forEach(p => {
+  const { pulsar, profile } = splitRecord(p);
+  const div = document.createElement('div');
+  div.className = 'specimen';
+  div.innerHTML = `
+    <div class="port"></div>
+    <div class="jname">${p.jname}</div>
+    <div class="const">${p.zh}</div>
+    <div class="tag">${p.tag}</div>
+  `;
+  div.querySelector('.port').appendChild(drawPortrait(p.jname, pulsar, profile, { size: 90 }));
+  sg.appendChild(div);
+});
+</script>
+</body>
+</html>

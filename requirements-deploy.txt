@@ -1,0 +1,9 @@
+# Runtime-only dependencies for Render (or any cloud) deployment.
+# Offline pipeline deps (anthropic/openai/voyageai/psrqpy/astropy/scipy/pandas)
+# are stripped — bundle.json + audio_manifest.json are pre-generated and
+# committed, so the cloud instance only serves files and runs the translator.
+#
+# The translator itself needs only jieba + python-dotenv.
+
+jieba>=0.42
+python-dotenv>=1.0

@@ -1,8 +1,18 @@
-"""在 localhost:8765 啟動靜態檔伺服器,讓瀏覽器開 index.html。
+"""啟動靜態檔 + /translate REST 伺服器。
 
-用法:
-    python -m src.viz.serve
-    # 然後開 http://localhost:8765/
+本地開發:
+    python -m src.viz.serve                    # http://localhost:8765/
+    python -m src.viz.serve --port 9000        # 自訂 port
+
+雲端部署 (Render / Fly / Railway):
+    export PORT=10000
+    python -m src.viz.serve                    # 綁 0.0.0.0:10000
+    # 或 python -m src.viz.serve --host 0.0.0.0 --port $PORT
+
+行為:
+  - 若偵測到 PORT 環境變數,自動使用它 + 綁 0.0.0.0（雲端模式）
+  - 否則綁 127.0.0.1:8765（本地模式）
+  - --host 或 --port 旗標明示時一律優先
 """
 from __future__ import annotations
 
@@ -10,8 +20,8 @@ import argparse
 import http.server
 import json
 import logging
+import os
 import socketserver
-import threading
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
@@ -74,16 +84,26 @@ class ThreadedServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
     allow_reuse_address = True
 
 
-def serve(port: int = 8765) -> None:
-    with ThreadedServer(("127.0.0.1", port), MountedHandler) as httpd:
-        print(f"STELLOGLOSSA UI: http://localhost:{port}/")
+def serve(host: str = "127.0.0.1", port: int = 8765) -> None:
+    with ThreadedServer((host, port), MountedHandler) as httpd:
+        display = "localhost" if host in ("127.0.0.1", "0.0.0.0") else host
+        print(f"STELLOGLOSSA UI: http://{display}:{port}/  (bound {host}:{port})")
         print(f"  public: {PUBLIC_ROOT}")
         print(f"  /audio/ → {OUTPUT_ROOT / 'audio'}")
         httpd.serve_forever()
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    env_port = os.environ.get("PORT")
     parser = argparse.ArgumentParser()
-    parser.add_argument("--port", type=int, default=8765)
-    serve(parser.parse_args().port)
+    parser.add_argument(
+        "--host", default="0.0.0.0" if env_port else "127.0.0.1",
+        help="bind host (default: 0.0.0.0 if PORT env is set, else 127.0.0.1)",
+    )
+    parser.add_argument(
+        "--port", type=int, default=int(env_port) if env_port else 8765,
+        help="bind port (default: $PORT env if set, else 8765)",
+    )
+    args = parser.parse_args()
+    serve(host=args.host, port=args.port)
