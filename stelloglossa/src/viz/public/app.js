@@ -1024,17 +1024,6 @@ function bindGestureEvents() {
       updateDwell(x, y);
     }
   });
-  window.addEventListener('gesture:tap', (e) => {
-    if (!handModeOn) return;
-    const { x, y } = e.detail;
-    setGestureCursor(x, y, true);
-    clearDwell();   // pinch preempts any in-flight dwell
-    const hit = raycastToPulsar(x, y);
-    if (hit) {
-      selectPulsar(hit.jname);
-      dwellFiredFor = hit.jname;   // don't auto-redwell on same star
-    }
-  });
   window.addEventListener('gesture:grab_drag', (e) => {
     if (!handModeOn || mode !== 'orbit') return;
     const { x, y, dx, dy } = e.detail;

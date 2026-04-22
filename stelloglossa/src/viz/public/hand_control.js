@@ -6,18 +6,19 @@
 
    Emitted events (all on `window`):
      gesture:idle          no hand visible — detail: {}
-     gesture:cursor        hand visible — detail: { x, y }               normalized 0..1, mirrored
-     gesture:tap           pinch onset (discrete click) — detail: { x, y }
+     gesture:cursor        hand visible — detail: { x, y, source }      normalized 0..1, mirrored
      gesture:grab_drag     single-hand fist moving — detail: { x, y, dx, dy }
      gesture:grab_end      fist released — detail: {}
      gesture:dolly         two fists changing distance — detail: { delta }   positive = zoom in
 
+   Clicking a star is handled entirely by the dwell adapter in app.js —
+   point your finger, let the cursor sit on a star for 1 second, done.
+   No discrete pinch/tap event exists any more.
+
    Design notes:
    - X is mirrored (1 - x) so "move hand right" moves cursor right from the
      user's POV — cameras see the viewer mirrored.
-   - Pinch threshold = 0.05 normalized distance (roughly "thumb touches index").
-   - Two-hand gesture is exclusive of one-hand gestures (if 2 hands visible,
-     cursor/pinch events stop).
+   - Two-hand gesture is exclusive of one-hand gestures.
 */
 
 const MP_VERSION = '0.10.22-rc.20250304';
@@ -25,8 +26,6 @@ const MP_BUNDLE = `https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${MP_VER
 const MP_WASM = `https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${MP_VERSION}/wasm`;
 const MP_MODEL = 'https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task';
 
-const PINCH_ON_THRESHOLD = 0.06;   // normalized distance thumb-tip ↔ index-tip
-const PINCH_OFF_THRESHOLD = 0.10;  // hysteresis — widened so pinch doesn't flicker
 const IDLE_TIMEOUT_MS = 350;       // if no hand for this long → idle event
 
 let landmarker = null;
@@ -39,7 +38,6 @@ let lastHandSeen = 0;
 let wasIdle = true;
 
 // Per-hand state
-let pinchState = false;
 let fistState = false;
 let lastFistPos = null;
 let lastTwoHandDist = null;
@@ -130,7 +128,6 @@ export async function startHandControl({ onStatus } = {}) {
   bindPreview();
   active = true;
   wasIdle = true;
-  pinchState = false;
   fistState = false;
   lastFistPos = null;
   lastTwoHandDist = null;
@@ -232,7 +229,6 @@ function loop() {
   if (landmarks.length === 0) {
     if (!wasIdle && now - lastHandSeen > IDLE_TIMEOUT_MS) {
       wasIdle = true;
-      pinchState = false;
       if (fistState) { fistState = false; lastFistPos = null; emit('grab_end', {}); }
       lastTwoHandDist = null;
       emit('idle', {});
@@ -262,14 +258,11 @@ function processOneHand(lm) {
   lastTwoHandDist = null;
 
   const shape = handShape(lm);
-  const pinchDist = dist(lm[4], lm[8]);
-  const cursor = { x: 1 - lm[8].x, y: lm[8].y };          // index fingertip, mirrored
-  const palm = { x: 1 - lm[9].x, y: lm[9].y };            // middle-MCP = palm centre
+  const cursor = { x: 1 - lm[8].x, y: lm[8].y };   // index fingertip, mirrored
+  const palm = { x: 1 - lm[9].x, y: lm[9].y };     // middle-MCP = palm centre
 
-  // Fist → grab & drag (rotate view). Takes priority — a fist has
-  // no extended index, so cursor/pinch logic wouldn't apply anyway.
+  // Fist → grab & drag (rotate view).
   if (shape === 'fist') {
-    if (pinchState) pinchState = false;                   // drop any stale pinch
     if (!fistState) {
       fistState = true;
       lastFistPos = palm;
@@ -280,8 +273,8 @@ function processOneHand(lm) {
       lastFistPos = palm;
       emit('grab_drag', { x: palm.x, y: palm.y, dx, dy });
     }
-    // Still update cursor visual so user sees where the fist is.
-    // source='grab' tells the app.js adapter to skip dwell-selection logic.
+    // Cursor still follows the fist (visual only — source='grab' tells
+    // the adapter to skip dwell-selection while grabbing).
     emit('cursor', { ...palm, source: 'grab' });
     return;
   }
@@ -293,27 +286,12 @@ function processOneHand(lm) {
     emit('grab_end', {});
   }
 
-  // Pinch: purely a discrete TAP (click). No drag on pinch — that's the fist's job.
-  const nowPinching = pinchState
-    ? pinchDist < PINCH_OFF_THRESHOLD
-    : pinchDist < PINCH_ON_THRESHOLD;
-
-  if (nowPinching && !pinchState) {
-    pinchState = true;
-    emit('tap', cursor);
-    setStatus('🤏 點選');
-  } else if (!nowPinching && pinchState) {
-    pinchState = false;
-  }
-
-  // Always emit cursor so the pointer visual follows the fingertip.
-  // source='point' authorises the adapter to run dwell-selection.
+  // Plain cursor. Dwell-based selection happens in app.js on this event.
   emit('cursor', { ...cursor, source: 'point' });
 }
 
 function processTwoHands(lmA, lmB) {
   // Cancel any one-hand state
-  pinchState = false;
   if (fistState) { fistState = false; lastFistPos = null; emit('grab_end', {}); }
 
   const shapeA = handShape(lmA);
