@@ -30,6 +30,9 @@ services:
       - key: PYTHONIOENCODING
         value: "utf-8"
 
-    # Free plan health check — Render pings / to keep the service alive and
-    # detect crashes. Our SimpleHTTPServer returns 200 on GET /.
-    healthCheckPath: /
+    # Health check gates deploy routing: Render won't switch traffic to a new
+    # instance until /healthz returns 200. Our handler only does that once all
+    # warmup sentinel files (index.html, bundle.json, sample MP3s) are on
+    # disk — prevents the "some JS files 404 during first-deploy file copy"
+    # race that bit us previously.
+    healthCheckPath: /healthz

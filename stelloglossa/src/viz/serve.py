@@ -27,6 +27,35 @@ from urllib.parse import parse_qs, urlparse
 
 PUBLIC_ROOT = Path(__file__).parent / "public"
 OUTPUT_ROOT = Path(__file__).resolve().parent.parent.parent / "output"
+STELLO_ROOT = Path(__file__).resolve().parent.parent.parent
+
+# Files that MUST be present for the app to render correctly. Used by the
+# /healthz warmup check so Render won't route traffic until repo file copy
+# (especially the ~100 MB of MP3s) has finished landing on disk.
+_WARMUP_FILES = [
+    PUBLIC_ROOT / "index.html",
+    PUBLIC_ROOT / "app.js",
+    PUBLIC_ROOT / "data" / "bundle.json",
+    OUTPUT_ROOT / "audio_manifest.json",
+    # Sentinels at the alphabetical extremes — if both exist, very likely
+    # all 50 star dirs have been copied.
+    OUTPUT_ROOT / "audio" / "J0034-0721" / "celestial_0.mp3",
+    OUTPUT_ROOT / "audio" / "J2330-2005" / "celestial_0.mp3",
+]
+_ready_cache = False
+
+
+def filesystem_ready() -> bool:
+    """Return True once all warmup sentinel files are present. Caches the
+    positive result so subsequent checks are O(1) after the first pass."""
+    global _ready_cache
+    if _ready_cache:
+        return True
+    for p in _WARMUP_FILES:
+        if not p.is_file():
+            return False
+    _ready_cache = True
+    return True
 
 
 class MountedHandler(http.server.SimpleHTTPRequestHandler):
@@ -56,7 +85,25 @@ class MountedHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):  # noqa: N802
         if self.path.startswith("/translate"):
             return self._handle_translate()
+        if self.path.rstrip("/") == "/healthz":
+            return self._handle_healthz()
         return super().do_GET()
+
+    def _handle_healthz(self):
+        ready = filesystem_ready()
+        status = 200 if ready else 503
+        missing = [] if ready else [
+            str(p.relative_to(STELLO_ROOT)) for p in _WARMUP_FILES if not p.is_file()
+        ]
+        payload = json.dumps(
+            {"ready": ready, "missing": missing}, ensure_ascii=False
+        ).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(payload)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(payload)
 
     def _handle_translate(self):
         try:
