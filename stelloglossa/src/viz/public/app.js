@@ -800,22 +800,51 @@ function updateHudMode() {
 
 let handModeOn = false;
 let gestureCursorEl = null;
+let gestureProgressEl = null;
+let gestureCoreEl = null;
 let gestureStatusEl = null;
+
+// Dwell-selection parameters. 1.0s is the sweet spot per user testing.
+const DWELL_MS = 1000;
+const DWELL_OFF_TOLERANCE_MS = 180;   // forgive brief cursor jitter off-target
+const PROGRESS_R = 20;
+const PROGRESS_CIRC = 2 * Math.PI * PROGRESS_R;
+
+let dwellTarget = null;        // jname currently being dwelled on, or null
+let dwellStartTs = 0;          // performance.now() when dwell began
+let dwellLastOnTs = 0;         // last time cursor was on target (for tolerance)
+let dwellFiredFor = null;      // jname we already selected this visit — must
+                                // leave the star before re-firing
 
 function ensureGestureCursorUI() {
   if (!gestureCursorEl) {
     gestureCursorEl = document.createElement('div');
     gestureCursorEl.id = 'gesture-cursor';
     Object.assign(gestureCursorEl.style, {
-      position: 'fixed', width: '28px', height: '28px',
-      border: '2px solid #8ad9ff', borderRadius: '50%',
+      position: 'fixed', width: '56px', height: '56px',
       pointerEvents: 'none', zIndex: '25',
       transform: 'translate(-50%, -50%)',
-      transition: 'background 0.1s, transform 0.1s',
+      transition: 'transform 0.1s',
       display: 'none',
-      boxShadow: '0 0 12px rgba(138,217,255,0.5)',
+      filter: 'drop-shadow(0 0 10px rgba(138,217,255,0.45))',
     });
+    gestureCursorEl.innerHTML = `
+      <svg viewBox="-28 -28 56 56" width="56" height="56" style="overflow:visible">
+        <circle class="gc-core" cx="0" cy="0" r="14"
+                fill="transparent" stroke="#8ad9ff" stroke-width="2"
+                opacity="0.85"/>
+        <circle class="gc-progress" cx="0" cy="0" r="${PROGRESS_R}"
+                fill="none" stroke="#8ad9ff" stroke-width="3"
+                stroke-dasharray="${PROGRESS_CIRC.toFixed(2)}"
+                stroke-dashoffset="${PROGRESS_CIRC.toFixed(2)}"
+                stroke-linecap="round"
+                transform="rotate(-90)"
+                opacity="0"/>
+      </svg>
+    `;
     document.body.appendChild(gestureCursorEl);
+    gestureProgressEl = gestureCursorEl.querySelector('.gc-progress');
+    gestureCoreEl = gestureCursorEl.querySelector('.gc-core');
   }
   if (!gestureStatusEl) {
     gestureStatusEl = document.createElement('div');
@@ -838,12 +867,88 @@ function setGestureCursor(nx, ny, pinching = false) {
   gestureCursorEl.style.display = 'block';
   gestureCursorEl.style.left = (nx * window.innerWidth) + 'px';
   gestureCursorEl.style.top = (ny * window.innerHeight) + 'px';
-  gestureCursorEl.style.background = pinching ? 'rgba(138,217,255,0.6)' : 'transparent';
   gestureCursorEl.style.transform = `translate(-50%, -50%) scale(${pinching ? 0.7 : 1})`;
+  if (gestureCoreEl) {
+    gestureCoreEl.setAttribute('fill', pinching ? 'rgba(138,217,255,0.5)' : 'transparent');
+  }
 }
 
 function hideGestureCursor() {
   if (gestureCursorEl) gestureCursorEl.style.display = 'none';
+  clearDwell();
+}
+
+function setDwellProgress(t) {
+  if (!gestureProgressEl) return;
+  const offset = PROGRESS_CIRC * (1 - Math.max(0, Math.min(1, t)));
+  gestureProgressEl.setAttribute('stroke-dashoffset', offset.toFixed(2));
+  gestureProgressEl.setAttribute('opacity', t > 0 ? '0.95' : '0');
+}
+
+function flashGestureCursor() {
+  if (!gestureCursorEl || !gestureCoreEl) return;
+  gestureCoreEl.setAttribute('fill', 'rgba(138,217,255,0.8)');
+  setTimeout(() => {
+    if (gestureCoreEl) gestureCoreEl.setAttribute('fill', 'transparent');
+  }, 220);
+}
+
+function clearDwell() {
+  dwellTarget = null;
+  dwellStartTs = 0;
+  dwellLastOnTs = 0;
+  setDwellProgress(0);
+}
+
+// Call on every `gesture:cursor` event with source='point'. Pinch/fist
+// events go through their own paths and should call clearDwell() to avoid
+// double-firing.
+function updateDwell(nx, ny) {
+  const hit = raycastToPulsar(nx, ny);
+  const nowJname = hit?.jname || null;
+  const now = performance.now();
+
+  // Nothing under cursor
+  if (!nowJname) {
+    // Forgive brief glitches so MediaPipe jitter doesn't reset progress
+    if (dwellTarget && now - dwellLastOnTs < DWELL_OFF_TOLERANCE_MS) return;
+    dwellTarget = null;
+    dwellStartTs = 0;
+    dwellFiredFor = null;   // leaving all stars → re-arm
+    setDwellProgress(0);
+    return;
+  }
+
+  // Cursor on a star we already selected this visit: don't re-arm until user
+  // moves to a different star (or off all stars).
+  if (nowJname === dwellFiredFor) {
+    dwellTarget = null;
+    dwellStartTs = 0;
+    setDwellProgress(0);
+    return;
+  }
+
+  // Different star than before → restart dwell timer
+  if (nowJname !== dwellTarget) {
+    dwellTarget = nowJname;
+    dwellStartTs = now;
+    dwellLastOnTs = now;
+    setDwellProgress(0);
+    return;
+  }
+
+  // Same target → accumulate
+  dwellLastOnTs = now;
+  const progress = Math.min(1, (now - dwellStartTs) / DWELL_MS);
+  setDwellProgress(progress);
+
+  if (progress >= 1) {
+    selectPulsar(nowJname);
+    flashGestureCursor();
+    dwellFiredFor = nowJname;
+    dwellTarget = null;
+    dwellStartTs = 0;
+  }
 }
 
 function raycastToPulsar(nx, ny) {
@@ -909,24 +1014,33 @@ if (document.readyState === 'loading') {
 function bindGestureEvents() {
   window.addEventListener('gesture:cursor', (e) => {
     if (!handModeOn) return;
-    const { x, y } = e.detail;
+    const { x, y, source } = e.detail;
     setGestureCursor(x, y, false);
+    if (source === 'grab') {
+      // Grabbing (fist): visual only, no dwell arming.
+      clearDwell();
+    } else {
+      // Pointing: dwell-select on hover.
+      updateDwell(x, y);
+    }
   });
   window.addEventListener('gesture:tap', (e) => {
     if (!handModeOn) return;
     const { x, y } = e.detail;
     setGestureCursor(x, y, true);
+    clearDwell();   // pinch preempts any in-flight dwell
     const hit = raycastToPulsar(x, y);
-    if (hit) selectPulsar(hit.jname);
+    if (hit) {
+      selectPulsar(hit.jname);
+      dwellFiredFor = hit.jname;   // don't auto-redwell on same star
+    }
   });
   window.addEventListener('gesture:grab_drag', (e) => {
     if (!handModeOn || mode !== 'orbit') return;
     const { x, y, dx, dy } = e.detail;
-    // Visual: cursor glows when grabbing
-    if (gestureCursorEl) {
-      gestureCursorEl.style.background = 'rgba(255,154,200,0.35)';
-      gestureCursorEl.style.borderColor = '#ff9ac8';
-    }
+    clearDwell();
+    // Visual: core tinted pink during rotation
+    if (gestureCoreEl) gestureCoreEl.setAttribute('stroke', '#ff9ac8');
     setGestureCursor(x, y, false);
     // Direct spherical-coordinate rotation (independent of OrbitControls internals).
     // dx/dy are normalized (0..1); multiply to get radian rotation.
@@ -942,10 +1056,7 @@ function bindGestureEvents() {
   });
   window.addEventListener('gesture:grab_end', () => {
     if (!handModeOn) return;
-    if (gestureCursorEl) {
-      gestureCursorEl.style.background = 'transparent';
-      gestureCursorEl.style.borderColor = '#8ad9ff';
-    }
+    if (gestureCoreEl) gestureCoreEl.setAttribute('stroke', '#8ad9ff');
   });
   window.addEventListener('gesture:dolly', (e) => {
     if (!handModeOn || mode !== 'orbit') return;

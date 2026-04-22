@@ -280,8 +280,9 @@ function processOneHand(lm) {
       lastFistPos = palm;
       emit('grab_drag', { x: palm.x, y: palm.y, dx, dy });
     }
-    // Still update cursor visual so user sees where the fist is
-    emit('cursor', palm);
+    // Still update cursor visual so user sees where the fist is.
+    // source='grab' tells the app.js adapter to skip dwell-selection logic.
+    emit('cursor', { ...palm, source: 'grab' });
     return;
   }
 
@@ -306,7 +307,8 @@ function processOneHand(lm) {
   }
 
   // Always emit cursor so the pointer visual follows the fingertip.
-  emit('cursor', cursor);
+  // source='point' authorises the adapter to run dwell-selection.
+  emit('cursor', { ...cursor, source: 'point' });
 }
 
 function processTwoHands(lmA, lmB) {
